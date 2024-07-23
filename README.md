@@ -92,8 +92,14 @@ dtypes: float64(1), int64(2), object(4)
 - Stand up postgres container using Dockerfile
 - Aft postgres container is stood up, run DDL on initialization
 - Basic: Docker container to run ELT scripts using pandas to hit the data/ folders and load them into pg
+  - Data flow:
+  - (Docker) Postgres container <-> (Docker) Pandas script <-> Source Data 
 - Advanced: Self contained Dockerized Airflow with Celery executors to run dags
+  - (Docker-compose) Airflow Orchestrator/Webserver -> (Docker-compose) Executors DAGS <- Source Data 
+  - Executors DAGS -> (Docker) Postgres
 - Data Quality Checks: Pydantic validators vs Great Expectations suite vs Bare bones pytest
+- ERD
+- Medallion architecture: Bronze, Silver, Gold tables
 - Stack used: (Basic) Pandas, Postgres, Docker, Pydantic
 - (Advanced) Airflow/Dagster, Spark?, Pandas?, Postgres, Docker, Pydantic
 - (Stretch) Full cloud deployment on aws 
