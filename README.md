@@ -140,6 +140,8 @@ dtypes: float64(1), int64(2), object(4)
 - Medallion architecture: Bronze, Silver, Gold tables
 - Stack used: (Basic) Pandas, Postgres, Docker, Pydantic
 - (Advanced) Airflow/Dagster, Spark?, Pandas?, Postgres, Docker, Pydantic/GE
+  - Infra problems so far, Airflow doesnt play nice with versions of SQLAlchemy and Psycopg2
+  - Dependencies have alot to be managed
 - (Stretch) Full cloud deployment on aws 
 - 
 # Section 2.5 Translating Chinese districts and cities to English

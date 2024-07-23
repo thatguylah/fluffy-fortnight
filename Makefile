@@ -1,11 +1,10 @@
 # Define variables
 VENV_DIR = venv
-PYTHON = python3
+PYTHON = python3.12
 PIP = $(VENV_DIR)/bin/pip
 
 ####################################################################################################################
 # Setup local env to run EDA scripts
-REQUIREMENTS = pandas openpyxl lxml autoviz
 # Default target
 all: setup
 
@@ -15,7 +14,7 @@ setup: $(VENV_DIR)/bin/activate
 $(VENV_DIR)/bin/activate: $(VENV_DIR)
 	$(PYTHON) -m venv $(VENV_DIR)
 	$(PIP) install --upgrade pip
-	$(PIP) install $(REQUIREMENTS)
+	$(PIP) install -r requirements.txt
 	touch $(VENV_DIR)/bin/activate
 
 $(VENV_DIR):
@@ -55,3 +54,8 @@ psql: # This postgres container is used to manage metadata for airflow
 
 psql-warehouse: # This postgres container is used for our datawarehouse
 	docker exec -ti postgres_warehouse psql -U warehouse -W warehouse
+
+update-dags:
+	@echo "Restarting Airflow container to update DAGs..."
+	docker-compose restart airflow-webserver
+	@echo "Airflow container restarted and DAGs updated."
