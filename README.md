@@ -37,8 +37,15 @@ Initial thoughts:
 
 # Section 1 - Exploratory Data Analysis Using Jupyter Notebooks (eda/)
 Initial EDA and findings:
+- Adding on initial thoughts:
+  - Quite obvious these datasets represent transactions of goods and services within China
+  - Manual eyeballing and profilling: ORDER_QTY and RPTG_AMT reveals this is likely the case
+  - Lack of SKU or any product key means each order_id is a rolled up aggregate or they represent the same goods and services, most likely the former. 
+  - Prompting a LLM like ChatGPT reveals that the cities and districts are actual locations in China + Wikipedia and google searching 
+  
 - It seems like dataset1 and dataset2 are likely the same dataset just different source file formats
-  - Cannot be joined due to no overlapping ORDER_ID
+  - Cannot be joined due to no overlapping ORDER_ID, hence there cannot be duplicates across files
+  - Current hypothesis: Perhaps each dataset could logically represent a type of store (physical,online) or are grouped by geographical locations?
   - Contain same schema just that one is denormalized and the other is normalized
 - Summary statistics:
   - Dataset 1
@@ -86,22 +93,70 @@ dtypes: float64(1), int64(2), object(4)
     - [ ] Data validation: Box plot to see outliers of RPTG_AMT
     - [x] Data validation: Check that value cannot be less than 0
     - [ ] Data validation: Upper bound of practical value
-  - 
-
+  - CITY_DISTRICT_ID (INTEGER type, categorical ordinal, used in junction with mapping table)
+    - Mapping Table: 362 unique cities, 2545 unique districts, 2582 unique pairings of city and district
+    - Dataset 1: 37 rows where CITY_DISTRICT_ID = 999999
+    - ❌ Data validation: Check if all IDs in dataset1 are present in mapping table 
+  - SHIP_TO_DISTRICT_NAME and SHIP_TO_CITY_CD (STRING and STRING, used to denote district name and city name(province), both in chinese characters)
+    - Dataset 2: 119 rows where district not in mapping table, 2 rows where  city not in mapping table, 2 rows where both are no in mapping table
+    - ❌ Data validation: Check if all composite key (CITY_DISTRICT) combination is present in mapping table
+  - ORDER_TIME PST (LONG/BIGINT, used to represent HHMMSS)
+    - [ ] Data validation: check lower bound of 5am, 50000 (in excel leading 0s are dropped)
+    - [ ] Data validation: check upper bound of 12pm, 120000
+  - ORDER_ID (STRING type, used as PK)
+    - Dataset 1: Each order_id is unique. 
+    - Dataset 2: Each order_id is unique. 
+    - Dataset 1 & 2: Each order_id is unique. (Cannot be joined on order_id, meaning no duplicates across datasets)
+    - [x] Data validation:: Check for uniqueness across dataset 1
+    - [x] Data validation: Check for uniqueness across dataset 2
+    - [x] Data validation: Check for uniqueness across dataset 1 and 2
+  
+# Section 1.5 Data Preparation (Cleaning of null/invalid values)
+- Stand up EXCEPTIONS_ table to load all erroneous values
+- Two EXCEPTIONS_ table, one for excel source, another for json source due to differing schema that cannot be reconciled
+- ORDER_QTY: 
+  - dataset1: load into exceptions table with descriptive status msg then replace all rows that failed check with NaN 
+- CURRENCY_CD:
+  - Check either USD or RMB, load both
+- RPTG_AMT:
+  - load into exceptions table then replace all rows that failed with 0
+- CITY_DISTRICT_ID:
+  - dataset 1 only: load into exceptions table w descriptive status msg, then replace all rows that failed check with NaN
+- SHIP_TO_DISTRICT_NAME and SHIP_TO_CITY_CD:
+  - dataset 2 only: load into exceptions table, continue loading into silver as per normal
+  
 # Section 2 - Data Engineering Infra + ELT + Data Quality Checks
 - Stand up postgres container using Dockerfile
-- Aft postgres container is stood up, run DDL on initialization
+- Aft postgres container is stood up, run DDL on initialization, make sure to create indexes properly
 - Basic: Docker container to run ELT scripts using pandas to hit the data/ folders and load them into pg
   - Data flow:
   - (Docker) Postgres container <-> (Docker) Pandas script <-> Source Data 
 - Advanced: Self contained Dockerized Airflow with Celery executors to run dags
   - (Docker-compose) Airflow Orchestrator/Webserver -> (Docker-compose) Executors DAGS <- Source Data 
   - Executors DAGS -> (Docker) Postgres
+- Idempotent pipelines: Philosophy of pipelines should be to upsert where possible, update if data exists, insert if do not, otherwise each rerun will have multiple duplicate data rows. 
 - Data Quality Checks: Pydantic validators vs Great Expectations suite vs Bare bones pytest
 - ERD
 - Medallion architecture: Bronze, Silver, Gold tables
 - Stack used: (Basic) Pandas, Postgres, Docker, Pydantic
-- (Advanced) Airflow/Dagster, Spark?, Pandas?, Postgres, Docker, Pydantic
+- (Advanced) Airflow/Dagster, Spark?, Pandas?, Postgres, Docker, Pydantic/GE
 - (Stretch) Full cloud deployment on aws 
 - 
+# Section 2.5 Translating Chinese districts and cities to English
+- Method 1: Reading from Wikipedia
+  - Pros and cons: pros, 
+- Method 2: Using Translate API
+- Method 3: LLM translation (locally hosted or api?)
+  
 # Section 3 - Analysis and Findings
+- First 2 queries can be solved in SQL and charts
+- Clustering into N-tier cities 
+- Basic: Flask/Streamlit app running Dash or Plotly visuals, probably can only do static visuals? 
+- Advanced: Data Viz tool like Tableau/Metabase/Looker over ODBC connection to postgres container, using SQL queries to generate visuals 
+
+# Section 3.5 - Deeper analysis and findings
+- Other metadata, demographics, population, income
+  
+# Section 4 - Future improvements
+- Data security/privacy
+- Data governance
