@@ -4,7 +4,7 @@ PYTHON = python3
 PIP = $(VENV_DIR)/bin/pip
 
 # Define the list of packages to install
-REQUIREMENTS = pandas openpyxl lxml
+REQUIREMENTS = pandas openpyxl lxml autoviz
 # Default target
 all: setup
 
