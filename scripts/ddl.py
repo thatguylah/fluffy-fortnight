@@ -1,0 +1,95 @@
+import duckdb
+
+# Define the path to the DuckDB database file
+duckdb_file_path = "/Users/chanyaokuan/Documents/GitHub/de-etl-batch-assessment/data/output/datawarehouse.duckdb"
+
+# DDL statements
+ddl_statements = """
+-- Bronze Layer Tables
+CREATE TABLE IF NOT EXISTS RAW_DATASET_1 (
+    ORDER_ID VARCHAR PRIMARY KEY,
+    ORDER_TIME_PST VARCHAR,
+    CITY_DISTRICT_ID INT,
+    RPTG_AMT DECIMAL(18,2),
+    CURRENCY_CD VARCHAR,
+    ORDER_QTY VARCHAR
+);
+CREATE TABLE IF NOT EXISTS RAW_MAPPING (
+    CITY_DISTRICT_ID INT PRIMARY KEY,
+    SHIP_TO_CITY_CD VARCHAR,
+    SHIP_TO_DISTRICT_NAME VARCHAR
+);
+CREATE TABLE IF NOT EXISTS RAW_DATASET_2 (
+    ORDER_ID VARCHAR PRIMARY KEY,
+    ORDER_TIME_PST BIGINT,
+    SHIP_TO_CITY_CD VARCHAR,
+    SHIP_TO_DISTRICT_NAME VARCHAR,
+    RPTG_AMT DECIMAL(18,2),
+    CURRENCY_CD VARCHAR,
+    ORDER_QTY INT
+);
+
+-- Silver Layer Tables
+CREATE TABLE IF NOT EXISTS PROCESSED_DATASET (
+    ORDER_ID VARCHAR PRIMARY KEY,
+    ORDER_TIME_PST BIGINT,
+    SHIP_TO_CITY_CD VARCHAR,
+    SHIP_TO_DISTRICT_NAME VARCHAR,
+    RPTG_AMT DECIMAL(18,2),
+    CURRENCY_CD VARCHAR,
+    ORDER_QTY INT
+);
+
+CREATE TABLE IF NOT EXISTS EXCEPTIONS_DATASET (
+    ORDER_ID VARCHAR PRIMARY KEY,
+    VALIDATION_ERR VARCHAR
+);
+
+CREATE TABLE IF NOT EXISTS TRANSLATIONS_CITY_MAPPING (
+    SHIP_TO_CITY_CD VARCHAR PRIMARY KEY,
+    SHIP_TO_CITY_CD_ENG VARCHAR
+);
+
+CREATE TABLE IF NOT EXISTS TRANSLATIONS_DISTRICT_MAPPING (
+    SHIP_TO_DISTRICT_NAME VARCHAR PRIMARY KEY,
+    SHIP_TO_DISTRICT_NAME_ENG VARCHAR
+);
+
+CREATE TABLE IF NOT EXISTS CURRENCY_CODE_MAPPING (
+    CURRENCY_CD VARCHAR PRIMARY KEY,
+    MULTIPLIER FLOAT,
+    DATE_RECORDED DATE
+);
+
+-- Gold Layer Table
+CREATE TABLE IF NOT EXISTS CURATED_DATASET (
+    ORDER_ID VARCHAR PRIMARY KEY,
+    ORDER_TIME_PST BIGINT,
+    SHIP_TO_CITY_CD VARCHAR,
+    SHIP_TO_DISTRICT_NAME VARCHAR,
+    SHIP_TO_DISTRICT_NAME_ENG VARCHAR,
+    SHIP_TO_CITY_ENG VARCHAR,
+    RMB_DOLLARS DECIMAL(18,2),
+    ORDER_QTY INT
+);
+
+-- Creating Proper Indexes on PK Columns
+-- Gold Layer Indexes
+CREATE INDEX idx_curated_dataset_ship_to_city_cd ON CURATED_DATASET (SHIP_TO_CITY_CD);
+CREATE INDEX idx_curated_dataset_ship_to_district_name ON CURATED_DATASET (SHIP_TO_DISTRICT_NAME);
+CREATE INDEX idx_curated_dataset_ship_to_district_name_eng ON CURATED_DATASET (SHIP_TO_DISTRICT_NAME_ENG);
+CREATE INDEX idx_curated_dataset_ship_to_city_eng ON CURATED_DATASET (SHIP_TO_CITY_ENG);
+"""
+
+# Create a DuckDB connection to a persistent database file
+con = duckdb.connect(database=duckdb_file_path, read_only=False)
+
+# Execute the DDL statements
+con.execute(ddl_statements)
+
+# Verify by listing all tables
+tables = con.execute("SHOW TABLES").fetchall()
+print("Tables in the database:", tables)
+
+# Close the DuckDB connection
+con.close()

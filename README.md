@@ -101,6 +101,7 @@ dtypes: float64(1), int64(2), object(4)
     - Dataset 2: 119 rows where district not in mapping table, 2 rows where  city not in mapping table, 2 rows where both are no in mapping table
     - ❌ Data validation: Check if all composite key (CITY_DISTRICT) combination is present in mapping table
   - ORDER_TIME PST (LONG/BIGINT, used to represent HHMMSS)
+    - Dataset 1:replace string time values with null 
     - [ ] Data validation: check lower bound of 5am, 50000 (in excel leading 0s are dropped)
     - [ ] Data validation: check upper bound of 12pm, 120000
   - ORDER_ID (STRING type, used as PK)
