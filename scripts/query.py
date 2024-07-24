@@ -6,7 +6,11 @@ con = duckdb.connect(database=DUCKDB_FILE_PATH, read_only=True)
 
 result_df = con.execute(
     """
-    SELECT * FROM EXCEPTIONS_DATASET;
+    SELECT DISTINCT SHIP_TO_DISTRICT_NAME FROM (
+            SELECT SHIP_TO_DISTRICT_NAME FROM RAW_DATASET_2
+            UNION ALL
+            SELECT SHIP_TO_DISTRICT_NAME FROM RAW_MAPPING
+    )
 """
 ).fetchdf()
 

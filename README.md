@@ -129,8 +129,10 @@ dtypes: float64(1), int64(2), object(4)
 # Section 2 - Data Engineering Infra + ELT + Data Quality Checks
 - Stand up postgres container using Dockerfile
 - Aft postgres container is stood up, run DDL on initialization, make sure to create indexes properly
+  - Unexpectedly huge challenge here, somehow standing up a docker container for postgres and using pandas + sqlalchemy + psycopg2 as ORM and db driver were harder than expected with non-ideal performance. In the interest of time, i havent deep dived into why performance was so slow, was taking ~8 mins to bulk load 150k rows into postgres. 
+  - Cause of that, i switched to duckdb with much better performance and minimal bloat, it has no other dependencies and can standalone, and plays nice with excel,json and pandas. 
 - Basic: Docker container to run ELT scripts using pandas to hit the data/ folders and load them into pg
-  - Data flow:
+  - Data flow: 
   - (Docker) Postgres container <-> (Docker) Pandas script <-> Source Data 
 - Advanced: Self contained Dockerized Airflow with Celery executors to run dags
   - (Docker-compose) Airflow Orchestrator/Webserver -> (Docker-compose) Executors DAGS <- Source Data 
@@ -147,9 +149,15 @@ dtypes: float64(1), int64(2), object(4)
 - 
 # Section 2.5 Translating Chinese districts and cities to English
 - Method 1: Reading from Wikipedia
-  - Pros and cons: pros, 
+  - Pros and cons: pros, relatively static, reliable, although quite a few misses, but could work in a pinch
+  - Also i just realized there is a https://zh.wikipedia.org/wiki/ for mainly chinese market
 - Method 2: Using Translate API
+  - For some reason, all API clients using google or even bing seem to time out and is not very reliable. 
 - Method 3: LLM translation (locally hosted or api?)
+  - Open source LLM models on hugging face like the Helsinki-NLP/opus-mt-en-fr were also laughable in some of the translations with quite small rate limiting 
+  - locally hosted models could work but were too expensive and resource intensive to host
+- Method 4: Manual Translation by copying into ChatGPT:
+  - Once off manual effort to generate key value pairs
   
 # Section 3 - Analysis and Findings
 - First 2 queries can be solved in SQL and charts

@@ -13,8 +13,8 @@ setup: $(VENV_DIR)/bin/activate
 
 $(VENV_DIR)/bin/activate: $(VENV_DIR)
 	$(PYTHON) -m venv $(VENV_DIR)
-	$(PIP) install --upgrade pip
-	$(PIP) install -r requirements.txt
+	$(VENV_DIR)/bin/pip install --upgrade pip
+	$(VENV_DIR)/bin/pip install -r requirements.txt
 	touch $(VENV_DIR)/bin/activate
 
 $(VENV_DIR):
@@ -28,4 +28,11 @@ activate:
 clean:
 	rm -rf $(VENV_DIR)
 
+etl:
+	rm -rf data/output/datawarehouse.duckdb
+	python scripts/ddl.py
+	python scripts/load_to_bronze.py 
+	python scripts/transform_to_silver.py
+	python scripts/one_time_parser.py
+	python scripts/transform_to_silver_mappings.py
 .PHONY: all setup activate clean
