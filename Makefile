@@ -33,6 +33,9 @@ etl:
 	python scripts/ddl.py
 	python scripts/load_to_bronze.py 
 	python scripts/transform_to_silver.py
-	python scripts/one_time_parser.py
+	# python scripts/one_time_parser.py
 	python scripts/transform_to_silver_mappings.py
+	python scripts/transform_to_gold.py
+	python scripts/post_run_indexing.py
+	python scripts/clustering.py
 .PHONY: all setup activate clean

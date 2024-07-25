@@ -1,7 +1,8 @@
 import duckdb
+from constants import DUCKDB_FILE_PATH
 
 # Define the path to the DuckDB database file
-duckdb_file_path = "/Users/chanyaokuan/Documents/GitHub/de-etl-batch-assessment/data/output/datawarehouse.duckdb"
+duckdb_file_path = DUCKDB_FILE_PATH
 
 # DDL statements
 ddl_statements = """
@@ -70,17 +71,12 @@ CREATE TABLE IF NOT EXISTS CURATED_DATASET (
     SHIP_TO_CITY_CD VARCHAR,
     SHIP_TO_DISTRICT_NAME VARCHAR,
     SHIP_TO_DISTRICT_NAME_ENG VARCHAR,
-    SHIP_TO_CITY_ENG VARCHAR,
+    SHIP_TO_CITY_CD_ENG VARCHAR,
     RMB_DOLLARS DECIMAL(18,2),
     ORDER_QTY INT
 );
 
 -- Creating Proper Indexes on PK Columns
--- Gold Layer Indexes
-CREATE INDEX idx_curated_dataset_ship_to_city_cd ON CURATED_DATASET (SHIP_TO_CITY_CD);
-CREATE INDEX idx_curated_dataset_ship_to_district_name ON CURATED_DATASET (SHIP_TO_DISTRICT_NAME);
-CREATE INDEX idx_curated_dataset_ship_to_district_name_eng ON CURATED_DATASET (SHIP_TO_DISTRICT_NAME_ENG);
-CREATE INDEX idx_curated_dataset_ship_to_city_eng ON CURATED_DATASET (SHIP_TO_CITY_ENG);
 """
 
 # Create a DuckDB connection to a persistent database file

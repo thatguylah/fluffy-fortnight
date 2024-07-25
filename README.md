@@ -142,6 +142,7 @@ dtypes: float64(1), int64(2), object(4)
 - ERD
 - Medallion architecture: Bronze, Silver, Gold tables
 - Stack used: (Basic) Pandas, Postgres, Docker, Pydantic
+  - Updated Basic Stack: Pandas, DuckDB, Pydantic, BeautifulSoup, Requests
 - (Advanced) Airflow/Dagster, Spark?, Pandas?, Postgres, Docker, Pydantic/GE
   - Infra problems so far, Airflow doesnt play nice with versions of SQLAlchemy and Psycopg2
   - Dependencies have alot to be managed
@@ -158,6 +159,8 @@ dtypes: float64(1), int64(2), object(4)
   - locally hosted models could work but were too expensive and resource intensive to host
 - Method 4: Manual Translation by copying into ChatGPT:
   - Once off manual effort to generate key value pairs
+- Conclusion: Ended up i went with Wikpedia solution as it was way easier to develop and i could also have a bonus of querying other metadata that comes along with scrapinga wiki page.
+- There were two wiki scraping methods, one is to query a wikipedia table with most of the cities but no further metadata, i went the other option to put each city/district as a slug to pull data from each wiki page. 
   
 # Section 3 - Analysis and Findings
 - First 2 queries can be solved in SQL and charts

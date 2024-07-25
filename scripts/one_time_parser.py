@@ -87,9 +87,11 @@ def log_error_incrementally(identifier, error_message, filename):
 
 # Function to fetch and process HTML content for a single identifier
 def fetch_and_process(identifier, identifier_type, output_filename, error_filename):
-    url = f"https://en.wikipedia.org/wiki/{identifier}"  # Scrape english version of wikipedia.
+    # url = f"https://en.wikipedia.org/wiki/{identifier}"  # Scrape english version of wikipedia.
+    url = f"https://zh.wikipedia.org/wiki/{identifier}"  # Scrape chinese version of wikipedia.
+
     # ZH version has more hits but no native way to translate without using google translate.
-    headers = {"Accept-Language": "en"}
+    headers = {"Accept-Language": "en-US,en;q=0.5"}
     response = requests.get(url, headers=headers)
 
     if response.status_code == 200:
