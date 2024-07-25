@@ -1,7 +1,6 @@
 import streamlit as st
 import duckdb
 import plotly.express as px
-from urllib.request import urlopen
 import json
 
 # Connect to DuckDB
@@ -36,23 +35,24 @@ st.title("Sales Performance Dashboard")
 # Load China geojson data
 with open("data/static/geojson/province_geojson.json") as response:
     china_geojson = json.loads(response.read())
-print(china_geojson)
 # Query to get province-wise spending data
 query = """
 SELECT 
-    replace(json_extract(METADATA, '$.Province')::VARCHAR, '"', '') AS PROVINCE,
-    SUM(RMB_DOLLARS) AS TOTAL_SPENDING
+    PROVINCE,
+    SUM(RMB_DOLLARS) AS TOTAL_SPENDING,
+    COUNT(DISTINCT c.SHIP_TO_CITY_CD) AS TOTAL_COUNT_OF_CITIES,
+    COUNT(DISTINCT d.SHIP_TO_DISTRICT_NAME) AS TOTAL_COUNT_OF_DISTRICTS
 FROM 
     TRANSLATIONS_CITY_MAPPING t
 JOIN
     CURATED_DATASET c ON t.SHIP_TO_CITY_CD = c.SHIP_TO_CITY_CD
+LEFT JOIN
+    TRANSLATIONS_DISTRICT_MAPPING d ON c.SHIP_TO_DISTRICT_NAME = d.SHIP_TO_DISTRICT_NAME
 GROUP BY 
     PROVINCE
 ORDER BY 
     TOTAL_SPENDING DESC;
-
 """
-
 # Execute the query and load data into a DataFrame
 df = con.execute(query).fetchdf()
 
@@ -64,11 +64,29 @@ fig = px.choropleth(
     featureidkey="properties.NAME_1",
     color="TOTAL_SPENDING",
     hover_name="PROVINCE",
+    hover_data={
+        "TOTAL_SPENDING": ":,.2f",
+        "TOTAL_COUNT_OF_CITIES": True,
+        "TOTAL_COUNT_OF_DISTRICTS": True,
+    },
     color_continuous_scale="Viridis",
-    labels={"TOTAL_SPENDING": "Total Spending"},
+    labels={
+        "TOTAL_SPENDING": "Total Spending",
+        "TOTAL_COUNT_OF_CITIES": "Total Count of Cities",
+        "TOTAL_COUNT_OF_DISTRICTS": "Total Count of Districts",
+    },
 )
 
-fig.update_geos(fitbounds="locations", visible=False)
+
+fig.update_geos(
+    fitbounds="locations",
+    visible=True,
+    showsubunits=True,
+    showcoastlines=True,
+    coastlinecolor="Black",
+    showocean=True,
+    oceancolor="LightBlue",
+)
 fig.update_layout(title_text="Total Spending by Province in China")
 
 # Display the map in Streamlit
@@ -83,12 +101,7 @@ st.write(
 st.header("City Level Metadata")
 query = """
 -- Exploding METADATA JSON column into separate columns
-SELECT 
-    SHIP_TO_CITY_CD,
-    SHIP_TO_CITY_CD_ENG,
-    json_extract(METADATA, '$.Province')::VARCHAR AS PROVINCE,
-    json_extract(METADATA, '$."Per capita"')::VARCHAR AS PER_CAPITA,
-    json_extract(METADATA, '$."Party Secretary"') AS PARTY_SECRETARY
+SELECT *
 FROM 
     TRANSLATIONS_CITY_MAPPING
 LIMIT 10;
@@ -101,7 +114,7 @@ top_provinces_query = """
 WITH CityProvinceMapping AS (
     SELECT
         SHIP_TO_CITY_CD,
-        json_extract(METADATA, '$.Province')::VARCHAR AS PROVINCE
+        PROVINCE
     FROM
         TRANSLATIONS_CITY_MAPPING
 ),

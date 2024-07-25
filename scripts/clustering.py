@@ -1,8 +1,7 @@
 import duckdb
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
-import matplotlib.pyplot as plt
-from constants import DUCKDB_FILE_PATH
+from constants import DUCKDB_FILE_PATH, CITY_CLUSTER_RESULTS_FILE_PATH
 
 # Extract from OLAP and aggregate
 # Connect to DuckDB and retrieve the data
@@ -14,7 +13,7 @@ city_sales = df.groupby("SHIP_TO_CITY_CD").sum().reset_index()
 
 # Optionally, merge with English city names if available
 city_names = con.execute(
-    "SELECT SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG FROM TRANSLATIONS_CITY_MAPPING"
+    "SELECT SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG, PROVINCE, PER_CAPITA_USD  FROM TRANSLATIONS_CITY_MAPPING"
 ).fetchdf()
 city_sales = city_sales.merge(city_names, on="SHIP_TO_CITY_CD", how="left")
 
@@ -31,39 +30,16 @@ for k in range(1, 10):
     kmeans.fit(city_sales[["normalized_sales"]])
     sse.append(kmeans.inertia_)
 
-plt.plot(range(1, 10), sse)
-plt.xlabel("Number of clusters")
-plt.ylabel("SSE")
-plt.title("Elbow Method")
-plt.show()
-
 # Perform clustering
 # Assuming the optimal number of clusters is 3
 kmeans = KMeans(n_clusters=3)
 city_sales["cluster"] = kmeans.fit_predict(city_sales[["normalized_sales"]])
 
-# Write clustering results back to DuckDB
-con.execute("DROP TABLE IF EXISTS CURATED_CITY_CLUSTER_RESULTS")
-con.execute(
-    """
-    CREATE TABLE CURATED_CITY_CLUSTER_RESULTS (
-        SHIP_TO_CITY_CD VARCHAR,
-        SHIP_TO_CITY_CD_ENG VARCHAR,
-        RMB_DOLLARS DOUBLE,
-        normalized_sales DOUBLE,
-        cluster INTEGER
-    )
-    """
-)
 
 # Insert the clustering results
 con.register("city_sales", city_sales)
 con.execute(
-    """
-    INSERT INTO CURATED_CITY_CLUSTER_RESULTS
-    SELECT SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG, RMB_DOLLARS, normalized_sales, cluster
-    FROM city_sales
-    """
+    f"COPY (SELECT * FROM city_sales) TO '{CITY_CLUSTER_RESULTS_FILE_PATH}' (HEADER, DELIMITER ',');"
 )
 
 # Close the DuckDB connection
