@@ -1,6 +1,8 @@
 import streamlit as st
 import duckdb
 import plotly.express as px
+from urllib.request import urlopen
+import json
 
 # Connect to DuckDB
 con = duckdb.connect(database="data/output/datawarehouse.duckdb", read_only=True)
@@ -31,50 +33,51 @@ cluster_df = load_cluster_data()
 
 # Streamlit App
 st.title("Sales Performance Dashboard")
-
-# Query data from the CURATED_DATASET table
+# Load China geojson data
+with open("data/static/geojson/province_geojson.json") as response:
+    china_geojson = json.loads(response.read())
+print(china_geojson)
+# Query to get province-wise spending data
 query = """
-SELECT SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG, SUM(RMB_DOLLARS) AS total_sales
-FROM CURATED_DATASET
-GROUP BY SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG
-ORDER BY total_sales DESC
+SELECT 
+    replace(json_extract(METADATA, '$.Province')::VARCHAR, '"', '') AS PROVINCE,
+    SUM(RMB_DOLLARS) AS TOTAL_SPENDING
+FROM 
+    TRANSLATIONS_CITY_MAPPING t
+JOIN
+    CURATED_DATASET c ON t.SHIP_TO_CITY_CD = c.SHIP_TO_CITY_CD
+GROUP BY 
+    PROVINCE
+ORDER BY 
+    TOTAL_SPENDING DESC;
+
 """
+
+# Execute the query and load data into a DataFrame
 df = con.execute(query).fetchdf()
 
-# Ensure the dataframe contains the total_sales column
-if "total_sales" not in df.columns:
-    st.error("Column 'total_sales' not found in the dataframe.")
-else:
-    # Create a choropleth map
-    fig = px.choropleth(
-        df,
-        geojson="https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json",
-        locations="SHIP_TO_CITY_CD",
-        featureidkey="properties.name",
-        color="total_sales",
-        hover_name="SHIP_TO_CITY_CD_ENG",
-        color_continuous_scale="Viridis",
-        range_color=(0, df["total_sales"].max()),
-        scope="asia",
-        labels={"total_sales": "Total Sales (RMB)"},
-    )
+# Create a choropleth map
+fig = px.choropleth(
+    df,
+    geojson=china_geojson,
+    locations="PROVINCE",
+    featureidkey="properties.NAME_1",
+    color="TOTAL_SPENDING",
+    hover_name="PROVINCE",
+    color_continuous_scale="Viridis",
+    labels={"TOTAL_SPENDING": "Total Spending"},
+)
 
-    fig.update_geos(
-        scope="asia",
-        projection_type="mercator",
-        showland=True,
-        landcolor="rgb(217, 217, 217)",
-        showocean=True,
-        oceancolor="rgb(204, 204, 255)",
-    )
+fig.update_geos(fitbounds="locations", visible=False)
+fig.update_layout(title_text="Total Spending by Province in China")
 
-    # Streamlit app layout
-    st.plotly_chart(fig)
+# Display the map in Streamlit
+st.plotly_chart(fig)
 
-    # Add explanatory text
-    st.write(
-        "This map shows the total sales in different regions of China. The darker the color, the higher the total sales."
-    )
+# Add explanatory text
+st.write(
+    "This map shows the total sales in different regions of China. The darker the color, the higher the total sales."
+)
 
 #####################################
 st.header("City Level Metadata")
@@ -92,6 +95,50 @@ LIMIT 10;
 """
 city_metadata_df = con.execute(query).fetchdf()
 st.write(city_metadata_df)
+
+# Query to get top 10 provinces by sales
+top_provinces_query = """
+WITH CityProvinceMapping AS (
+    SELECT
+        SHIP_TO_CITY_CD,
+        json_extract(METADATA, '$.Province')::VARCHAR AS PROVINCE
+    FROM
+        TRANSLATIONS_CITY_MAPPING
+),
+CitySales AS (
+    SELECT
+        d.SHIP_TO_CITY_CD,
+        p.PROVINCE,
+        SUM(d.RMB_DOLLARS) AS total_sales
+    FROM
+        CURATED_DATASET d
+    JOIN
+        CityProvinceMapping p ON d.SHIP_TO_CITY_CD = p.SHIP_TO_CITY_CD
+    GROUP BY
+        d.SHIP_TO_CITY_CD,
+        p.PROVINCE
+)
+SELECT
+    PROVINCE,
+    SUM(total_sales) AS province_total_sales
+FROM
+    CitySales
+GROUP BY
+    PROVINCE
+ORDER BY
+    province_total_sales DESC
+LIMIT 10;
+"""
+top_provinces_df = con.execute(top_provinces_query).fetchdf()
+st.header("Top 10 Provinces in Sales")
+st.write(top_provinces_df)
+fig = px.bar(
+    top_provinces_df,
+    x="PROVINCE",
+    y="province_total_sales",
+    title="Top 10 Provinces in Sales",
+)
+st.plotly_chart(fig)
 
 st.title("Percentage of Cities with Valid Translation")
 query = """
