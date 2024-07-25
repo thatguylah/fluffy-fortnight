@@ -1,0 +1,229 @@
+AGG_PROVINCE_SPENDING = """
+SELECT 
+    PROVINCE,
+    SUM(RMB_DOLLARS) AS TOTAL_SPENDING,
+    COUNT(DISTINCT c.SHIP_TO_CITY_CD) AS TOTAL_COUNT_OF_CITIES,
+    COUNT(DISTINCT d.SHIP_TO_DISTRICT_NAME) AS TOTAL_COUNT_OF_DISTRICTS
+FROM 
+    TRANSLATIONS_CITY_MAPPING t
+JOIN
+    CURATED_DATASET c ON t.SHIP_TO_CITY_CD = c.SHIP_TO_CITY_CD
+LEFT JOIN
+    TRANSLATIONS_DISTRICT_MAPPING d ON c.SHIP_TO_DISTRICT_NAME = d.SHIP_TO_DISTRICT_NAME
+GROUP BY 
+    PROVINCE
+ORDER BY 
+    TOTAL_SPENDING DESC;
+"""
+
+ALL_CITY_MAPPING = """
+-- Exploding METADATA JSON column into separate columns
+SELECT *
+FROM 
+    TRANSLATIONS_CITY_MAPPING
+LIMIT 10;
+"""
+AGG_TOP_10_PROVINCE_SPENDING = """
+WITH CityProvinceMapping AS (
+    SELECT
+        SHIP_TO_CITY_CD,
+        PROVINCE
+    FROM
+        TRANSLATIONS_CITY_MAPPING
+),
+CitySales AS (
+    SELECT
+        d.SHIP_TO_CITY_CD,
+        p.PROVINCE,
+        SUM(d.RMB_DOLLARS) AS total_sales
+    FROM
+        CURATED_DATASET d
+    JOIN
+        CityProvinceMapping p ON d.SHIP_TO_CITY_CD = p.SHIP_TO_CITY_CD
+    GROUP BY
+        d.SHIP_TO_CITY_CD,
+        p.PROVINCE
+)
+SELECT
+    PROVINCE,
+    SUM(total_sales) AS province_total_sales
+FROM
+    CitySales
+GROUP BY
+    PROVINCE
+ORDER BY
+    province_total_sales DESC
+LIMIT 10;
+"""
+PERCENTAGE_OF_VALID_CITY_TRANSLATIONS = """
+WITH unique_cities AS (
+    SELECT DISTINCT SHIP_TO_CITY_CD
+    FROM (
+        SELECT SHIP_TO_CITY_CD FROM RAW_DATASET_2
+        UNION ALL
+        SELECT SHIP_TO_CITY_CD FROM RAW_MAPPING
+    )
+),
+translated_cities AS (
+    SELECT COUNT(*) AS translated_count
+    FROM TRANSLATIONS_CITY_MAPPING
+),
+total_unique_cities AS (
+    SELECT COUNT(*) AS unique_count
+    FROM unique_cities
+)
+SELECT 
+    translated_count,
+    unique_count,
+    (translated_count::FLOAT / unique_count::FLOAT) * 100 AS percentage
+FROM
+    translated_cities, total_unique_cities;
+"""
+PERCENTAGE_OF_VALID_DISTRICTS_TRANSLATIONS = """
+WITH unique_districts AS (
+    SELECT DISTINCT SHIP_TO_DISTRICT_NAME
+    FROM (
+        SELECT SHIP_TO_DISTRICT_NAME FROM RAW_DATASET_2
+        UNION ALL
+        SELECT SHIP_TO_DISTRICT_NAME FROM RAW_MAPPING
+    )
+),
+translated_districts AS (
+    SELECT COUNT(*) AS translated_count
+    FROM TRANSLATIONS_DISTRICT_MAPPING
+),
+total_unique_districts AS (
+    SELECT COUNT(*) AS unique_count
+    FROM unique_districts
+)
+SELECT 
+    translated_count,
+    unique_count,
+    (translated_count::FLOAT / unique_count::FLOAT) * 100 AS percentage
+FROM
+    translated_districts, total_unique_districts;
+"""
+AGG_TOP_10_CITIES_SPENDING = """
+SELECT SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG, SUM(RMB_DOLLARS) as total_sales
+FROM CURATED_DATASET
+GROUP BY SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG
+ORDER BY total_sales DESC
+LIMIT 10
+"""
+AGG_TOP_10_CITIES_TRANSACTION_COUNT = """
+SELECT
+    SHIP_TO_CITY_CD,
+    SHIP_TO_CITY_CD_ENG,
+    COUNT(*) AS order_count
+FROM
+    CURATED_DATASET
+GROUP BY
+    SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG,
+ORDER BY
+    order_count DESC
+LIMIT 10;
+"""
+ALL_TOP_10_TRANSACTIONS = """
+SELECT
+    *
+FROM
+    CURATED_DATASET
+ORDER BY
+    RMB_DOLLARS DESC
+LIMIT 10;
+
+"""
+RANKED_TOP_CITY_PER_HOUR = """
+WITH HourlySales AS (
+    SELECT
+        SHIP_TO_CITY_CD,
+        ROUND(ORDER_TIME_PST / 10000) AS ORDER_HOUR_PST,
+        SUM(RMB_DOLLARS) AS total_sales,
+        ROW_NUMBER() OVER (PARTITION BY ROUND(ORDER_TIME_PST / 10000) ORDER BY SUM(RMB_DOLLARS) DESC) AS rank
+    FROM
+        CURATED_DATASET
+    GROUP BY
+        SHIP_TO_CITY_CD,
+        ROUND(ORDER_TIME_PST / 10000)
+)
+SELECT
+    SHIP_TO_CITY_CD,
+    ORDER_HOUR_PST,
+    total_sales
+FROM
+    HourlySales
+WHERE
+    rank = 1
+ORDER BY
+    ORDER_HOUR_PST;
+"""
+RANKED_TOP_10_CITY_HOUR_PAIR = """
+SELECT 
+    SHIP_TO_CITY_CD,
+    ROUND(ORDER_TIME_PST/10000) AS ORDER_HOUR_PST,
+    SUM(RMB_DOLLARS) AS total_sales
+FROM 
+    CURATED_DATASET
+GROUP BY 
+    SHIP_TO_CITY_CD,
+    ORDER_HOUR_PST
+ORDER BY 
+    total_sales DESC
+LIMIT 10;
+"""
+RANKED_TOP_10_CITIES_HIGHEST_DISTRICT_AVG = """
+WITH district_avg AS (
+    SELECT SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG, SHIP_TO_DISTRICT_NAME, SHIP_TO_DISTRICT_NAME_ENG, AVG(RMB_DOLLARS) as avg_sales
+    FROM CURATED_DATASET
+    GROUP BY SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG,SHIP_TO_DISTRICT_NAME, SHIP_TO_DISTRICT_NAME_ENG,
+),
+top_districts AS (
+    SELECT SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG, SHIP_TO_DISTRICT_NAME, SHIP_TO_DISTRICT_NAME_ENG, avg_sales
+    FROM (
+        SELECT SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG, SHIP_TO_DISTRICT_NAME, SHIP_TO_DISTRICT_NAME_ENG, avg_sales,
+               ROW_NUMBER() OVER (PARTITION BY SHIP_TO_CITY_CD ORDER BY avg_sales DESC) as rank
+        FROM district_avg
+    ) ranked
+    WHERE rank = 1
+)
+SELECT SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG, SHIP_TO_DISTRICT_NAME, SHIP_TO_DISTRICT_NAME_ENG, avg_sales as top_avg_sales
+FROM top_districts
+ORDER BY top_avg_sales DESC
+LIMIT 10;
+"""
+CORR_TOTAL_SPEND_GDP_PER_CAPITA = """
+WITH TotalSpend AS (
+    SELECT
+        t.SHIP_TO_CITY_CD,
+        t.SHIP_TO_CITY_CD_ENG,
+        t.PER_CAPITA_USD,
+        t.PROVINCE,
+        SUM(c.RMB_DOLLARS) AS total_spend
+    FROM
+        TRANSLATIONS_CITY_MAPPING t
+    JOIN
+        CURATED_DATASET c ON t.SHIP_TO_CITY_CD = c.SHIP_TO_CITY_CD
+    GROUP BY
+        t.SHIP_TO_CITY_CD, t.SHIP_TO_CITY_CD_ENG, t.PER_CAPITA_USD, t.PROVINCE
+)
+SELECT
+    SHIP_TO_CITY_CD_ENG,
+    total_spend,
+    CAST(REPLACE(PER_CAPITA_USD, ',', '') AS DOUBLE) AS PER_CAPITA_USD,
+    PROVINCE
+FROM
+    TotalSpend
+WHERE
+    PER_CAPITA_USD IS NOT NULL
+"""
+AGG_TOTAL_SPEND_PER_HOUR = """
+SELECT
+    FLOOR(ORDER_TIME_PST / 10000) AS rounded_order_hour,
+    SUM(RMB_DOLLARS) AS total_sales
+FROM
+    CURATED_DATASET
+GROUP BY
+    rounded_order_hour
+ORDER BY
+    rounded_order_hour;
+"""

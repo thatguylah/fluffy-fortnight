@@ -138,6 +138,7 @@ dtypes: float64(1), int64(2), object(4)
   - (Docker-compose) Airflow Orchestrator/Webserver -> (Docker-compose) Executors DAGS <- Source Data 
   - Executors DAGS -> (Docker) Postgres
 - Idempotent pipelines: Philosophy of pipelines should be to upsert where possible, update if data exists, insert if do not, otherwise each rerun will have multiple duplicate data rows. 
+- Why idempotent pipelines are important? I just realized my mistake in bronze layer that the columns CITY and DISTRICT in dataset 2 were swapped, with idempotent pipeline, i just had to change the position of columns in my DDL script, and run everything from the top to get back to a correct state. 
 - Data Quality Checks: Pydantic validators vs Great Expectations suite vs Bare bones pytest
 - ERD
 - Medallion architecture: Bronze, Silver, Gold tables

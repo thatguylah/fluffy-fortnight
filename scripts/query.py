@@ -71,7 +71,8 @@ print("City with the highest per-hour sales:", highest_per_hour_sales)
 # Query to find the city with the highest average sales by district
 highest_avg_sales_by_district = con.execute(
     """
-    SELECT * FROM CURATED_CITY_CLUSTER_RESULTS;
+SELECT SHIP_TO_CITY_CD, SHIP_TO_DISTRICT_NAME FROM RAW_DATASET_2
+WHERE SHIP_TO_CITY_CD = '浦东新区';
 """
 ).fetchdf()
 

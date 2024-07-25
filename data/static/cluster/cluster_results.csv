@@ -1,2470 +1,365 @@
 SHIP_TO_CITY_CD,RMB_DOLLARS,SHIP_TO_CITY_CD_ENG,PROVINCE,PER_CAPITA_USD,normalized_sales,cluster
-七台河,268863.75,Qitaihe,Heilongjiang,3986,-0.1075669967634225,0
-七星关区,56984.96,"Qixingguan, Bijie",Guizhou,,-0.15884559614152494,0
-七星区,118130.1,Qixing District,Qixing District,,-0.14404733748629103,0
-七里河区,188476.11000000002,"Qilihe, Lanzhou",Gansu,,-0.127022297534732,0
-万全区,7875.22,"Wanquan, Zhangjiakou",Hebei,,-0.17073106463519894,0
-万宁,81892.95,,,,-0.15281740030123445,0
-万宁市,27519.47,Wanning,Hainan,,-0.16597679156315956,0
-万安县,7870.8,Wan'an County,Jiangxi,,-0.17073213435722845,0
-万州区,88485.84,"Wanzhou, Chongqing","Wanzhou, Chongqing",7047,-0.15122179856566714,0
-万年县,15750.44,Wannian County,Jiangxi,,-0.1688251152412345,0
-万柏林区,676906.22,"Wanbailin, Taiyuan",Shanxi,,-0.008813146279467138,0
-万秀区,25395.58,Wanxiu District,Guangxi,,-0.166490812359829,0
-万荣县,23625.66,Wanrong County,Shanxi,,-0.16691916584727004,0
-万载县,17520.36,Wanzai County,Jiangxi,,-0.16839676175379342,0
-三亚,634331.9400000001,Sanya,Hainan,12261,-0.019116912163400845,0
-三元区,34863.72,"Sanyuan, Sanming",Fujian,,-0.16419934676331607,0
-三原县,8760.18,Sanyuan County,Shaanxi,,-0.1705168878914784,0
-三台县,59462.84,Santai County,Sichuan,,-0.15824590319525592,0
-三山区,17431.86,Sanshan District,Anhui,,-0.16841818039623974,0
-三明,895431.0700000001,Sanming,Fujian,17004,0.044073922960969486,0
-三水区,120427.67,"Sanshui, Foshan",Guangdong,,-0.14349128290634391,0
-三河市,226392.06,"Sanhe, Hebei",Hebei,,-0.11784593396341764,0
-三门县,81142.5,Sanmen County,Zhejiang,,-0.15299902312862218,0
-三门峡,976884.13,Sanmenxia,Henan,8867,0.06378707514510522,0
-上城区,2215952.21,"Shangcheng, Hangzhou",Zhejiang,,0.36366454601660947,0
-上杭县,62737.16,Shanghang County,Fujian,,-0.15745345698808383,0
-上林县,15838.94,Shanglin County,Shanglin County,,-0.16880369659878822,0
-上栗县,19113.28,Shangli County,Jiangxi,,-0.16801124555124494,0
-上海,106221449.77,Shanghai,Shanghai,27001,25.53492516393617,1
-上犹县,16635.4,Shangyou County,Jiangxi,,-0.16861093849751396,0
-上蔡县,75478.78,Shangcai County,Henan,,-0.15436974847998816,0
-上虞区,713982.36,"Shangyu, Shaoxing",Zhejiang,,0.00015996768605267212,0
-上街区,40260.17,"Shangjie, Zhengzhou",Henan,,-0.16289330571213786,0
-上饶,2030422.8900000001,,,,0.31876300739081426,0
-上高县,7875.22,Shanggao County,Jiangxi,,-0.17073106463519894,0
-下城区,237307.08000000002,Xiacheng District,Zhejiang,,-0.11520429655467099,0
-下陆区,60436.3,"Xialu, Huangshi",Hubei,,-0.1580103078090891,0
-丛台区,329962.85,"Congtai, Handan",Hebei,,-0.09277988064263185,0
-东丰县,27873.46,Dongfeng County,Jilin,,-0.16589111941356,0
-东丽区,544102.68,"Dongli, Tianjin","Dongli, Tianjin",,-0.04095406762253218,0
-东乌珠穆沁旗,7875.22,East Ujimqin Banner,East Ujimqin Banner,,-0.17073106463519894,0
-东乡区,16635.4,"Dongxiang, Fuzhou",Jiangxi,,-0.16861093849751396,0
-东光县,31677.88,Dongguang County,Hebei,,-0.16497037916841303,0
-东兰县,8760.18,Donglan County,Donglan County,,-0.1705168878914784,0
-东兴区,7875.22,"Dongxing, Neijiang",Sichuan,,-0.17073106463519894,0
-东兴市,17520.36,"Dongxing, Guangxi","Dongxing, Guangxi",,-0.16839676175379342,0
-东凤镇,8760.18,,,,-0.1705168878914784,0
-东区,23802.65,東區,東區,,-0.16687633098256305,0
-东区街道,8760.18,,,,-0.1705168878914784,0
-东台市,189183.2,Dongtai,Jiangsu,,-0.12685116863205012,0
-东坡区,163474.35,"Dongpo, Meishan",Sichuan,,-0.1330731874552732,0
-东城区,812372.65,"Dongcheng, Beijing","Dongcheng, Beijing",,0.02397224386341483,0
-东安区,131845.16,,,,-0.1407280384323997,0
-东安县,8760.18,Dong'an County,Hunan,,-0.1705168878914784,0
-东宝区,53710.62,"Dongbao, Jingmen",Hubei,,-0.15963804718906818,0
-东山区,7963.72,Dongshan District,Dongshan District,,-0.17070964599275265,0
-东山县,25395.58,Dongshan County,Fujian,,-0.166490812359829,0
-东平县,25395.58,Dongping County,Shandong,,-0.166490812359829,0
-东方,68311.51,Eastern,Eastern,,-0.15610436083531024,0
-东方市,7875.22,"Dongfang, Hainan",Hainan,,-0.17073106463519894,0
-东昌区,31586.31,"Dongchang, Tonghua",Jilin,,-0.16499254080783454,0
-东昌府区,223689.76,"Dongchangfu, Liaocheng",Shandong,,-0.11849994071463349,0
-东明县,37780.53,Dongming County,Shandong,,-0.16349342461107022,0
-东河区,45216.82,Donghe District,Donghe District,,-0.16169370442308262,0
-东洲区,42738.93,Dongzhou District,Liaoning,,-0.1622933997895372,0
-东海县,203606.23,Donghai County,Jiangsu,,-0.12336052769914527,0
-东港区,630715.12,"Donggang, Rizhao",Shandong,,-0.01999224972693286,0
-东港市,57604.43,"Donggang, Liaoning",Liaoning,,-0.15869567290495765,0
-东湖区,394209.77,"Donghu, Nanchang",Jiangxi,,-0.07723093366234657,0
-东源县,35660.18,Dongyuan County,Guangdong,,-0.16400658866204182,0
-东胜区,131577.0,Dongsheng District,Dongsheng District,,-0.14079293812910476,0
-东至县,7875.22,Dongzhi County,Anhui,,-0.17073106463519894,0
-东莞,13334869.89,Dongguan,Guangdong,16010,3.054648977402215,0
-东莞市,3706767.82,Dongguan,Guangdong,16010,0.7244695912588037,0
-东营,2113402.91,Dongying,Shandong,29006,0.3388457122333656,0
-东营区,382337.21,"Dongying, Dongying",Shandong,,-0.08010431352180529,0
-东西湖区,355166.22000000003,"Dongxihu, Wuhan",Hubei,,-0.08668019736046807,0
-东阳市,628056.11,Dongyang,Zhejiang,,-0.02063577949474194,0
-东阿县,45216.81,Dong'e County,Shandong,,-0.1616937068432682,0
-东风区,17520.36,Dongfeng District,Heilongjiang,,-0.16839676175379342,0
-两当县,7875.22,Liangdang County,Gansu,,-0.17073106463519894,0
-个旧市,15750.44,Gejiu,Yunnan,,-0.1688251152412345,0
-中卫,69019.48000000001,Zhongwei,Zhongwei,4473,-0.15593301895629672,0
-中原区,578574.36,中原区,中原区,,-0.032611281312443556,0
-中山,3498478.12,中山,中山,,0.6740596182696003,0
-中山区,462554.89,,,,-0.06069014622473502,0
-中山市,1126735.42,Zhongshan,Guangdong,12425,0.10005386837250585,0
-中江县,42738.94,Zhongjiang County,Sichuan,,-0.1622933973693516,0
-中牟县,164909.74,Zhongmu County,Henan,,-0.1327257964362791,0
-中站区,16635.4,"Zhongzhan, Jiaozuo",Henan,,-0.16861093849751396,0
-丰南区,150603.56,"Fengnan, Tangshan",Hebei,,-0.13618815750059812,0
-丰县,88840.70999999999,"Feng County, Jiangsu",Jiangsu,,-0.15113591343973592,0
-丰台区,1819266.02,"Fengtai, Beijing","Fengtai, Beijing",,0.2676591260506194,0
-丰城市,41234.520000000004,"Fengcheng, Jiangxi",Jiangxi,,-0.1626574949294538,0
-丰宁满族自治县,17430.97,Fengning Manchu Autonomous County,Hebei,,-0.16841839579275697,0
-丰泽区,462323.92,"Fengze, Quanzhou",Fujian,,-0.06074604525124146,0
-丰润区,113350.45,"Fengrun, Tangshan",Hebei,,-0.14520410149045374,0
-丰满区,200151.34,"Fengman, Jilin City",Jilin,,-0.12419667519746452,0
-丰镇市,7963.72,Fengzhen,Fengzhen,,-0.17070964599275265,0
-丰顺县,48490.270000000004,Fengshun County,Guangdong,,-0.1609014687720566,0
-临夏回族自治州,90875.22,Linxia Hui Autonomous Prefecture,Gansu,1690,-0.15064352426184444,0
-临夏市,8760.18,Linxia City,Gansu,,-0.1705168878914784,0
-临安区,291562.85,"Lin'an, Hangzhou",Zhejiang,,-0.10207339329729224,0
-临川区,97774.34000000001,"Linchuan, Fuzhou",Jiangxi,,-0.14897380918304182,0
-临平区,340933.63,"Linping, Hangzhou",Zhejiang,,-0.09012474827905123,0
-临朐县,116978.76000000001,Linqu County,Shandong,,-0.14432598313368208,0
-临桂区,34863.72,Lingui District,Lingui District,,-0.16419934676331607,0
-临汾,1045888.62,Linfen,Shanxi,6056,0.08048744235977674,0
-临沂,8026232.07,Linyi,Shandong,6730,1.769860103465267,0
-临沧,143169.92,Lincang,Yunnan,6596,-0.1379872363394051,0
-临沭县,121403.55,Linshu County,Shandong,,-0.14325510183526502,0
-临河区,41942.48,Linhe District,Linhe District,,-0.16248615547062586,0
-临泉县,15838.94,Linquan County,Anhui,,-0.16880369659878822,0
-临洮县,6105.31,Lintao County,Gansu,,-0.17115941570245438,0
-临海市,490953.69,Linhai,Zhejiang,,-0.05381710957949623,0
-临淄区,234568.17,"Linzi, Zibo",Shandong,,-0.1158671636053214,0
-临清市,84769.92,Linqing,Shandong,,-0.1521211201683678,0
-临渭区,118483.19,Linwei District,Shaanxi,,-0.14396188315339428,0
-临湘市,52732.740000000005,"Linxiang, Hunan",Hunan,,-0.15987471229726452,0
-临潼区,61320.36,"Lintong, Xi'an",Shaanxi,,-0.15779634888207142,0
-临西县,9468.14,"Linxi County, Hebei",Hebei,,-0.17034554843265046,0
-临邑县,10484.960000000001,"Linyi County, Dezhou",Shandong,,-0.17009945912177776,0
-临颍县,35744.25,Linying County,Henan,,-0.16398624216181065,0
-临高县,76716.81,Lingao County,Hainan,,-0.1540701222437421,0
-丹东,1376538.26,Dandong,Liaoning,6549,0.16051079167224824,0
-丹巴县,8760.18,Danba County,Sichuan,,-0.1705168878914784,0
-丹徒区,118026.56,"Dantu, Zhenjiang",Jiangsu,,-0.1440723960878604,0
-丹江口市,7875.22,Danjiangkou,Hubei,,-0.17073106463519894,0
-丹阳市,587387.6,"Danyang, Jiangsu",Jiangsu,,-0.030478313670033164,0
-丽水,2784351.54,,,,0.5012277326378463,0
-丽江,201173.47,Lijiang,Yunnan,7340,-0.12394930076804504,0
-乃东区,7875.22,"Nedong, Shannan","Nedong, Shannan",,-0.17073106463519894,0
-义乌市,1768510.71,Yiwu,Zhejiang,,0.2553753990772806,0
-义县,7078.76,"Yi County, Liaoning",Liaoning,,-0.17092382273647316,0
-义安区,14953.98,Yi'an District,Anhui,,-0.16901787334250873,0
-义马市,44420.36,"Yima, Henan",Henan,,-0.16188646252435684,0
-乌兰察布,315431.03,Ulanqab,Ulanqab,6939,-0.09629685077453931,0
-乌兰浩特市,34155.76,Ulanhot,Ulanhot,,-0.164370686222144,0
-乌审旗,15750.44,Uxin Banner,Uxin Banner,,-0.1688251152412345,0
-乌当区,16635.4,Wudang District,Guizhou,,-0.16861093849751396,0
-乌拉特前旗,10353.1,Urad Front Banner,Urad Front Banner,,-0.17013137168892992,0
-乌拉特后旗,7078.76,Urad Rear Banner,Urad Rear Banner,,-0.17092382273647316,0
-乌海,213074.36000000002,Wuhai,Wuhai,,-0.12106906452281792,0
-乌达区,8760.18,Wuda District,Wuda District,,-0.1705168878914784,0
-乌鲁木齐,3390088.04,Ürümqi,Ürümqi,14200,0.6478272073289842,0
-乐东黎族自治县,24509.74,Ledong Li Autonomous County,Hainan,,-0.16670520207988118,0
-乐亭县,146615.92,Laoting County,Hebei,,-0.13715324038607282,0
-乐安县,7875.22,Le'an County,Jiangxi,,-0.17073106463519894,0
-乐山,859373.39,Leshan,Sichuan,6418,0.03534729521675866,0
-乐平市,42738.94,Leping,Jiangxi,,-0.1622933973693516,0
-乐昌市,26280.54,Lechang,Guangdong,,-0.16627663561610845,0
-乐清市,1094028.43,Yueqing,Zhejiang,,0.0921381697927962,0
-乐都区,7963.72,"Ledu, Haidong",Qinghai,,-0.17070964599275265,0
-乐陵市,19113.28,Laoling,Shandong,,-0.16801124555124494,0
-九原区,42207.97,Jiuyuan District,Jiuyuan District,,-0.1624219019634726,0
-九台区,25395.58,"Jiutai, Changchun",Jilin,,-0.166490812359829,0
-九寨沟县,7875.22,Jiuzhaigou County,Sichuan,,-0.17073106463519894,0
-九江,1560781.94,Jiujiang,Jiangxi,6343,0.205101181558217,0
-九龙坡区,404806.21,"Jiulongpo, Chongqing","Jiulongpo, Chongqing",,-0.07466639852603538,0
-习水县,7861.95,"Xishui County, Guizhou",Guizhou,,-0.17073427622147308,0
-乳山市,25395.58,"Rushan, Shandong",Shandong,,-0.166490812359829,0
-乾安县,8760.18,Qian'an County,Jilin,,-0.1705168878914784,0
-二七区,1059052.31,"Erqi, Zhengzhou",Henan,,0.08367329964094933,0
-二道区,526757.46,"Erdao, Changchun",Jilin,,-0.04515193276752878,0
-于洪区,258556.64,"Yuhong, Shenyang",Liaoning,,-0.11006150867014064,0
-于都县,29136.29,Yudu County,Jiangxi,,-0.16558549111705775,0
-云冈区,72161.34,Yungang District,Shanxi,,-0.15517263052741204,0
-云和县,115562.83,Yunhe County,Zhejiang,,-0.14466866447152357,0
-云城区,56883.18,"Yuncheng, Yunfu",Guangdong,,-0.15887022879043095,0
-云岩区,123173.48000000001,Yunyan District,Guizhou,,-0.1428267459276384,0
-云梦县,7875.22,Yunmeng County,Hubei,,-0.17073106463519894,0
-云浮,520435.48,Yunfu,Guangdong,7391,-0.04668196925535456,0
-云溪区,19024.78,"Yunxi, Yueyang",Hunan,,-0.16803266419369123,0
-云阳县,16723.9,Yunyang County,Yunyang County,,-0.16858951985506768,0
-云霄县,87247.8,Yunxiao,Fujian,,-0.1515214272220988,0
-云龙区,399149.91000000003,"Yunlong, Xuzhou",Jiangsu,,-0.07603532809969568,0
-五华区,533127.46,"Wuhua, Kunming",Yunnan,,-0.0436102745485135,0
-五华县,38226.55,Wuhua County,Guangdong,,-0.1633854794935121,0
-五台县,10353.1,Wutai County,Shanxi,,-0.17013137168892992,0
-五家渠,17520.36,Wujiaqu,Wujiaqu,,-0.16839676175379342,0
-五常市,88751.32,"Wuchang, Heilongjiang",Heilongjiang,,-0.15115754747869947,0
-五指山,16635.4,Wuzhishan,Wuzhishan,,-0.16861093849751396,0
-五指山市,16635.4,Wuzhishan City,Hainan,,-0.16861093849751396,0
-五河县,48401.78,Wuhe County,Anhui,,-0.1609228849943173,0
-五莲县,43800.89,Wulian County,Shandong,,-0.1620363857609241,0
-五通桥区,9468.14,"Wutongqiao, Leshan",Sichuan,,-0.17034554843265046,0
-井研县,10085.84,Jingyan County,Sichuan,,-0.17019605356893214,0
-交口县,25395.58,Jiaokou County,Shanxi,,-0.166490812359829,0
-交城县,17520.36,Jiaocheng County,Shanxi,,-0.16839676175379342,0
-京口区,665952.26,"Jingkou, Zhenjiang",Jiangsu,,-0.011464207890890145,0
-京山市,25395.58,"Jingshan, Hubei",Hubei,,-0.166490812359829,0
-亭湖区,828137.39,"Tinghu, Yancheng",Jiangsu,,0.02778760351673334,0
-亳州,1218450.47,Bozhou,Anhui,6133,0.12225061258599053,0
-什邡市,61763.72,Shifang,Sichuan,,-0.1576890475338795,0
-仁和区,7963.72,Renhe District,Sichuan,,-0.17070964599275265,0
-仁寿县,63267.270000000004,Renshou County,Sichuan,,-0.15732516052992337,0
-仁怀市,54507.08,Renhuai,Guizhou,,-0.15944528908779393,0
-介休市,57251.340000000004,Jiexiu,Shanxi,,-0.1587811272378544,0
-从化区,240683.21,"Conghua, Guangzhou",Guangdong,,-0.11438721043803614,0
-仓山区,929190.31,"Cangshan, Fuzhou",Fujian,,0.052244285569087126,0
-仙居县,221564.01,Xianju County,Zhejiang,,-0.11901441166582215,0
-仙桃,382835.47000000003,,,,-0.0799837253547399,0
-仙桃市,158479.66,Xiantao,Hubei,8268,-0.13428199513030198,0
-仙游县,174584.08000000002,Xianyou County,Fujian,,-0.13038442661295913,0
-仪征市,76884.96,Yizheng,Jiangsu,,-0.15402942682309415,0
-仪陇县,6193.81,Yilong County,Sichuan,,-0.1711379970600081,0
-任丘市,81761.96,Renqiu,Hebei,,-0.15284910231224053,0
-任城区,279917.35,"Rencheng, Jining",Shandong,,-0.10489182042280912,0
-任泽区,26988.5,"Renze, Xingtai",Hebei,,-0.1661052961572805,0
-伊宁市,19821.24,Yining,Yining,,-0.167839906092417,0
-伊川县,86624.79,"Yichuan County, Henan",Henan,,-0.1516722072043639,0
-伊州区,35880.54,"Yizhou District, Hami","Yizhou District, Hami",,-0.16395325745244335,0
-伊春,439245.19,"Yichun, Heilongjiang",Heilongjiang,3265,-0.06633152622281673,0
-伊春区,8760.18,Yichun District,Heilongjiang,,-0.1705168878914784,0
-伊犁哈萨克自治州,241830.14,Ili Kazakh Autonomous Prefecture,Ili Kazakh Autonomous Prefecture,6858,-0.114109632092489,0
-伊美区,44597.36,Yimei District,Heilongjiang,,-0.16184362523946427,0
-伊通满族自治县,29376.11,Yitong Manchu Autonomous County,Jilin,,-0.16552745022630672,0
-伊金霍洛旗,82380.54000000001,Ejin Horo Banner,Ejin Horo Banner,,-0.15269939447219052,0
-伍家岗区,124500.90000000001,"Wujiagang, Yichang",Hubei,,-0.14250548565242876,0
-休宁县,48444.26,Xiuning County,Anhui,,-0.1609126040459431,0
-会昌县,5308.85,Huichang County,Jiangxi,,-0.17135217380372864,0
-会泽县,8760.18,Huize County,Yunnan,,-0.1705168878914784,0
-余姚市,701499.0,Yuyao,Zhejiang,,-0.0028612371090692367,0
-余干县,27873.46,Yugan County,Jiangxi,,-0.16589111941356,0
-余杭区,2407073.33,"Yuhang, Hangzhou",Zhejiang,,0.409919404019028,0
-余江区,7078.76,"Yujiang, Yingtan",Jiangxi,,-0.17092382273647316,0
-佛山,10352714.64,Foshan,Guangdong,19699,2.3329120619325026,0
-佳木斯,1474244.4000000001,Jiamusi,Heilongjiang,5771,0.18415749085266547,0
-依兰县,35748.68,"Yilan County, Heilongjiang",Heilongjiang,,-0.16398517001959553,0
-依安县,16635.4,Yi'an County,Heilongjiang,,-0.16861093849751396,0
-侯马市,66718.6,"Houma, Shanxi",Shanxi,,-0.15648987461767314,0
-保亭黎族苗族自治县,34155.75,Baoting Li and Miao Autonomous County,Hainan,,-0.1643706886423296,0
-保定,4989063.21,Baoding,Hebei,,1.0348088733936396,0
-保山,312527.49,"Baoshan, Yunnan",Yunnan,7734,-0.096999561340511,0
-保德县,41411.520000000004,Baode County,Shanxi,,-0.16261465764456123,0
-保靖县,7875.22,Baojing County,Hunan,,-0.17073106463519894,0
-信丰县,53180.53,"Xinfeng County, Jiangxi",Jiangxi,,-0.15976633880685745,0
-信宜市,52915.04,"Xinyi, Guangdong",Guangdong,,-0.15983059231401073,0
-信州区,225197.36000000002,"Xinzhou, Shangrao",Jiangxi,,-0.11813507353551458,0
-信都区,77072.57,"Xindu, Xingtai",Hebei,,-0.1539840217212936,0
-信阳,1253071.9000000001,Xinyang,Henan,4777,0.1306296411752468,0
-修文县,17520.36,Xiuwen County,Guizhou,,-0.16839676175379342,0
-修武县,8760.18,Xiuwu County,Henan,,-0.1705168878914784,0
-修水县,79637.16,Xiushui County,Jiangxi,,-0.1533633433457984,0
-儋州,116891.16,Danzhou,Hainan,13292,-0.14434718395942553,0
-儋州市,50525.66,Danzhou,Hainan,13292,-0.16040886661783346,0
-元宝区,62646.53,Yuanbao District,Liaoning,,-0.15747539113006018,0
-元宝山区,33270.8,Yuanbaoshan District,Yuanbaoshan District,,-0.16458486296586453,0
-光山县,31677.88,Guangshan County,Henan,,-0.16497037916841303,0
-光明区,296340.15,"Guangming, Shenzhen",Guangdong,,-0.10091719803674251,0
-光泽县,16635.4,Guangze County,Guangze County,,-0.16861093849751396,0
-克东县,7078.76,Kedong County,Heilongjiang,,-0.17092382273647316,0
-克什克腾旗,7875.22,Hexigten Banner,Hexigten Banner,,-0.17073106463519894,0
-克孜勒苏柯尔克孜自治州,47162.840000000004,Kizilsu Kyrgyz Autonomous Prefecture,Kizilsu Kyrgyz Autonomous Prefecture,3698,-0.16122273146745184,0
-克山县,33711.5,Keshan County,Heilongjiang,,-0.16447820538703878,0
-克拉玛依,137108.88,Karamay,Karamay,30452,-0.13945412050451977,0
-克拉玛依区,35039.83,"Karamay, Karamay","Karamay, Karamay",,-0.16415672487494076,0
-兖州区,44331.86,"Yanzhou, Jining",Shandong,,-0.16190788116680313,0
-全州县,16635.4,Quanzhou County,Quanzhou County,,-0.16861093849751396,0
-全椒县,14953.98,Quanjiao County,Anhui,,-0.16901787334250873,0
-八步区,84151.33,Babu District,Babu District,,-0.1522708304286034,0
-公主岭市,47691.88,Gongzhuling,Jilin,,-0.1610946939691492,0
-公安县,8760.18,Gong'an County,Hubei,,-0.1705168878914784,0
-六合区,584446.84,"Luhe, Nanjing",Jiangsu,,-0.031190032166760227,0
-六安,1496059.83,Lu'an,Anhui,6769,0.18943722977901592,0
-六枝特区,17520.36,Liuzhi Special District,Guizhou,,-0.16839676175379342,0
-六盘水,196084.1,Liupanshui,Guizhou,6412,-0.12518102276021298,0
-兰山区,1288485.94,"Lanshan, Linyi",Shandong,,0.13920049609432616,0
-兰州,3043228.42,Lanzhou,Gansu,9147,0.563880742020112,0
-兰溪市,124500.02,"Lanxi, Zhejiang",Zhejiang,,-0.14250569862876045,0
-兰考县,33978.76,Lankao County,Henan,,-0.16441352350703659,0
-兰西县,25482.300000000003,Lanxi County,Heilongjiang,,-0.1664698245104172,0
-兰陵县,81053.98,Lanling County,Shandong,,-0.15302044661143965,0
-共青城市,11061.06,Gongqingcheng,Jiangxi,,-0.16996003223010195,0
-关岭布依族苗族自治县,7875.22,Guanling Buyei and Miao Autonomous County,Guizhou,,-0.17073106463519894,0
-兴业县,18139.82,Xingye County,Guangxi,,-0.16824684093741177,0
-兴义市,49861.06,"Xingyi, Guizhou",Guizhou,,-0.16056971215195553,0
-兴仁县,7875.22,Xingren,Guizhou,,-0.17073106463519894,0
-兴化市,261300.03,"Xinghua, Jiangsu",Jiangsu,,-0.10939755737634718,0
-兴和县,17520.36,Xinghe County,Xinghe County,,-0.16839676175379342,0
-兴国县,7078.76,Xingguo County,Jiangxi,,-0.17092382273647316,0
-兴城市,80257.53,Xingcheng,Liaoning,,-0.1532132022925283,0
-兴宁区,139627.46,"Xingning, Nanning","Xingning, Nanning",,-0.1388445774029111,0
-兴宁市,51677.0,"Xingning, Guangdong",Guangdong,,-0.1601302209704424,0
-兴安盟,236965.52000000002,Hinggan League,Hinggan League,5040,-0.11528696041358572,0
-兴宾区,7963.72,Xingbin District,Guangxi,,-0.17070964599275265,0
-兴平市,19113.28,Xingping,Shaanxi,,-0.16801124555124494,0
-兴庆区,123611.53,"Xingqing, Yinchuan","Xingqing, Yinchuan",,-0.14272072969799324,0
-兴文县,7861.95,Xingwen County,Sichuan,,-0.17073427622147308,0
-兴隆县,35660.18,Xinglong County,Hebei,,-0.16400658866204182,0
-兴隆台区,259265.53,Xinglongtai District,Liaoning,,-0.10988994413405308,0
-其它区,18936.28,,,,-0.1680540828361375,0
-冀州区,25527.440000000002,"Jizhou, Hengshui",Hebei,,-0.1664588997926768,0
-内丘县,8760.18,Neiqiu County,Hebei,,-0.1705168878914784,0
-内乡县,16635.4,Neixiang County,Henan,,-0.16861093849751396,0
-内江,507966.16000000003,Neijiang,Sichuan,5151,-0.0496997761099121,0
-内黄县,25395.58,Neihuang County,Henan,,-0.166490812359829,0
-冕宁县,10353.1,Mianning County,Sichuan,,-0.17013137168892992,0
-农安县,26984.07,Nong'an County,Jilin,,-0.16610636829949563,0
-冠县,25394.690000000002,"Guan County, Shandong",Shandong,,-0.16649102775634622,0
-冷水滩区,24510.620000000003,"Lengshuitan, Yongzhou",Hunan,,-0.16670498910354953,0
-准格尔旗,41942.48,Jungar Banner,Jungar Banner,,-0.16248615547062586,0
-凉山彝族自治州,534931.01,Liangshan Yi Autonomous Prefecture,Sichuan,4540,-0.04317378197694285,0
-凉州区,13980.53,"Liangzhou, Wuwei",Gansu,,-0.16925346630848995,0
-凌云县,15750.44,Lingyun County,Guangxi,,-0.1688251152412345,0
-凌河区,202806.19,Linghe District,Liaoning,,-0.1235541522268597,0
-凌海市,73531.85,Linghai,Liaoning,,-0.1548409416725074,0
-凌源市,35571.68,Lingyuan,Liaoning,,-0.1640280073044881,0
-凤冈县,7078.76,Fenggang County,Guizhou,,-0.17092382273647316,0
-凤台县,8760.18,Fengtai County,Anhui,,-0.1705168878914784,0
-凤城市,46631.86,"Fengcheng, Liaoning",Liaoning,,-0.1613512384817584,0
-凤岗镇,17520.35,,,,-0.16839676417397903,0
-凤泉区,8760.18,"Fengquan, Xinxiang",Henan,,-0.1705168878914784,0
-凤阳县,73975.24,Fengyang County,Anhui,,-0.15473363306375867,0
-凭祥市,8760.18,"Pingxiang, Guangxi",Guangxi,,-0.1705168878914784,0
-凯里市,89282.31,Kaili City,Guizhou,,-0.15102903804420734,0
-利川市,17520.36,,,,-0.16839676175379342,0
-利州区,16635.4,"Lizhou, Guangyuan",Sichuan,,-0.16861093849751396,0
-利津县,24510.620000000003,Lijin County,Shandong,,-0.16670498910354953,0
-利辛县,58754.880000000005,Lixin County,Anhui,,-0.15841724265408386,0
-利通区,16635.4,"Litong, Wuzhong","Litong, Wuzhong",,-0.16861093849751396,0
-前进区,52384.08,"Qianjin District, Jiamusi",Heilongjiang,,-0.15995909448794612,0
-前郭尔罗斯蒙古族自治县,19113.28,Qian Gorlos Mongol Autonomous County,Jilin,,-0.16801124555124494,0
-前锋区,6105.31,"Qianfeng, Guang'an",Sichuan,,-0.17115941570245438,0
-加格达奇区,18228.32,Jiagedaqi District,Heilongjiang,,-0.16822542229496548,0
-勐腊县,7875.22,Mengla County,Yunnan,,-0.17073106463519894,0
-包头,2379080.0300000003,Baotou,Baotou,22003,0.4031445058993482,0
-包河区,1739344.46,"Baohe, Hefei",Anhui,,0.24831662528915582,0
-化州市,101494.7,"Huazhou, Guangdong",Guangdong,,-0.14807341301794044,0
-北京,87160468.24,Beijing,Beijing,28421,20.92181388635015,1
-北仑区,176619.49000000002,"Beilun, Ningbo","Beilun, Ningbo",,-0.1298918196183648,0
-北关区,60613.27,"Beiguan, Anyang",Henan,,-0.15796747778475329,0
-北塔区,27873.46,"Beita, Shaoyang",Hunan,,-0.16589111941356,0
-北安市,64860.18,Bei'an,Heilongjiang,,-0.15693964674756047,0
-北屯,16277.0,Beitun,Beitun,,-0.16869767794895746,0
-北戴河区,34952.22,"Beidaihe, Qinhuangdao",Hebei,,-0.1641779281208698,0
-北林区,105476.12,"Beilin District, Suihua",Heilongjiang,,-0.1471098354879009,0
-北流市,33359.29,Beiliu,Beiliu,,-0.16456344674360382,0
-北海,692179.6900000001,北海,北海,,-0.005116683083488577,0
-北湖区,34775.22,"Beihu, Chenzhou",Hunan,,-0.16422076540576236,0
-北碚区,99723.01000000001,"Beibei, Chongqing","Beibei, Chongqing",,-0.1485021948782304,0
-北票市,16635.4,Beipiao,Liaoning,,-0.16861093849751396,0
-北辰区,367304.45,"Beichen, Tianjin","Beichen, Tianjin",,-0.08374252043051551,0
-北镇市,23006.190000000002,Beizhen,Liaoning,,-0.16706908908383727,0
-十堰,941485.0800000001,Shiyan,Hubei,6180,0.05521984808422096,0
-华容区,26103.54,"Huarong, Ezhou",Hubei,,-0.16631947290100102,0
-华州区,7078.76,Huazhou District,Shaanxi,,-0.17092382273647316,0
-华阴市,8760.18,Huayin,Shaanxi,,-0.1705168878914784,0
-华龙区,184836.31,"Hualong, Puyang",Henan,,-0.1279031966847433,0
-单县,77778.77,Shan County,Shandong,,-0.15381310821512897,0
-南乐县,12608.86,Nanle County,Henan,,-0.16958543590492273,0
-南京,41058124.660000004,Nanjing,Jiangsu,27223,9.76419113972954,2
-南充,983247.85,Nanchong,Sichuan,3834,0.06532721348757176,0
-南关区,888919.5700000001,"Nanguan, Changchun",Jilin,,0.04249801911589601,0
-南华县,16723.9,Nanhua County,Yunnan,,-0.16858951985506768,0
-南县,8760.18,Nan County,Hunan,,-0.1705168878914784,0
-南召县,20706.2,Nanzhao County,Henan,,-0.1676257293486965,0
-南和区,9468.14,"Nanhe, Xingtai",Hebei,,-0.17034554843265046,0
-南和县,16723.9,"Nanhe, Xingtai",Hebei,,-0.16858951985506768,0
-南宁,5145753.17,Nanning,Nanning,9028,1.0727307516779685,0
-南安市,311640.71,"Nan'an, Fujian",Fujian,,-0.09721417855800839,0
-南宫市,16635.4,Nangong,Hebei,,-0.16861093849751396,0
-南山区,2580034.63,"Nanshan, Shenzhen",Guangdong,,0.4517792485585205,0
-南岗区,2569165.67,"Nan'gang, Harbin",Heilongjiang,,0.44914875852458824,0
-南岸区,395423.91,"Nan'an, Chongqing","Nan'an, Chongqing",,-0.07693708924946821,0
-南平,841583.28,,,,0.031041758435175315,0
-南康区,18315.93,"Nankang, Ganzhou",Jiangxi,,-0.16820421904903643,0
-南开区,837349.61,"Nankai, Tianjin","Nankai, Tianjin",,0.030017131723699887,0
-南昌,11147108.32,Nanchang,Jiangxi,12183,2.5251700754184987,0
-南昌县,471274.37,Nanchang County,Jiangxi,,-0.05857987024238976,0
-南明区,284563.73,Nanming District,Guizhou,,-0.10376731023196638,0
-南江县,15750.44,Nanjiang County,Sichuan,,-0.1688251152412345,0
-南沙区,269869.92,,,,-0.10732348495020011,0
-南浔区,222710.62,"Nanxun, Huzhou",Zhejiang,,-0.11873691076621382,0
-南海区,1345569.3800000001,"Nanhai, Foshan",Guangdong,,0.15301574796962694,0
-南湖区,926168.17,"Nanhu, Jiaxing",Zhejiang,,0.05151287160205183,0
-南溪区,13980.53,"Nanxi, Yibin",Sichuan,,-0.16925346630848995,0
-南漳县,8760.18,Nanzhang County,Hubei,,-0.1705168878914784,0
-南澳县,8760.18,Nan'ao County,Guangdong,,-0.1705168878914784,0
-南皮县,42119.48,Nanpi County,Hebei,,-0.1624433181857333,0
-南谯区,121572.05,Nanqiao District,Anhui,,-0.1432143217081215,0
-南通,18473512.85,Nantong,Jiangsu,21211,4.298295940332985,2
-南部县,29997.350000000002,Nanbu County,Sichuan,,-0.16537709861689054,0
-南阳,1951487.75,"Nanyang, Henan",Henan,4669,0.29965923857603843,0
-南陵县,50791.15,Nanling County,Anhui,,-0.16034461311068018,0
-南雄市,19113.28,Nanxiong,Guangdong,,-0.16801124555124494,0
-南靖县,31500.88,Nanjing County,Fujian,,-0.1650132164533056,0
-博乐市,1680.53,"Bole, Xinjiang","Bole, Xinjiang",,-0.17223029458068587,0
-博兴县,74771.70000000001,Boxing County,Shandong,,-0.15454087496248442,0
-博尔塔拉蒙古自治州,76894.7,Bortala Mongol Autonomous Prefecture,Bortala Mongol Autonomous Prefecture,10749,-0.15402706956233228,0
-博山区,49859.28,"Boshan, Zibo",Shandong,,-0.16057014294499003,0
-博望区,16635.4,"Bowang, Ma'anshan",Anhui,,-0.16861093849751396,0
-博爱县,49021.240000000005,Bo'ai County,Henan,,-0.16077296417793566,0
-博白县,26103.54,Bobai County,Bobai County,,-0.16631947290100102,0
-博罗县,154492.95,Boluo County,Guangdong,,-0.1352468529385171,0
-博野县,24510.620000000003,Boye County,Hebei,,-0.16670498910354953,0
-卢龙县,27077.0,Lulong County,Hebei,,-0.16608387751483422,0
-卧龙区,173693.81,"Wolong, Nanyang",Henan,,-0.13059988847522644,0
-卫东区,130075.24,"Weidong, Pingdingshan",Henan,,-0.14115639191984075,0
-卫滨区,81673.46,"Weibin, Xinxiang",Henan,,-0.1528705209546868,0
-卫辉市,7078.76,Weihui,Henan,,-0.17092382273647316,0
-印台区,7078.76,Yintai District,Shaanxi,,-0.17092382273647316,0
-即墨区,207138.07,"Jimo, Qingdao",Shandong,,-0.12250575687273287,0
-历下区,1350463.16,"Lixia, Jinan",Shandong,,0.15420013355189574,0
-历城区,603552.38,"Licheng, Jinan",Shandong,,-0.026566136912486247,0
-原州区,7875.22,"Yuanzhou, Guyuan","Yuanzhou, Guyuan",,-0.17073106463519894,0
-原平市,40261.060000000005,Yuanping,Shanxi,,-0.1628930903156206,0
-原阳县,42030.98,"Yuanyang County, Henan",Henan,,-0.16246473682817958,0
-厦门,12161783.81,Xiamen,Fujian,21527,2.7707403750718513,0
-友好区,16635.4,Youhao District,Heilongjiang,,-0.16861093849751396,0
-友谊县,18228.32,Youyi County,Heilongjiang,,-0.16822542229496548,0
-双台子区,76187.62,Shuangtaizi District,Liaoning,,-0.15419819604482854,0
-双城区,50879.66,"Shuangcheng, Harbin",Heilongjiang,,-0.1603231920480483,0
-双塔区,116447.8,Shuangta District,Liaoning,,-0.14445448530761745,0
-双峰县,26103.54,Shuangfeng County,Hunan,,-0.16631947290100102,0
-双桥区,209713.29,"Shuangqiao, Chengde",Hebei,,-0.12188250583995852,0
-双流区,1549915.33,"Shuangliu, Chengdu",Sichuan,,0.20247126026789777,0
-双清区,16546.9,"Shuangqing, Shaoyang",Hunan,,-0.16863235713996025,0
-双滦区,7078.76,"Shuangluan, Changde",Hebei,,-0.17092382273647316,0
-双牌县,9468.14,Shuangpai County,Hunan,,-0.17034554843265046,0
-双辽市,27960.18,Shuangliao,Jilin,,-0.1658701315641482,0
-双阳区,7078.76,"Shuangyang, Changchun",Jilin,,-0.17092382273647316,0
-双鸭山,642671.78,Shuangyashan,Heilongjiang,4694,-0.017098516106686192,0
-叙州区,23625.66,"Xuzhou, Yibin",Sichuan,,-0.16691916584727004,0
-叙永县,7875.22,Xuyong County,Sichuan,,-0.17073106463519894,0
-叠彩区,42101.78,Diecai District,Diecai District,,-0.16244760191422253,0
-古交市,37425.67,Gujiao,Shanxi,,-0.16357930731681586,0
-古冶区,43004.44,"Guye, Tangshan",Hebei,,-0.16222914144201275,0
-古城区,55480.53,"Gucheng, Lijiang",Yunnan,,-0.15920969612181268,0
-古塔区,127420.37,Guta District,Liaoning,,-0.14179891973081676,0
-古田县,50792.04,Gutian County,Fujian,,-0.16034439771416292,0
-古蔺县,22829.2,Gulin County,Sichuan,,-0.1671119239485443,0
-句容市,134407.96,"Jurong, Jiangsu",Jiangsu,,-0.14010779327012463,0
-召陵区,61108.01,"Shaoling, Luohe",Henan,,-0.15784774152301456,0
-台儿庄区,14953.98,"Tai'erzhuang, Zaozhuang",Shandong,,-0.16901787334250873,0
-台前县,17520.35,Taiqian County,Henan,,-0.16839676417397903,0
-台安县,35660.18,Tai'an County,Liaoning,,-0.16400658866204182,0
-台山市,85477.88,"Taishan, Guangdong",Guangdong,,-0.15194978070953985,0
-台州,15032491.5,"Taizhou, Zhejiang",Zhejiang,12020,3.465504912698047,0
-台江区,1037509.72,"Taijiang, Fuzhou",Fujian,,0.07845959305815867,0
-右江区,30704.420000000002,Youjiang District,Guangxi,,-0.16520597455457983,0
-右玉县,16723.9,Youyu County,Shanxi,,-0.16858951985506768,0
-叶县,14157.52,Ye County,Henan,,-0.16921063144378296,0
-叶集区,8760.18,"Yeji, Lu'an",Anhui,,-0.1705168878914784,0
-合作市,8760.18,Hezuo,Gansu,,-0.1705168878914784,0
-合川区,47640.700000000004,"Hechuan, Chongqing","Hechuan, Chongqing",,-0.16110708047898423,0
-合浦县,67953.09,Hepu County,Guangxi,,-0.15619110512712492,0
-合肥,26669951.14,Hefei,Anhui,18691,6.281986121876163,2
-合阳县,9468.14,Heyang County,Shaanxi,,-0.17034554843265046,0
-吉安,1076156.71,,,,0.0878128818766361,0
-吉州区,14157.53,"Jizhou, Ji'an",Jiangxi,,-0.16921062902359738,0
-吉木乃县,8760.18,Jeminay County,Jeminay County,,-0.1705168878914784,0
-吉木萨尔县,8760.18,Jimsar County,Jimsar County,,-0.1705168878914784,0
-吉林,2335400.37,Jilin,Jilin,7762,0.3925732175409819,0
-吉水县,20706.2,Jishui County,Jiangxi,,-0.1676257293486965,0
-吉阳区,87247.8,"Jiyang, Sanya",Hainan,,-0.1515214272220988,0
-吉首市,17767.25,Jishou,Hunan,,-0.16833700979183225,0
-同仁县,7875.22,"Tongren, Qinghai",Qinghai,,-0.17073106463519894,0
-同安区,224309.75,"Tong'an, Xiamen",Fujian,,-0.11834989162841571,0
-同江市,25307.08,"Tongjiang, Heilongjiang",Heilongjiang,,-0.16651223100227527,0
-名山区,6105.31,"Mingshan, Ya'an",Sichuan,,-0.17115941570245438,0
-吐鲁番,40438.06,,,,-0.16285025303072806,0
-向阳区,131802.7,,,,-0.14073831454040273,0
-吕梁,1063685.09,Lüliang,Shanxi,7241,0.08479451837939354,0
-启东市,147007.08000000002,"Qidong, Jiangsu",Jiangsu,,-0.13705857240664585,0
-吴中区,1259267.32,"Wuzhong, Suzhou",Jiangsu,,0.13212904779428158,0
-吴兴区,1611824.67,"Wuxing, Huzhou",Zhejiang,,0.21745446950570174,0
-吴川市,18228.32,"Wuchuan, Guangdong",Guangdong,,-0.16822542229496548,0
-吴忠,134499.13,"Wuzhong, Ningxia","Wuzhong, Ningxia",4778,-0.14008572843812656,0
-吴桥县,7875.22,Wuqiao County,Hebei,,-0.17073106463519894,0
-吴江区,951433.61,"Wujiang, Suzhou",Jiangsu,,0.05762757697615502,0
-吴起县,8760.18,Wuqi County,Shaanxi,,-0.1705168878914784,0
-呈贡区,205110.65,"Chenggong, Kunming",Yunnan,,-0.12299643013904306,0
-周口,1169730.23,Zhoukou,Henan,3866,0.11045941032093606,0
-周宁县,13184.07,Zhouning County,Fujian,,-0.1694462244097642,0
-周村区,50614.16,"Zhoucun, Zibo",Shandong,,-0.16038744797538718,0
-周至县,16635.4,Zhouzhi County,Shaanxi,,-0.16861093849751396,0
-呼中区,7078.76,Huzhong District,Heilongjiang,,-0.17092382273647316,0
-呼伦贝尔,525291.31,Hulunbuir,Hulunbuir,10136,-0.04550676827738893,0
-呼兰区,262092.94,Hulan District,Heilongjiang,,-0.10920565844095638,0
-呼和浩特,4188979.3200000003,Hohhot,Hohhot,16295,0.8411737234846574,0
-呼图壁县,16635.4,Hutubi County,Hutubi County,,-0.16861093849751396,0
-呼玛县,16635.4,Huma County,Heilongjiang,,-0.16861093849751396,0
-和县,28669.920000000002,He County,Anhui,,-0.16569836131228574,0
-和平区,883928.4,Heping,Heping,,0.04129006334619389,0
-和林格尔县,9200.880000000001,Horinger County,Horinger County,,-0.17041023031265265,0
-和田地区,71806.22,Hotan Prefecture,Hotan Prefecture,2827,-0.15525857615798294,0
-和田市,7963.72,Hotan,Hotan,,-0.17070964599275265,0
-和顺县,23892.04,Heshun County,Shanxi,,-0.1668546969435995,0
-和龙市,17520.36,Helong,Jilin,,-0.16839676175379342,0
-咸宁,759565.53,Xianning,Hubei,6620,0.01119194079111873,0
-咸安区,116797.35,"Xian'an, Xianning",Hubei,,-0.1443698877204186,0
-咸阳,1778074.62,Xianyang,Shaanxi,,0.25769004279116164,0
-哈密市,276338.96,Hami,Hami,14227,-0.10575785721312968,0
-哈尔滨,26571434.57,Harbin,Heilongjiang,9477,6.258143283595206,2
-响水县,73353.1,Xiangshui County,Jiangsu,,-0.15488420248987772,0
-唐山,8600285.65,,,,1.9087917235221188,0
-唐河县,26192.04,Tanghe County,Henan,,-0.16629805425855473,0
-商丘,1525292.04,Shangqiu,Henan,4115,0.19651196711127347,0
-商南县,7875.22,Shangnan County,Shaanxi,,-0.17073106463519894,0
-商城县,17431.86,Shangcheng County,Henan,,-0.16841818039623974,0
-商州区,26103.54,Shangzhou District,Shaanxi,,-0.16631947290100102,0
-商水县,29023.010000000002,Shangshui County,Henan,,-0.16561290697938902,0
-商河县,22032.74,Shanghe County,Shandong,,-0.16730468204981852,0
-商洛,201659.30000000002,Shangluo,Shaanxi,4218,-0.12383172089166447,0
-喀什地区,177587.65,Kashgar Prefecture,Xinjiang,4269,-0.12965750693055916,0
-喀什市,43619.48,Kashgar,Kashgar,,-0.1620802903476606,0
-喀喇沁左翼蒙古族自治县,7875.22,Harqin Left Wing Mongolian Autonomous County,Liaoning,,-0.17073106463519894,0
-喀喇沁旗,8760.18,Harqin Banner,Harqin Banner,,-0.1705168878914784,0
-喜德县,8760.18,Xide County,Sichuan,,-0.1705168878914784,0
-嘉兴,9663751.1,Jiaxing,Zhejiang,15695,2.1661700989744395,0
-嘉善县,311161.96,Jiashan County,Zhejiang,,-0.09733004494299324,0
-嘉定区,1481671.11,"Jiading, Shanghai","Jiading, Shanghai",,0.1859548925028606,0
-嘉峪关,169931.88,Jiayu Pass,Jiayu Pass,,-0.13151034535181358,0
-嘉祥县,53269.04,Jiaxiang County,Shandong,,-0.15974491774422558,0
-嘉陵区,15750.44,"Jialing, Nanchong",Sichuan,,-0.1688251152412345,0
-嘉鱼县,17520.36,Jiayu County,Hubei,,-0.16839676175379342,0
-四会市,97423.90000000001,Sihui,Guangdong,,-0.14905862216675791,0
-四平,767485.05,"Siping, Jilin",Jilin,6051,0.013108611607234259,0
-回民区,123437.18000000001,"Huimin, Hohhot","Huimin, Hohhot",,-0.1427629256337052,0
-围场满族蒙古族自治县,15927.43,Weichang Manchu and Mongol Autonomous County,Hebei,,-0.16878228037652748,0
-固原,22032.74,Guyuan,Guyuan,2861,-0.16730468204981852,0
-固始县,55392.92,Gushi County,Henan,,-0.15923089936774174,0
-固安县,65478.770000000004,Gu'an County,Hebei,,-0.1567899364873249,0
-固镇县,33359.3,Guzhen County,Anhui,,-0.16456344432341824,0
-固阳县,7875.22,Guyang County,Guyang County,,-0.17073106463519894,0
-国营山荣农场,7875.22,,,,-0.17073106463519894,0
-图们市,19821.24,"Tumen, Jilin",Jilin,,-0.167839906092417,0
-图木舒克,15838.94,Tumxuk,Tumxuk,,-0.16880369659878822,0
-土默特右旗,23006.2,Tumed Right Banner,Tumed Right Banner,,-0.16706908666365172,0
-土默特左旗,33093.8,Tumed Left Banner,Tumed Left Banner,,-0.1646277002507571,0
-坊子区,169804.44,"Fangzi, Weifang",Shandong,,-0.13154118819693622,0
-坡头区,27784.96,"Potou, Zhanjiang",Guangdong,,-0.16591253805600628,0
-坪山区,211517.83000000002,"Pingshan, Shenzhen",Guangdong,,-0.12144577367001476,0
-垣曲县,17520.36,Yuanqu County,Shanxi,,-0.16839676175379342,0
-垦利区,42915.93,"Kenli, Dongying",Shandong,,-0.16225056250464462,0
-埇桥区,233869.94,"Yongqiao, Suzhou",Anhui,,-0.11603614822357305,0
-城东区,95830.1,城東區,城東區,,-0.14944435134563808,0
-城中区,190554.89,Chengzhong,Chengzhong,,-0.12651919419524618,0
-城关区,455567.29000000004,Chengguan,Chengguan,,-0.06238127510561275,0
-城北区,49994.700000000004,,,,-0.16053736879176886,0
-城区,363768.18,,,,-0.08459836339914302,0
-城厢区,252543.39,"Chengxiang, Putian",Fujian,,-0.1115168267683343,0
-城口县,20706.19,Chengkou County,Chengkou County,,-0.16762573176888207,0
-城西区,114455.76000000001,"Chengxi, Xining",Qinghai,,-0.1449365959573203,0
-城阳区,404507.11,"Chengyang, Qingdao",Shandong,,-0.07473878627694708,0
-塔城地区,104146.91,Tacheng Prefecture,Xinjiang,7842,-0.1474315289763306,0
-塔城市,8760.18,Tacheng,Tacheng,,-0.1705168878914784,0
-塔河县,17520.35,Tahe County,Heilongjiang,,-0.16839676417397903,0
-塘厦镇,8760.18,"Tangxia, Dongguan",Guangdong,,-0.1705168878914784,0
-增城区,670524.84,"Zengcheng, Guangzhou",Guangdong,,-0.010357558669680597,0
-墨玉县,8760.18,Karakax County,Karakax County,,-0.1705168878914784,0
-墨竹工卡县,7078.76,Maizhokunggar County,Maizhokunggar County,,-0.17092382273647316,0
-壶关县,12210.62,Huguan County,Shanxi,,-0.16968181737574542,0
-复兴区,73709.74,Fuxing District,Fuxing District,,-0.15479788899109756,0
-夏河县,16723.9,Xiahe County,Gansu,,-0.16858951985506768,0
-夏津县,11946.02,Xiajin County,Shandong,,-0.16974585548638144,0
-夏邑县,71319.48000000001,Xiayi County,Henan,,-0.15537637627125195,0
-大东区,807437.05,"Dadong, Shenyang",Liaoning,,0.022777737065020516,0
-大丰区,393941.61,"Dafeng, Yancheng",Jiangsu,,-0.07729583335905163,0
-大余县,7078.76,Dayu County,Jiangxi,,-0.17092382273647316,0
-大兴区,963068.21,"Daxing, Beijing","Daxing, Beijing",,0.06044336609938188,0
-大兴安岭地区,135426.57,Daxing'anling Prefecture,Heilongjiang,4466,-0.13986127074603183,0
-大冶市,67413.28,Daye,Hubei,,-0.15632174916530492,0
-大厂回族自治县,30704.420000000002,Dachang Hui Autonomous County,Hebei,,-0.16520597455457983,0
-大同,2028079.76,Datong (disambiguation),Datong (disambiguation),,0.318195926445332,0
-大同区,24594.69,,,,-0.16668464260331836,0
-大名县,24510.620000000003,Daming County,Hebei,,-0.16670498910354953,0
-大城县,66801.79000000001,Dacheng County,Hebei,,-0.15646974109377362,0
-大埔县,26988.5,Dabu County,Guangdong,,-0.1661052961572805,0
-大安市,7078.76,"Da'an, Jilin",Jilin,,-0.17092382273647316,0
-大庆,1544092.25,Daqing,Heilongjiang,17247,0.20106196683901495,0
-大武口区,40349.56,"Dawukou, Shizuishan","Dawukou, Shizuishan",,-0.16287167167317435,0
-大洼区,45393.82,Dawa District,Liaoning,,-0.16165086713819005,0
-大渡口区,104944.25,"Dadukou, Chongqing","Dadukou, Chongqing",,-0.14723855789872473,0
-大理市,78176.12,Dali City,Yunnan,,-0.15371694214082354,0
-大理白族自治州,672877.92,Dali Bai Autonomous Prefecture,Yunnan,7567,-0.009788069639539217,0
-大田县,32385.84,Datian County,Fujian,,-0.16479903970958507,0
-大石桥市,73752.23000000001,Dashiqiao,Liaoning,,-0.15478760562253774,0
-大祥区,80876.98999999999,"Daxiang, Shaoyang",Hunan,,-0.15306328147614665,0
-大竹县,26103.54,Dazhu County,Sichuan,,-0.16631947290100102,0
-大箐山县,7078.76,Daqingshan County,Heilongjiang,,-0.17092382273647316,0
-大英县,18669.02,Daying County,Sichuan,,-0.16811876471613973,0
-大荔县,16635.4,Dali County,Shaanxi,,-0.16861093849751396,0
-大观区,16635.4,Daguan District,Anhui,,-0.16861093849751396,0
-大足区,75744.25,"Dazu, Chongqing","Dazu, Chongqing",,-0.15430549981320607,0
-大连,11968506.89,Dalian,Liaoning,17141,2.7239637734605546,0
-大邑县,45216.82,Dayi County,Sichuan,,-0.16169370442308262,0
-天元区,138746.9,"Tianyuan, Zhuzhou",Hunan,,-0.13905768926497325,0
-天全县,7875.22,Tianquan County,Sichuan,,-0.17073106463519894,0
-天台县,229002.68,Tiantai County,Zhejiang,,-0.1172141154736648,0
-天宁区,1021463.77,"Tianning, Changzhou",Jiangsu,,0.0745761753659439,0
-天山区,248558.45,"Tianshan, Ürümqi","Tianshan, Ürümqi",,-0.11248125620370052,0
-天峨县,7875.22,Tian'e County,Tian'e County,,-0.17073106463519894,0
-天心区,494364.59,"Tianxin, Changsha",Hunan,,-0.05299160847757484,0
-天桥区,334211.12,"Tianqiao, Jinan",Shandong,,-0.09175172046019918,0
-天水,180415.95,Tianshui,Gansu,2688,-0.12897300584094518,0
-天河区,2918934.2600000002,"Tianhe, Guangzhou",Guangdong,,0.5337992485602061,0
-天津,30056036.16,Tianjin,Tianjin,17420,7.101481538103402,2
-天涯区,61852.22,"Tianya, Sanya",Hainan,,-0.1576676288914332,0
-天祝藏族自治县,7875.22,Bairi Tibetan Autonomous County,Gansu,,-0.17073106463519894,0
-天等县,7875.22,Tiandeng County,Tiandeng County,,-0.17073106463519894,0
-天镇县,7875.22,Tianzhen County,Shanxi,,-0.17073106463519894,0
-天长市,150497.35,Tianchang,Anhui,,-0.13621386229171922,0
-天门,295811.54000000004,Tianmen,Hubei,5470,-0.10104513146706491,0
-天门市,61935.4,Tianmen,Hubei,5470,-0.15764749778771928,0
-太仓市,529051.34,Taicang,Jiangsu,,-0.04459677123606336,0
-太原,10630481.13,Taiyuan,Shanxi,12570,2.400136707501659,0
-太和区,213139.86000000002,Taihe District,Liaoning,,-0.12105321230722209,0
-太和县,33093.8,"Taihe County, Anhui",Anhui,,-0.1646277002507571,0
-太子河区,23537.170000000002,Taizihe District,Liaoning,,-0.16694058206953075,0
-太康县,31677.88,Taikang County,Henan,,-0.16497037916841303,0
-太湖县,8760.18,Taihu County,Anhui,,-0.1705168878914784,0
-太谷区,23700.89,Taigu District,Shanxi,,-0.1669009587910979,0
-太谷县,15750.44,Taigu District,Shanxi,,-0.1688251152412345,0
-头屯河区,17520.36,"Toutunhe, Ürümqi","Toutunhe, Ürümqi",,-0.16839676175379342,0
-夷陵区,61939.83,"Yiling, Yichang",Hubei,,-0.15764642564550418,0
-夹江县,7875.22,Jiajiang County,Sichuan,,-0.17073106463519894,0
-奇台县,7078.76,Qitai County,Qitai County,,-0.17092382273647316,0
-奉化区,248595.57,"Fenghua, Ningbo",Zhejiang,,-0.112472272474801,0
-奉新县,16635.4,Fengxin County,Jiangxi,,-0.16861093849751396,0
-奉节县,23714.16,Fengjie County,Fengjie County,,-0.16689774720482375,0
-奉贤区,522395.60000000003,"Fengxian, Shanghai","Fengxian, Shanghai",,-0.04620758383804587,0
-奎屯市,7875.22,Kuytun,Kuytun,,-0.17073106463519894,0
-奎文区,618139.88,"Kuiwen, Weifang",Shandong,,-0.023035691187229514,0
-如东县,174827.27000000002,Rudong County,Jiangsu,,-0.1303255701196652,0
-如皋市,283686.78,Rugao,Jiangsu,,-0.10397954840703158,0
-始兴县,15750.44,Shixing County,Guangdong,,-0.1688251152412345,0
-姑苏区,880329.77,"Gusu, Suzhou",Jiangsu,,0.040419128100244915,0
-姜堰区,307118.59,"Jiangyan, Taizhou",Jiangsu,,-0.09830861552274518,0
-威信县,8760.18,Weixin County,Yunnan,,-0.1705168878914784,0
-威宁彝族回族苗族自治县,8760.18,"Weining Yi, Hui, and Miao Autonomous County",Guizhou,,-0.1705168878914784,0
-威海,3353327.62,Weihai,Shandong,19460,0.638930503462822,0
-威远县,16635.4,"Weiyuan County, Sichuan",Sichuan,,-0.16861093849751396,0
-娄底,610953.14,Loudi,Hunan,6423,-0.024775015643889776,0
-娄星区,150427.44,"Louxing, Loudi",Hunan,,-0.13623078180915899,0
-婺城区,654035.4500000001,"Wucheng, Jinhua",Zhejiang,,-0.014348297071571994,0
-婺源县,40349.56,"Wuyuan County, Jiangxi",Jiangxi,,-0.16287167167317435,0
-嫩江市,22032.74,Nenjiang City,Heilongjiang,,-0.16730468204981852,0
-子洲县,16635.4,Zizhou County,Shaanxi,,-0.16861093849751396,0
-孝义市,74239.83,Xiaoyi,Shanxi,,-0.15466959737330827,0
-孝南区,94678.76,"Xiaonan, Xiaogan",Hubei,,-0.14972299699302913,0
-孝感,1071560.31,Xiaogan,Hubei,4804,0.08670046777335798,0
-孝昌县,18228.32,Xiaochang County,Hubei,,-0.16822542229496548,0
-孟州市,21059.29,Mengzhou,Henan,,-0.16754027501579974,0
-孟村回族自治县,7078.76,Mengcun Hui Autonomous County,Hebei,,-0.17092382273647316,0
-孟津县,23802.66,"Mengjin, Luoyang",Henan,,-0.16687632856237747,0
-宁乡市,56984.96000000001,Ningxiang,Hunan,,-0.15884559614152494,0
-宁化县,1680.53,Ninghua County,Fujian,,-0.17223029458068587,0
-宁国市,40349.56,Ningguo,Anhui,,-0.16287167167317435,0
-宁城县,8760.18,Ningcheng County,Ningcheng County,,-0.1705168878914784,0
-宁安市,20706.2,Ning'an,Heilongjiang,,-0.1676257293486965,0
-宁德,1803517.01,Ningde,Fujian,12849,0.2638475733492294,0
-宁明县,7875.22,Ningming County,Ningming County,,-0.17073106463519894,0
-宁晋县,99193.81,"Ningjin County, Hebei",Hebei,,-0.14863027109950247,0
-宁江区,43800.01,"Ningjiang, Songyuan",Jilin,,-0.16203659873725576,0
-宁河区,77868.16,"Ninghe, Tianjin","Ninghe, Tianjin",,-0.15379147417616543,0
-宁波,20018575.89,Ningbo,Zhejiang,24369,4.6722298703977785,2
-宁津县,24599.120000000003,"Ningjin County, Shandong",Shandong,,-0.16668357046110321,0
-宁洱哈尼族彝族自治县,7078.76,Ning'er Hani and Yi Autonomous County,Yunnan,,-0.17092382273647316,0
-宁海县,183602.4,Ninghai County,Zhejiang,,-0.12820182580452744,0
-宁远县,7875.22,Ningyuan County,Hunan,,-0.17073106463519894,0
-宁都县,7875.22,Ningdu County,Jiangxi,,-0.17073106463519894,0
-宁阳县,15750.44,Ningyang County,Shandong,,-0.1688251152412345,0
-宁陵县,7078.76,Ningling County,Henan,,-0.17092382273647316,0
-安丘市,62648.68,Anqiu,Shandong,,-0.15747487079015893,0
-安义县,31664.74,Anyi County,Jiangxi,,-0.16497355929227453,0
-安化县,12299.12,Anhua County,Hunan,,-0.16966039873329913,0
-安吉县,193764.61000000002,Anji County,Zhejiang,,-0.1257423823869671,0
-安国市,59188.5,Anguo,Hebei,,-0.15831229856665383,0
-安图县,34067.26,Antu County,Jilin,,-0.1643921048645903,0
-安塞区,7875.22,Ansai District,Shaanxi,,-0.17073106463519894,0
-安宁区,118567.26000000001,"Anning, Lanzhou",Gansu,,-0.14394153665316312,0
-安宁市,47517.7,"Anning, Yunnan",Yunnan,,-0.1611368487617062,0
-安定区,8760.18,Anding District,Anding District,,-0.1705168878914784,0
-安居区,7875.22,"Anju, Suining",Sichuan,,-0.17073106463519894,0
-安岳县,10793.8,Anyue County,Sichuan,,-0.17002471411010417,0
-安州区,8760.18,"Anzhou, Mianyang",Sichuan,,-0.1705168878914784,0
-安平县,26192.04,Anping County,Hebei,,-0.16629805425855473,0
-安庆,1383770.57,Anqing,Anhui,9874,0.16226114491462917,0
-安康,166484.1,Ankang,Shaanxi,4582,-0.13234477209818038,0
-安新县,70700.90000000001,Anxin County,Hebei,,-0.15552608411130192,0
-安次区,172372.59,"Anci, Langfang",Hebei,,-0.13091964823537203,0
-安源区,99896.45,"Anyuan, Pingxiang",Jiangxi,,-0.14846021917940688,0
-安溪县,321113.29,Anxi County,Fujian,,-0.09492163839909477,0
-安达市,16635.4,"Anda, Heilongjiang",Heilongjiang,,-0.16861093849751396,0
-安远县,15750.44,Anyuan County,Jiangxi,,-0.1688251152412345,0
-安阳,1209426.66,Anyang,Henan,5962,0.12006668309567148,0
-安阳县,28138.050000000003,Anyang County,Henan,,-0.16582708372310953,0
-安陆市,24422.12,Anlu,Hubei,,-0.1667264077459958,0
-安顺,243997.38,Anshun,Guizhou,5678,-0.11358511979129926,0
-安龙县,8760.18,Anlong County,Guizhou,,-0.1705168878914784,0
-宏伟区,15838.94,Hongwei District,Liaoning,,-0.16880369659878822,0
-官渡区,347120.38,"Guandu, Kunming",Yunnan,,-0.0886274399609205,0
-定兴县,51676.12,Dingxing County,Hebei,,-0.16013043394677406,0
-定南县,7875.22,Dingnan County,Jiangxi,,-0.17073106463519894,0
-定安县,56100.01,Ding'an County,Hainan,,-0.15905977046505987,0
-定州市,73708.86,Dingzhou,Hebei,,-0.1547981019674292,0
-定海区,195287.61,"Dinghai, Zhoushan",Zhejiang,,-0.125373788122044,0
-定襄县,22299.120000000003,Dingxiang County,Shanxi,,-0.16724021314614798,0
-定西,120736.3,Dingxi,Gansu,1764,-0.1434165887185677,0
-定边县,48932.740000000005,Dingbian County,Shaanxi,,-0.16079438282038194,0
-定远县,14953.98,Dingyuan County,Anhui,,-0.16901787334250873,0
-定陶区,17520.35,"Dingtao, Heze",Shandong,,-0.16839676417397903,0
-宛城区,218560.41,"Wancheng, Nanyang",Henan,,-0.11974133860877886,0
-宜兴市,928050.61,Yixing,Jiangsu,,0.05196845701771949,0
-宜城市,30792.920000000002,"Yicheng, Hubei",Hubei,,-0.16518455591213355,0
-宜宾,741212.48,Yibin,Sichuan,5469,0.006750162082092286,0
-宜川县,11946.02,"Yichuan County, Shaanxi",Shaanxi,,-0.16974585548638144,0
-宜州区,12033.630000000001,"Yizhou District, Hechi","Yizhou District, Hechi",,-0.1697246522404524,0
-宜昌,2512221.5300000003,Yichang,Hubei,13223,0.4353672198345166,0
-宜春,997886.8300000001,"Yichun, Jiangxi",Jiangxi,4730,0.06887011832823117,0
-宜秀区,39464.600000000006,Yixiu District,Anhui,,-0.16308584841689489,0
-宜章县,7078.76,Yizhang County,Hunan,,-0.17092382273647316,0
-宜良县,26280.54,"Yiliang County, Kunming",Yunnan,,-0.16627663561610845,0
-宜都市,9468.14,Yidu,Hubei,,-0.17034554843265046,0
-宜阳县,65923.02,"Yiyang County, Henan",Henan,,-0.1566824197426157,0
-宜黄县,8760.18,Yihuang County,Jiangxi,,-0.1705168878914784,0
-宝丰县,8760.18,Baofeng County,Henan,,-0.1705168878914784,0
-宝坻区,137222.12,"Baodi, Tianjin","Baodi, Tianjin",,-0.13942671432293088,0
-宝塔区,58666.380000000005,Baota District,Shaanxi,,-0.15843866129653014,0
-宝安区,2265103.37,"Bao'an, Shenzhen",Guangdong,,0.3755600389189855,0
-宝山区,1948502.74,,,,0.29893681075808815,0
-宝应县,194977.89,Baoying County,Jiangsu,,-0.12544874611004922,0
-宝清县,7078.76,Baoqing County,Heilongjiang,,-0.17092382273647316,0
-宝鸡,1131561.22,Baoji,Shaanxi,,0.10122180153315327,0
-宣化区,62115.93,"Xuanhua, Zhangjiakou",Hebei,,-0.15760380617731443,0
-宣城,1459254.1300000001,Xuancheng,Anhui,11430,0.18052956731251504,0
-宣州区,149630.1,"Xuanzhou, Xuancheng",Anhui,,-0.13642375288676492,0
-宣恩县,23714.16,Xuan'en County,Hubei,,-0.16689774720482375,0
-宣汉县,23714.16,Xuanhan County,Sichuan,,-0.16689774720482375,0
-容县,9468.14,"Rong County, Guangxi","Rong County, Guangxi",,-0.17034554843265046,0
-容城县,91749.56,Rongcheng County,Hebei,,-0.15043191775521747,0
-宽城区,320408.01,"Kuancheng, Changchun",Jilin,,-0.09509232924818536,0
-宽城满族自治县,7875.22,Kuancheng Manchu Autonomous County,Hebei,,-0.17073106463519894,0
-宽甸满族自治县,23714.16,Kuandian Manchu Autonomous County,Liaoning,,-0.16689774720482375,0
-宾县,50791.16,"Bin County, Heilongjiang",Heilongjiang,,-0.16034461069049458,0
-宾阳县,27696.46,Binyang County,Binyang County,,-0.16593395669845257,0
-宿城区,402949.58,"Sucheng, Suqian",Jiangsu,,-0.07511573744270263,0
-宿州,1638525.94,"Suzhou, Anhui",Anhui,6310,0.22391667238696486,0
-宿松县,25395.58,Susong County,Anhui,,-0.166490812359829,0
-宿豫区,68209.74,"Suyu, Suqian",Jiangsu,,-0.1561289910640307,0
-宿迁,3772714.59,Suqian,Jiangsu,11561,0.740429933486121,0
-密云区,86450.45,"Miyun, Beijing","Miyun, Beijing",,-0.1517144007198903,0
-密山市,24599.120000000003,Mishan,Heilongjiang,,-0.16668357046110321,0
-富县,8760.18,Fu County,Shaanxi,,-0.1705168878914784,0
-富川瑶族自治县,7875.22,Fuchuan Yao Autonomous County,Guangxi,,-0.17073106463519894,0
-富平县,16546.9,"Fuping County, Shaanxi",Shaanxi,,-0.16863235713996025,0
-富拉尔基区,58843.380000000005,Fularji District,Heilongjiang,,-0.15839582401163757,0
-富民县,7875.22,Fumin County,Yunnan,,-0.17073106463519894,0
-富源县,26280.54,"Fuyuan County, Yunnan",Yunnan,,-0.16627663561610845,0
-富裕县,14953.98,"Fuyu County, Heilongjiang",Heilongjiang,,-0.16901787334250873,0
-富锦市,51587.62,Fujin City,Heilongjiang,,-0.16015185258922035,0
-富阳区,445036.02,"Fuyang, Hangzhou",Zhejiang,,-0.06493003789245248,0
-富顺县,16546.9,"Fushun County, Sichuan",Sichuan,,-0.16863235713996025,0
-寒亭区,117458.38,"Hanting, Weifang",Shandong,,-0.14420990619255114,0
-察哈尔右翼中旗,7875.22,Qahar Right Middle Banner,Qahar Right Middle Banner,,-0.17073106463519894,0
-寮步镇,15750.44,Liaobu,Guangdong,,-0.1688251152412345,0
-寻乌县,8760.18,Xunwu County,Jiangxi,,-0.1705168878914784,0
-寻甸回族彝族自治县,11061.06,Xundian Hui and Yi Autonomous County,Yunnan,,-0.16996003223010195,0
-寿光市,260857.54,Shouguang,Shandong,,-0.10950464816839303,0
-寿县,16635.4,Shou County,Anhui,,-0.16861093849751396,0
-寿宁县,17343.36,Shouning,Fujian,,-0.16843959903868602,0
-寿阳县,46627.43,Shouyang County,Shanxi,,-0.16135231062397348,0
-封丘县,7875.22,Fengqiu County,Henan,,-0.17073106463519894,0
-封开县,7875.22,Fengkai County,Guangdong,,-0.17073106463519894,0
-射洪县,7875.22,Shehong,Sichuan,,-0.17073106463519894,0
-射洪市,19821.239999999998,Shehong,Sichuan,,-0.167839906092417,0
-射阳县,162624.79,Sheyang County,Jiangsu,,-0.1332787967420152,0
-将乐县,17520.36,Jiangle County,Fujian,,-0.16839676175379342,0
-尉氏县,32562.83,Weishi County,Henan,,-0.1647562048448781,0
-尉犁县,7875.22,Yuli County,Yuli County,,-0.17073106463519894,0
-小店区,821211.3200000001,"Xiaodian, Taiyuan",Shanxi,,0.02611136603777336,0
-小榄镇,7875.22,Xiaolan,Guangdong,,-0.17073106463519894,0
-尖山区,74505.0,"Jianshan, Shuangyashan",Heilongjiang,,-0.15460542131209376,0
-尖草坪区,148994.4,"Jiancaoping, Taiyuan",Shanxi,,-0.13657760408454012,0
-尚志市,26988.5,Shangzhi,Heilongjiang,,-0.1661052961572805,0
-尤溪县,10353.1,Youxi County,Fujian,,-0.17013137168892992,0
-尧都区,126977.89,Yaodu District,Shanxi,,-0.141906008102677,0
-尼勒克县,7078.76,Nilka County,Nilka County,,-0.17092382273647316,0
-屏山县,26103.54,"Pingshan County, Sichuan",Sichuan,,-0.16631947290100102,0
-屯昌县,37606.2,Tunchang County,Hainan,,-0.16353561570641104,0
-屯溪区,168963.72,Tunxi District,Anhui,,-0.1317446580396192,0
-山亭区,26279.65,"Shanting, Zaozhuang",Shandong,,-0.1662768510126257,0
-山南市,16635.4,"Shannan, Tibet","Shannan, Tibet",7171,-0.16861093849751396,0
-山城区,29907.96,"Shancheng, Hebi",Henan,,-0.16539873265585409,0
-山海关区,29373.45,"Shanhaiguan, Qinhuangdao",Hebei,,-0.1655280939956729,0
-山阳区,67957.52,"Shanyang, Jiaozuo",Henan,,-0.1561900329849098,0
-山阴县,8760.18,Shanyin County,Shanxi,,-0.1705168878914784,0
-岐山县,23714.160000000003,Qishan County,Shaanxi,,-0.16689774720482375,0
-岑溪市,40261.06,Cenxi,Cenxi,,-0.16289309031562063,0
-岚县,18316.82,Lan County,Shanxi,,-0.1682040036525192,0
-岚山区,98131.86,"Lanshan, Rizhao",Shandong,,-0.14888728270792997,0
-岢岚县,10085.84,Kelan County,Shanxi,,-0.17019605356893214,0
-岫岩满族自治县,25484.08,Xiuyan Manchu Autonomous County,Liaoning,,-0.1664693937173827,0
-岱山县,26811.5,Daishan County,Zhejiang,,-0.16614813344217308,0
-岱岳区,171397.37,"Daiyue, Tai'an",Shandong,,-0.13115566957420216,0
-岳塘区,76806.20000000001,"Yuetang, Xiangtan",Hunan,,-0.15404848820477854,0
-岳池县,34686.72,Yuechi County,Sichuan,,-0.16424218404820864,0
-岳西县,26280.54,"Yuexi County, Anhui",Anhui,,-0.16627663561610845,0
-岳阳,992916.91,Yueyang,Hunan,13962,0.06766730545290174,0
-岳阳县,8760.18,Yueyang County,Hunan,,-0.1705168878914784,0
-岳阳楼区,114234.51000000001,"Yueyanglou, Yueyang",Hunan,,-0.14499014256343604,0
-岳麓区,815850.5700000001,"Yuelu, Changsha",Hunan,,0.02481396504914131,0
-峄城区,15838.94,"Yicheng, Zaozhuang",Shandong,,-0.16880369659878822,0
-峡江县,25484.07,Xiajiang County,Jiangxi,,-0.1664693961375683,0
-峨眉山市,14953.98,Emeishan City,Sichuan,,-0.16901787334250873,0
-峨边彝族自治县,8760.18,Ebian Yi Autonomous County,Sichuan,,-0.1705168878914784,0
-峰峰矿区,51848.67,"Fengfengkuang, Handan",Hebei,,-0.16008867364446777,0
-崂山区,312532.76,"Laoshan, Qingdao",Shandong,,-0.09699828590270657,0
-崆峒区,12387.61,"Kongtong, Pingliang",Gansu,,-0.16963898251103843,0
-崇义县,23892.04,Chongyi County,Jiangxi,,-0.1668546969435995,0
-崇仁县,38934.520000000004,Chongren County,Jiangxi,,-0.16321413761449857,0
-崇川区,1958436.03,"Chongchuan, Nantong",Jiangsu,,0.30134085128718746,0
-崇州市,22652.21,Chongzhou,Sichuan,,-0.1671547588132513,0
-崇左,294644.27,Chongzuo,Chongzuo,7337,-0.10132763247009631,0
-崇明区,83000.01000000001,"Chongming, Shanghai","Chongming, Shanghai",,-0.1525494712356233,0
-崇礼区,31589.38,"Chongli, Zhangjiakou",Hebei,,-0.16499179781085932,0
-嵊州市,299969.03,Shengzhou,Zhejiang,,-0.10003894172939241,0
-嵊泗县,7875.22,Shengsi County,Zhejiang,,-0.17073106463519894,0
-嵩明县,40438.06,Songming County,Yunnan,,-0.16285025303072806,0
-川汇区,183875.23,"Chuanhui, Zhoukou",Henan,,-0.12813579588115317,0
-巢湖市,102366.39,Chaohu,Anhui,,-0.14786244786049405,0
-工农区,52295.57,Gongnong District,Heilongjiang,,-0.15998051555057802,0
-巧家县,7875.22,Qiaojia County,Yunnan,,-0.17073106463519894,0
-巨野县,34155.76,Juye County,Shandong,,-0.164370686222144,0
-巨鹿县,18228.32,Julu County,Hebei,,-0.16822542229496548,0
-巩义市,128880.54,Gongyi,Henan,,-0.1414455314919377,0
-巫溪县,7875.22,Wuxi County,Wuxi County,,-0.17073106463519894,0
-巴东县,7078.76,Badong County,Hubei,,-0.17092382273647316,0
-巴中,199876.15,Bazhong,Sichuan,2421,-0.12426327628463733,0
-巴南区,174398.25,"Banan, Chongqing","Banan, Chongqing",,-0.13042940092172514,0
-巴州区,14157.52,"Bazhou, Bazhong",Sichuan,,-0.16921063144378296,0
-巴彦县,79550.46,Bayan County,Heilongjiang,,-0.153384326354839,0
-巴彦淖尔,367039.9,Bayannuur,Bayannuur,,-0.0838065464402236,0
-巴林右旗,14953.98,Bairin Right Banner,Bairin Right Banner,,-0.16901787334250873,0
-巴林左旗,8760.18,Bairin Left Banner,Bairin Left Banner,,-0.1705168878914784,0
-巴音郭楞蒙古自治州,313594.74,Bayingolin Mongol Autonomous Prefecture,Bayingolin Mongol Autonomous Prefecture,14889,-0.0967412670337223,0
-巴马瑶族自治县,17520.36,Bama Yao Autonomous County,Bama Yao Autonomous County,,-0.16839676175379342,0
-市中区,678093.86,,,,-0.008525715358394716,0
-市北区,737505.9,"Shibei, Qingdao",Shandong,,0.005853100932730027,0
-市南区,494016.83,"Shinan, Qingdao",Shandong,,-0.05307577285155361,0
-师宗县,7875.22,Shizong County,Yunnan,,-0.17073106463519894,0
-常宁市,30970.800000000003,"Changning, Hunan",Hunan,,-0.1651415056509093,0
-常山县,26280.54,Changshan County,Zhejiang,,-0.16627663561610845,0
-常州,21509738.31,Changzhou,Jiangsu,,5.03311885009632,2
-常平镇,7875.22,"Changping, Guangdong",Guangdong,,-0.17073106463519894,0
-常德,750791.24,Changde,Hunan,12042,0.00906839977157028,0
-常熟市,1539729.3900000001,Changshu,Jiangsu,,0.20000607374993917,0
-平乐县,7078.76,Pingle County,Pingle County,,-0.17092382273647316,0
-平乡县,7078.76,Pingxiang County,Hebei,,-0.17092382273647316,0
-平凉,62471.68,Pingliang,Gansu,2664,-0.15751770807505153,0
-平原县,17520.36,"Pingyuan County, Shandong",Shandong,,-0.16839676175379342,0
-平和县,13095.58,Pinghe County,Fujian,,-0.1694676406320249,0
-平坝区,8760.18,"Pingba, Anshun",Guizhou,,-0.1705168878914784,0
-平城区,432206.05,Pingcheng District,Shanxi,,-0.06803512874021064,0
-平塘县,7963.72,Pingtang County,Guizhou,,-0.17070964599275265,0
-平定县,7963.72,Pingding County,Shanxi,,-0.17070964599275265,0
-平山区,54065.5,"Pingshan District, Benxi",Liaoning,,-0.15955215964295136,0
-平川区,7875.22,"Pingchuan, Baiyin",Gansu,,-0.17073106463519894,0
-平度市,113258.41,Pingdu,Shandong,,-0.14522637687859785,0
-平房区,37516.82,,,,-0.163557247325189,0
-平昌县,8760.18,Pingchang County,Sichuan,,-0.1705168878914784,0
-平果市,7875.22,Pingguo,Pingguo,,-0.17073106463519894,0
-平桂区,17520.36,Pinggui District,Pinggui District,,-0.16839676175379342,0
-平桥区,52207.08,"Pingqiao, Xinyang",Henan,,-0.1600019317728387,0
-平武县,7078.76,Pingwu County,Sichuan,,-0.17092382273647316,0
-平江县,23714.16,Pingjiang County,Hunan,,-0.16689774720482375,0
-平泉市,7963.72,Pingquan,Hebei,,-0.17070964599275265,0
-平湖市,413401.77,Pinghu,Zhejiang,,-0.07258611348348609,0
-平潭县,126093.82,Pingtan County,Fujian,,-0.1421199694498803,0
-平舆县,51499.12,Pingyu County,Henan,,-0.16017327123166664,0
-平谷区,142198.25,"Pinggu, Beijing","Pinggu, Beijing",,-0.13822239851235185,0
-平远县,7875.22,"Pingyuan County, Guangdong",Guangdong,,-0.17073106463519894,0
-平遥县,24510.620000000003,Pingyao County,Shanxi,,-0.16670498910354953,0
-平邑县,58750.450000000004,Pingyi County,Shandong,,-0.15841831479629898,0
-平阳县,450391.95,Pingyang County,Zhejiang,,-0.06363380343327343,0
-平阴县,15838.94,Pingyin County,Shandong,,-0.16880369659878822,0
-平陆县,16635.4,Pinglu County,Shanxi,,-0.16861093849751396,0
-平顶山,1652988.1400000001,Mesa,Mesa,,0.22741679318681463,0
-平鲁区,16635.4,Pinglu District,Shanxi,,-0.16861093849751396,0
-广丰区,15750.44,"Guangfeng, Shangrao",Jiangxi,,-0.1688251152412345,0
-广信区,15838.94,"Guangxin, Shangrao",Jiangxi,,-0.16880369659878822,0
-广元,292748.7,Guangyuan,Sichuan,3735,-0.10178639558943992,0
-广宁县,19113.28,Guangning County,Guangdong,,-0.16801124555124494,0
-广安,337884.13,Guang'an,Sichuan,4985,-0.09086278387385298,0
-广安区,29900.88,"Guang'an District, Guang'an",Sichuan,,-0.16540044614724977,0
-广宗县,15750.44,Guangzong County,Hebei,,-0.1688251152412345,0
-广州,35824531.93,Guangzhou,Guangdong,23436,8.497564570313038,2
-广平县,7963.72,Guangping County,Hebei,,-0.17070964599275265,0
-广德市,24510.620000000003,Guangde,Anhui,,-0.16670498910354953,0
-广昌县,7875.22,Guangchang County,Jiangxi,,-0.17073106463519894,0
-广水市,22121.24,Guangshui,Hubei,,-0.16728326340737223,0
-广汉市,91937.17,Guanghan,Sichuan,,-0.1503865126534169,0
-广河县,17520.36,Guanghe County,Gansu,,-0.16839676175379342,0
-广阳区,305096.49,"Guangyang, Langfang",Hebei,,-0.09879800125032302,0
-广陵区,648159.31,"Guangling, Yangzhou",Jiangsu,,-0.015770432005180232,0
-广饶县,75301.77,Guangrao County,Shandong,,-0.1544125881850663,0
-庄河市,150161.06,Zhuanghe,Liaoning,,-0.13629525071282955,0
-庄浪县,7870.8,Zhuanglang County,Gansu,,-0.17073213435722845,0
-庆云县,7078.76,Qingyun County,Shandong,,-0.17092382273647316,0
-庆元县,32474.34,"Qingyuan County, Zhejiang",Zhejiang,,-0.16477762106713878,0
-庆安县,25395.58,Qing'an County,Heilongjiang,,-0.166490812359829,0
-庆阳,252884.99,"Qingyang, Gansu",Gansu,4394,-0.11143415322867722,0
-庐山市,15038.05,Lushan City,Jiangxi,,-0.16899752684227753,0
-庐江县,89370.8,Lujiang County,Anhui,,-0.1510076218219466,0
-庐阳区,560512.42,"Luyang, Hefei",Anhui,,-0.03698260599884242,0
-库尔勒市,32562.840000000004,Korla,Korla,,-0.1647562024246925,0
-库车县,15746.02,"Kuqa, Xinjiang","Kuqa, Xinjiang",,-0.16882618496326401,0
-库车市,19200.89,"Kuqa, Xinjiang","Kuqa, Xinjiang",,-0.16799004230531592,0
-应县,21944.25,Ying County,Shanxi,,-0.16732609827207923,0
-应城市,10440.710000000001,Yingcheng,Hubei,,-0.1701101684430009,0
-康定市,43800.0,Kangding,Sichuan,,-0.16203660115744137,0
-康巴什区,41146.020000000004,Kangbashi District,Kangbashi District,,-0.1626789135719001,0
-康平县,28757.52,Kangping County,Liaoning,,-0.1656771604865423,0
-廉江市,64330.09,"Lianjiang, Guangdong",Guangdong,,-0.15706793836534977,0
-廊坊,3394662.39,Langfang,Hebei,,0.6489342849230427,0
-延吉市,96447.79000000001,Yanji,Jilin,,-0.14929485890210534,0
-延安,543216.88,Yan'an,Shaanxi,8655,-0.04116844766184204,0
-延寿县,14952.21,Yanshou County,Heilongjiang,,-0.16901830171535767,0
-延川县,8760.18,Yanchuan County,Shaanxi,,-0.1705168878914784,0
-延平区,173877.02000000002,"Yanping, Nanping",Fujian,,-0.13055554825508423,0
-延庆区,51499.11,"Yanqing, Beijing","Yanqing, Beijing",,-0.16017327365185224,0
-延津县,52561.06,"Yanjin County, Henan",Henan,,-0.15991626204342474,0
-延边朝鲜族自治州,984228.43,Yanbian Korean Autonomous Prefecture,Jilin,6441,0.06556453204587664,0
-建华区,132637.19,Jianhua District,Heilongjiang,,-0.14053635247334056,0
-建宁县,7875.22,Jianning County,Fujian,,-0.17073106463519894,0
-建安区,40345.14,"Jian'an, Xuchang",Henan,,-0.16287274139520386,0
-建平县,7875.22,Jianping County,Liaoning,,-0.17073106463519894,0
-建德市,177768.14,Jiande,Zhejiang,,-0.12961382500089666,0
-建昌县,25395.58,Jianchang County,Liaoning,,-0.166490812359829,0
-建水县,17520.36,Jianshui County,Yunnan,,-0.16839676175379342,0
-建湖县,208112.39,Jianhu County,Jiangsu,,-0.12226995335060556,0
-建瓯市,60259.3,Jian'ou,Fujian,,-0.15805314509398166,0
-建邺区,791396.6,"Jianye, Nanjing",Jiangsu,,0.01889565047487864,0
-建阳区,57074.340000000004,"Jianyang, Nanping",Fujian,,-0.15882396452274697,0
-开化县,117333.64,Kaihua County,Zhejiang,,-0.14424009558756526,0
-开原市,32561.95,"Kaiyuan, Liaoning",Liaoning,,-0.16475641782120976,0
-开封,851649.3200000001,Kaifeng,Henan,5814,0.03347792692794402,0
-开州区,24599.120000000003,"Kaizhou, Chongqing","Kaizhou, Chongqing",,-0.16668357046110321,0
-开平区,117599.13,"Kaiping, Tangshan",Hebei,,-0.14417584208041198,0
-开平市,279697.62,Kaiping,Guangdong,,-0.10494499916071558,0
-开江县,7078.76,Kaijiang County,Sichuan,,-0.17092382273647316,0
-开福区,487776.84,"Kaifu, Changsha",Hunan,,-0.05458596623775033,0
-开远市,23802.66,"Kaiyuan, Yunnan",Yunnan,,-0.16687632856237747,0
-开阳县,7963.72,Kaiyang County,Guizhou,,-0.17070964599275265,0
-开鲁县,7875.22,Kailu County,Kailu County,,-0.17073106463519894,0
-弋江区,221746.03,"Yijiang, Wuhu",Anhui,,-0.11897035944776482,0
-弋阳县,42471.68,"Yiyang County, Jiangxi",Jiangxi,,-0.1623580792493538,0
-弓长岭区,15838.94,Gongchangling District,Liaoning,,-0.16880369659878822,0
-张家口,1150141.75,Zhangjiakou,Hebei,,0.10571863462391622,0
-张家港市,946177.05,Zhangjiagang,Jiangsu,,0.05635539190115551,0
-张家界,129316.63,Zhangjiajie,Hunan,4724,-0.14133998961866764,0
-张店区,682933.66,"Zhangdian, Zibo",Shandong,,-0.007354393937925294,0
-张掖,74416.82,Zhangye,Gansu,4930,-0.15462676250860127,0
-张湾区,79549.57,"Zhangwan, Shiyan",Hubei,,-0.15338454175135627,0
-弥勒市,15750.44,Mile City,Yunnan,,-0.1688251152412345,0
-当涂县,69372.57,Dangtu County,Anhui,,-0.1558475646234,0
-当阳市,34775.22,Dangyang,Hubei,,-0.16422076540576236,0
-彬州市,7875.22,"Binzhou, Shaanxi",Shaanxi,,-0.17073106463519894,0
-彭山区,48224.78,"Pengshan, Meishan",Sichuan,,-0.16096572227920988,0
-彭州市,87955.75,Pengzhou,Sichuan,,-0.15135009018345644,0
-彭水苗族土家族自治县,22032.74,Pengshui Miao and Tujia Autonomous County,Pengshui Miao and Tujia Autonomous County,,-0.16730468204981852,0
-彭泽县,15838.18,Pengze County,Jiangxi,,-0.1688038805328928,0
-彰武县,8760.18,Zhangwu County,Liaoning,,-0.1705168878914784,0
-徐州,11305088.700000001,Xuzhou,Jiangsu,11683,2.563404259291365,0
-徐水区,157150.79,"Xushui, Baoding",Hebei,,-0.13460360633242174,0
-徐汇区,1691496.44,"Xuhui, Shanghai","Xuhui, Shanghai",,0.23673651645138383,0
-徐闻县,9468.14,Xuwen County,Guangdong,,-0.17034554843265046,0
-微山县,87689.38,"Weishan County, Shandong",Shandong,,-0.1514145566669414,0
-德令哈市,7875.22,Delingha,Qinghai,,-0.17073106463519894,0
-德保县,7875.22,Debao County,Debao County,,-0.17073106463519894,0
-德兴市,7071.68,"Dexing, Jiangxi",Jiangxi,,-0.17092553622786885,0
-德化县,26988.5,Dehua County,Fujian,,-0.1661052961572805,0
-德城区,194581.41,"Decheng, Dezhou",Shandong,,-0.1255447016282086,0
-德宏傣族景颇族自治州,332497.05,Dehong Dai and Jingpo Autonomous Prefecture,Yunnan,6568,-0.09216655721113601,0
-德州,1226978.01,,,,0.12431443552617603,0
-德惠市,34774.34,Dehui,Jilin,,-0.16422097838209404,0
-德江县,8760.18,Dejiang County,Guizhou,,-0.1705168878914784,0
-德清县,258600.87,"Deqing County, Zhejiang",Zhejiang,,-0.11005080418928867,0
-德阳,1273601.87,Deyang,Sichuan,7338,0.13559827492511134,0
-徽县,15838.94,Hui County,Gansu,,-0.16880369659878822,0
-志丹县,8760.18,Zhidan County,Shaanxi,,-0.1705168878914784,0
-忠县,22917.7,Zhong County,Zhong County,,-0.167090505306098,0
-忻州,598815.12,Xinzhou,Shanxi,5396,-0.027712641749945015,0
-忻府区,51317.700000000004,"Xinfu District, Xinzhou",Shanxi,,-0.16021717823858875,0
-怀仁市,17520.36,Huairen,Shanxi,,-0.16839676175379342,0
-怀化,649794.73,Huaihua,Hunan,5333,-0.015374630013886377,0
-怀宁县,17520.36,Huaining County,Anhui,,-0.16839676175379342,0
-怀来县,15838.05,Huailai County,Hebei,,-0.16880391199530545,0
-怀柔区,127588.52,"Huairou, Beijing","Huairou, Beijing",,-0.1417582243101688,0
-怀远县,32474.34,Huaiyuan County,Anhui,,-0.16477762106713878,0
-怀集县,8760.18,Huaiji County,Guangdong,,-0.1705168878914784,0
-怒江傈僳族自治州,31059.300000000003,Nujiang Lisu Autonomous Prefecture,Yunnan,6702,-0.165120087008463,0
-思明区,1372765.9,"Siming, Xiamen",Fujian,,0.15959781054209365,0
-思茅区,24510.620000000003,"Simao, Pu'er",Yunnan,,-0.16670498910354953,0
-恒山区,15750.44,"Hengshan District, Jixi",Heilongjiang,,-0.1688251152412345,0
-恩平市,158121.24,Enping,Guangdong,,-0.13436873942211666,0
-恩施土家族苗族自治州,421675.24,Enshi Tujia and Miao Autonomous Prefecture,Hubei,3242,-0.07058378019851336,0
-恩施市,24510.620000000003,Enshi City,Hubei,,-0.16670498910354953,0
-惠东县,219093.82,"Huidong County, Guangdong",Guangdong,,-0.11961224348937463,0
-惠农区,17343.36,"Huinong, Shizuishan","Huinong, Shizuishan",,-0.16843959903868602,0
-惠城区,804938.99,"Huicheng, Huizhou",Guangdong,,0.022173160184236623,0
-惠安县,179539.84,Hui'an County,Fujian,,-0.1291850407204211,0
-惠山区,425963.81,"Huishan, Wuxi",Jiangsu,,-0.06954586666816448,0
-惠州,4893675.76,Huizhou,Guangdong,12728,1.0117233402251293,0
-惠来县,42119.48,Huilai County,Guangdong,,-0.1624433181857333,0
-惠水县,7875.22,Huishui County,Guizhou,,-0.17073106463519894,0
-惠济区,183961.95,"Huiji, Zhengzhou",Henan,,-0.12811480803174138,0
-惠阳区,487803.98,Huiyang District,Guangdong,,-0.05457939785406682,0
-慈溪市,1459737.16,"Cixi, Zhejiang",Zhejiang,,0.18064646953693117,0
-成华区,1109859.29,"Chenghua, Chengdu",Sichuan,,0.09596953171321698,0
-成县,7875.22,Cheng County,Gansu,,-0.17073106463519894,0
-成安县,10348.67,Cheng'an County,Hebei,,-0.170132443831145,0
-成武县,27696.46,Chengwu County,Shandong,,-0.16593395669845257,0
-成都,41114431.85,Chengdu,Sichuan,15250,9.777818524698638,2
-房县,14157.52,Fang County,Hubei,,-0.16921063144378296,0
-房山区,368880.24,"Fangshan, Beijing","Fangshan, Beijing",,-0.08336115000587783,0
-扎兰屯市,16723.9,Zalantun,Zalantun,,-0.16858951985506768,0
-扎鲁特旗,22917.7,Jarud Banner,Jarud Banner,,-0.167090505306098,0
-托克托县,7875.22,Togtoh County,Togtoh County,,-0.17073106463519894,0
-托克逊县,8760.18,Toksun County,Toksun County,,-0.1705168878914784,0
-扬中市,203784.65,Yangzhong,Jiangsu,,-0.1233173467478993,0
-扬州,10605730.27,Yangzhou,Jiangsu,18311,2.3941465400374993,0
-扶余市,8760.18,"Fuyu, Jilin",Jilin,,-0.1705168878914784,0
-扶沟县,29907.96,Fugou County,Henan,,-0.16539873265585409,0
-扶绥县,7875.22,Fusui County,Fusui County,,-0.17073106463519894,0
-承德,1218483.34,Chengde,Hebei,,0.12225856773601552,0
-承德县,6105.31,Chengde County,Hebei,,-0.17115941570245438,0
-抚宁区,56366.380000000005,Funing District,Hebei,,-0.1589953039815749,0
-抚州,1316421.37,"Fuzhou, Jiangxi",Jiangxi,4453,0.14596138860001318,0
-抚松县,26103.54,Fusong County,Jilin,,-0.16631947290100102,0
-抚远市,7078.76,"Fuyuan, Heilongjiang",Heilongjiang,,-0.17092382273647316,0
-抚顺,1024805.39,Fushun,Liaoning,9401,0.0753849094221175,0
-拉萨,196616.84,Lhasa (city),Lhasa (city),13100,-0.1250520897932431,0
-招远市,33359.3,"Zhaoyuan, Shandong",Shandong,,-0.16456344432341824,0
-拜泉县,8756.64,Baiquan County,Heilongjiang,,-0.17051774463717626,0
-拱墅区,2007814.83,"Gongshu, Hangzhou",Zhejiang,,0.3132914372942694,0
-振兴区,152196.48,Zhenxing District,Liaoning,,-0.13580264129804961,0
-振安区,10353.1,Zhen'an District,Liaoning,,-0.17013137168892992,0
-掇刀区,57073.46,"Duodao, Jingmen",Hubei,,-0.15882417749907865,0
-揭东区,291282.31,"Jiedong, Jieyang",Guangdong,,-0.10214128918375417,0
-揭西县,67338.06,Jiexi County,Guangdong,,-0.15633995380129148,0
-揭阳,4156295.5,Jieyang,Guangdong,6273,0.833263632474953,0
-播州区,23625.66,,,,-0.16691916584727004,0
-攀枝花,423387.66000000003,Panzhihua,Sichuan,12055,-0.07016934277819842,0
-政和县,8760.18,Zhenghe County,Fujian,,-0.1705168878914784,0
-敦化市,32474.340000000004,Dunhua,Jilin,,-0.16477762106713878,0
-敦煌市,34155.75,Dunhuang,Gansu,,-0.1643706886423296,0
-文圣区,74412.40000000001,Wensheng District,Liaoning,,-0.15462783223063079,0
-文安县,113705.34,Wen'an County,Hebei,,-0.14511821152415133,0
-文山壮族苗族自治州,148163.72,Wenshan Zhuang and Miao Autonomous Prefecture,Yunnan,6010,-0.1367786440608936,0
-文山市,14157.52,Wenshan City,Yunnan,,-0.16921063144378296,0
-文峰区,127242.48000000001,"Wenfeng, Anyang",Henan,,-0.1418419724122266,0
-文成县,58666.380000000005,Wencheng County,Zhejiang,,-0.15843866129653014,0
-文昌,120766.39,,,,-0.14340930638013594,0
-文昌市,26280.54,Wenchang,Hainan,,-0.16627663561610845,0
-文水县,23802.66,Wenshui County,Shanxi,,-0.16687632856237747,0
-文登区,67338.06,"Wendeng, Weihai",Shandong,,-0.15633995380129148,0
-斗门区,124498.23,"Doumen, Zhuhai",Guangdong,,-0.14250613184198055,0
-新乐市,24510.620000000003,"Xinle, Hebei",Hebei,,-0.16670498910354953,0
-新乡,2195794.2600000002,,,,0.3587859480109582,0
-新乡县,38934.509999999995,Xinxiang County,Henan,,-0.16321414003468415,0
-新会区,150249.56,"Xinhui, Jiangmen",Guangdong,,-0.13627383207038327,0
-新余,668108.01,Xinyu,Jiangxi,13062,-0.010942476382940037,0
-新兴区,7875.22,Xinxing District,Xinxing District,,-0.17073106463519894,0
-新兴县,43446.9,Xinxing County,Guangdong,,-0.16212205791052367,0
-新化县,32284.07,Xinhua County,Hunan,,-0.16482366993830552,0
-新北区,909896.68,,,,0.04757486904410443,0
-新华区,777359.39,,,,0.015498385142297256,0
-新吴区,494889.37,"Xinwu, Wuxi",Jiangsu,,-0.05286460197833233,0
-新城区,987491.2100000001,Xincheng,Xincheng,,0.06635418535888116,0
-新宁县,7963.72,Xinning County,Hunan,,-0.17070964599275265,0
-新安县,36545.14,Xin'an County,Henan,,-0.16379241191832128,0
-新宾满族自治县,10353.1,Xinbin Manchu Autonomous County,Liaoning,,-0.17013137168892992,0
-新密市,43712.4,Xinmi,Henan,,-0.16205780198318478,0
-新巴尔虎左旗,8760.18,New Barag Left Banner,New Barag Left Banner,,-0.1705168878914784,0
-新市区,292046.08,,,,-0.10195644266916433,0
-新干县,8760.18,Xingan County,Jiangxi,,-0.1705168878914784,0
-新平彝族傣族自治县,19113.28,Xinping Yi and Dai Autonomous County,Yunnan,,-0.16801124555124494,0
-新建区,250594.73,"Xinjian, Nanchang",Jiangxi,,-0.1119884386529601,0
-新抚区,138482.34,"Xinfu District, Fushun",Liaoning,,-0.13912171769486692,0
-新昌县,190334.53,Xinchang County,Zhejiang,,-0.12657252540484465,0
-新晃侗族自治县,16635.4,Xinhuang Dong Autonomous County,Hunan,,-0.16861093849751396,0
-新民市,85654.88,"Xinmin, Liaoning",Liaoning,,-0.15190694342464728,0
-新沂市,95431.87,"Xinyi, Jiangsu",Jiangsu,,-0.1495407303962752,0
-新河县,16635.4,"Xinhe County, Hebei",Hebei,,-0.16861093849751396,0
-新泰市,52295.58,Xintai,Shandong,,-0.1599805131303924,0
-新津区,8759.69,"Xinjin, Chengdu",Sichuan,,-0.1705170064805722,0
-新津县,33093.8,"Xinjin, Chengdu",Sichuan,,-0.1646277002507571,0
-新洲区,101979.66,"Xinzhou, Wuhan",Hubei,,-0.14795604369770596,0
-新绛县,36721.25,Xinjiang County,Shanxi,,-0.16374979002994597,0
-新罗区,358102.49,"Xinluo, Longyan",Fujian,,-0.08596956552706966,0
-新蔡县,49197.020000000004,Xincai County,Henan,,-0.1607304221556847,0
-新郑市,292950.87,Xinzheng,Henan,,-0.10173746669742449,0
-新都区,459411.26,"Xindu, Chengdu",Sichuan,,-0.061450963026468616,0
-新野县,8760.18,Xinye County,Henan,,-0.1705168878914784,0
-新龙县,8760.18,Xinlong County,Sichuan,,-0.1705168878914784,0
-方城县,16635.4,Fangcheng County,Henan,,-0.16861093849751396,0
-方山县,8760.18,Fangshan County,Shanxi,,-0.1705168878914784,0
-方正县,10353.1,Fangzheng County,Heilongjiang,,-0.17013137168892992,0
-旅顺口区,119014.18000000001,"Lüshunkou, Dalian",Liaoning,,-0.14383337371890215,0
-旌德县,33270.8,Jingde County,Anhui,,-0.16458486296586453,0
-旌阳区,133523.9,"Jingyang, Deyang",Sichuan,,-0.1403217521971423,0
-无为市,220067.28,"Wuwei, Anhui",Anhui,,-0.11937664810320782,0
-无极县,15838.94,Wuji County,Hebei,,-0.16880369659878822,0
-无棣县,14953.98,Wudi County,Shandong,,-0.16901787334250873,0
-无锡,23899947.78,Wuxi,Jiangsu,26831,5.611593901052938,2
-日喀则,24510.620000000003,Shigatse,Shigatse,3608,-0.16670498910354953,0
-日照,3101269.5,Sunlight,Sunlight,,0.5779277605479806,0
-旺苍县,15834.52,Wangcang County,Sichuan,,-0.16880476632081773,0
-昆山市,1373241.19,Kunshan,Jiangsu,,0.1597128395428654,0
-昆明,8287784.0200000005,Kunming,Yunnan,13008,1.8331605294333948,0
-昆玉,7078.76,,,,-0.17092382273647316,0
-昆都仑区,269865.52,Hondlon District,Hondlon District,,-0.10732454983185845,0
-昌乐县,79991.15,Changle County,Shandong,,-0.15327767119619884,0
-昌吉回族自治州,222315.96000000002,Changji Hui Autonomous Prefecture,Changji Hui Autonomous Prefecture,11974,-0.11883242581059632,0
-昌吉市,31500.89,Changji,Changji,,-0.16501321403312,0
-昌图县,48313.28,Changtu County,Liaoning,,-0.1609443036367636,0
-昌宁县,7875.22,"Changning County, Yunnan",Yunnan,,-0.17073106463519894,0
-昌平区,1294982.37,"Changping, Beijing","Changping, Beijing",,0.14077275271971984,0
-昌江区,75390.28,"Changjiang, Jingdezhen",Jiangxi,,-0.15439116712243445,0
-昌江黎族自治县,24599.120000000003,Changjiang Li Autonomous County,Hainan,,-0.16668357046110321,0
-昌邑区,301298.28,"Changyi, Jilin City",Jilin,,-0.09971723856022034,0
-昌邑市,66623.90000000001,"Changyi, Shandong",Shandong,,-0.15651279377518346,0
-昌都,60259.3,Chamdo,Chamdo,5668,-0.15805314509398166,0
-昌黎县,68488.52,Changli County,Hebei,,-0.15606152113023208,0
-明光市,62824.78,Mingguang,Anhui,,-0.15743225132196922,0
-明山区,52384.08,"Mingshan District, Benxi",Liaoning,,-0.15995909448794612,0
-明水县,15838.94,Mingshui County,Heilongjiang,,-0.16880369659878822,0
-明溪县,22917.7,Mingxi County,Fujian,,-0.167090505306098,0
-易县,41057.520000000004,"Yi County, Hebei",Hebei,,-0.16270033221434638,0
-昔阳县,18228.32,Xiyang County,Shanxi,,-0.16822542229496548,0
-昭通,240191.2,Zhaotong,Yunnan,4563,-0.11450628598910956,0
-昭阳区,15750.44,"Zhaoyang, Zhaotong",Yunnan,,-0.1688251152412345,0
-晋中,1396387.33,Jinzhong,Shanxi,6954,0.16531463498548368,0
-晋城,1093993.41,Jincheng,Shanxi,10420,0.09212969430286999,0
-晋宁区,7963.72,"Jinning, Kunming",Yunnan,,-0.17070964599275265,0
-晋安区,826410.66,"Jin'an, Fuzhou",Fujian,,0.027369702810843197,0
-晋州市,98562.83,,,,-0.14878297996968054,0
-晋江市,691965.55,"Jinjiang, Quanzhou",Fujian,,-0.005168508937651834,0
-晋源区,185733.65,"Jinyuan, Taiyuan",Shanxi,,-0.12768602375126584,0
-普兰店区,76186.72,"Pulandian, Dalian",Liaoning,,-0.15419841386153138,0
-普宁市,438695.61,Puning,Guangdong,,-0.06646453478231538,0
-普洱,263509.74,Puer,Puer,,-0.1088627665469688,0
-普陀区,1629474.4100000001,Putuo District,Putuo District,,0.2217260341421983,0
-景县,15750.44,"Jing County, Hebei",Hebei,,-0.1688251152412345,0
-景宁畲族自治县,16635.4,Jingning She Autonomous County,Zhejiang,,-0.16861093849751396,0
-景德镇,1262007.25,Jingdezhen,Jiangxi,7581,0.13279216170386188,0
-景洪市,29907.96,Jinghong,Yunnan,,-0.16539873265585409,0
-曲周县,15838.94,Quzhou County,Hebei,,-0.16880369659878822,0
-曲江区,43442.47,"Qujiang, Shaoguan",Guangdong,,-0.1621231300527388,0
-曲沃县,26280.53,Quwo County,Shanxi,,-0.16627663803629403,0
-曲阜市,102554.87,Qufu,Shandong,,-0.14781683220254743,0
-曲阳县,19821.24,Quyang County,Hebei,,-0.167839906092417,0
-曲靖,970075.34,Qujing,Yunnan,,0.06213922160271132,0
-曹县,120695.6,Cao County,Shandong,,-0.1434264388739074,0
-曹妃甸区,153696.47,"Caofeidian, Tangshan",Hebei,,-0.13543961588016254,0
-曾都区,77691.16,"Zengdu, Suizhou",Hubei,,-0.153834311461058,0
-月湖区,43356.64,"Yuehu, Yingtan",Jiangxi,,-0.1621439025056333,0
-朔城区,65745.14,Shuocheng District,Shanxi,,-0.15672547000383993,0
-朔州,537954.03,Shuozhou,Shanxi,11064,-0.04244215503357588,0
-望城区,132723.0,"Wangcheng, Changsha",Hunan,,-0.14051558486081722,0
-望奎县,27873.46,Wangkui County,Heilongjiang,,-0.16589111941356,0
-望花区,58754.880000000005,Wanghua District,Liaoning,,-0.15841724265408386,0
-望都县,16635.4,Wangdu County,Hebei,,-0.16861093849751396,0
-朝阳,681782.42,,,,-0.0076330153834604795,0
-朝阳区,7033882.37,"Chaoyang, Beijing","Chaoyang, Beijing",,1.5296930593298907,0
-木垒哈萨克自治县,8760.18,Mori Kazakh Autonomous County,Xinjiang,,-0.1705168878914784,0
-未央区,1056162.03,"Weiyang, Xi'an",Shaanxi,,0.0829737982410662,0
-本溪,420510.66000000003,Benxi,Liaoning,10862,-0.0708656301716218,0
-本溪满族自治县,15838.94,Benxi Manchu Autonomous County,Liaoning,,-0.16880369659878822,0
-札达县,7875.22,Zanda County,Zanda County,,-0.17073106463519894,0
-李沧区,436327.48000000004,"Licang, Qingdao",Shandong,,-0.0670376661917654,0
-杏花岭区,464194.61,"Xinghualing, Taiyuan",Shanxi,,-0.06029330355363868,0
-杜集区,36545.14,"Duji, Huaibei",Anhui,,-0.16379241191832128,0
-杞县,10353.1,"Qi County, Kaifeng",Henan,,-0.17013137168892992,0
-来安县,19113.28,Lai'an County,Anhui,,-0.16801124555124494,0
-来宾,124341.61,Laibin,Laibin,6214,-0.1425440367886465,0
-杨浦区,1334034.73,"Yangpu, Shanghai","Yangpu, Shanghai",,0.1502241486013436,0
-杨陵区,26192.04,Yangling District,Shaanxi,,-0.16629805425855473,0
-杭州,57403805.95,Hangzhou,Zhejiang,27223,13.720149366751954,2
-杭锦后旗,10085.84,Hanggin Rear Banner,Hanggin Rear Banner,,-0.17019605356893214,0
-松北区,498883.24,"Songbei, Harbin",Heilongjiang,,-0.05189801131723679,0
-松原,467645.2,松原,松原,,-0.059458196735121885,0
-松山区,85077.88,Songshan District,Songshan District,,-0.1520465881330259,0
-松山湖管委会,10353.1,Songshanhu Area,Guangdong,,-0.17013137168892992,0
-松江区,1406097.69,"Songjiang, Shanghai","Songjiang, Shanghai",,0.16766472231728854,0
-松滋市,20528.32,Songzi,Hubei,,-0.16766877960992072,0
-松潘县,7875.22,Songpan County,Sichuan,,-0.17073106463519894,0
-松阳县,38534.509999999995,Songyang County,Zhejiang,,-0.1633109474581702,0
-林口县,17520.36,Linkou County,Heilongjiang,,-0.16839676175379342,0
-林州市,23798.23,"Linzhou, Henan",Henan,,-0.1668774007045926,0
-林甸县,15838.94,Lindian County,Heilongjiang,,-0.16880369659878822,0
-林芝,80741.6,Nyingchi,Nyingchi,7873,-0.15309604836881108,0
-果洛藏族自治州,16767.260000000002,Golog Tibetan Autonomous Prefecture,Qinghai,2928,-0.16857902593036178,0
-枝江市,17520.36,"Zhijiang, Hubei",Hubei,,-0.16839676175379342,0
-枞阳县,32562.84,Zongyang County,Anhui,,-0.1647562024246925,0
-枣庄,1933575.44,Zaozhuang,Shandong,9252,0.29532412712658007,0
-枣强县,31500.88,Zaoqiang County,Hebei,,-0.1650132164533056,0
-枣阳市,44508.85,Zaoyang,Hubei,,-0.16186504630209617,0
-柏乡县,7078.76,Baixiang County,Hebei,,-0.17092382273647316,0
-柘城县,103086.73000000001,Zhecheng County,Henan,,-0.14768811221190922,0
-柘荣县,17343.36,Zherong,Fujian,,-0.16843959903868602,0
-柞水县,14953.98,Zhashui County,Shaanxi,,-0.16901787334250873,0
-柯城区,209182.32,"Kecheng, Quzhou",Zhejiang,,-0.1220110104340795,0
-柯桥区,676214.98,"Keqiao, Shaoxing",Zhejiang,,-0.008980439187993372,0
-柳北区,20706.2,Liubei District,Liubei District,,-0.1676257293486965,0
-柳南区,70612.4,Liunan District,Liunan District,,-0.1555475027537482,0
-柳州,1469886.02,Liuzhou,Liuzhou,11366,0.18310268200673266,0
-柳林县,28581.41,Liulin County,Shanxi,,-0.1657197823749176,0
-柳江区,8760.18,Liujiang District,Liujiang District,,-0.1705168878914784,0
-柳河县,23625.66,Liuhe County,Jilin,,-0.16691916584727004,0
-柴桑区,15750.44,"Chaisang, Jiujiang",Jiangxi,,-0.1688251152412345,0
-栖霞区,1017854.21,"Qixia, Nanjing",Jiangsu,,0.07370259485714814,0
-栖霞市,43535.4,"Qixia, Shandong",Shandong,,-0.16210063926807738,0
-株洲,948905.4,Zhuzhou,Hunan,13893,0.05701570323582589,0
-格尔木市,14953.98,Golmud,Qinghai,,-0.16901787334250873,0
-栾城区,49287.62,"Luancheng, Shijiazhuang",Hebei,,-0.16070849527426512,0
-栾川县,28581.42,Luanchuan County,Henan,,-0.16571977995473203,0
-桂平市,43535.4,Guiping,Guiping,,-0.16210063926807738,0
-桂林,1514292.22,Guilin,Guilin,7249,0.19384980652874778,0
-桂阳县,7078.76,Guiyang County,Hunan,,-0.17092382273647316,0
-桃城区,122022.14,"Taocheng, Hengshui",Hebei,,-0.14310539157502944,0
-桃山区,48313.28,Taoshan District,Heilongjiang,,-0.1609443036367636,0
-桃江县,19024.78,Taojiang County,Hunan,,-0.16803266419369123,0
-桃源县,8760.18,Taoyuan County,Hunan,,-0.1705168878914784,0
-桐乡市,394737.19,Tongxiang,Zhejiang,,-0.07710328823410904,0
-桐城市,13980.53,"Tongcheng, Anhui",Anhui,,-0.16925346630848995,0
-桐庐县,287123.99,Tonglu County,Zhejiang,,-0.10314767979683041,0
-桑珠孜区,16635.4,"Samzhubzê, Xigazê","Samzhubzê, Xigazê",,-0.16861093849751396,0
-桓仁满族自治县,8760.18,Huanren Manchu Autonomous County,Liaoning,,-0.1705168878914784,0
-桓台县,61321.26,Huantai County,Shandong,,-0.15779613106536858,0
-桥东区,197538.96000000002,Qiaodong District,Qiaodong District,,-0.1248289196398807,0
-桥西区,849468.2000000001,Qiaoxi District,Qiaoxi District,,0.03295005540915931,0
-桦南县,15750.44,Huanan County,Heilongjiang,,-0.1688251152412345,0
-桦甸市,11946.02,"Huadian, Jilin",Jilin,,-0.16974585548638144,0
-梁园区,133260.17,"Liangyuan, Shangqiu",Henan,,-0.1403855797516322,0
-梁山县,25395.58,Liangshan County,Shandong,,-0.166490812359829,0
-梁平区,22917.7,"Liangping, Chongqing","Liangping, Chongqing",,-0.167090505306098,0
-梁溪区,1552157.55,"Liangxi, Wuxi",Jiangsu,,0.20301391912061997,0
-梅列区,22917.7,"Meilie, Sanming",Fujian,,-0.167090505306098,0
-梅县区,63445.14,"Meixian, Meizhou",Guangdong,,-0.1572821126888847,0
-梅州,1280965.62,Meizhou,Guangdong,5234,0.13738043908684977,0
-梅江区,76540.7,"Meijiang, Meizhou",Guangdong,,-0.15411274413211742,0
-梅河口市,64860.17,Meihekou,Jilin,,-0.15693964916774605,0
-梧州,270272.61,Wuzhou,Wuzhou,7512,-0.10722602649679112,0
-椒江区,1000001.88,"Jiaojiang, Taizhou",Zhejiang,,0.06938199968084155,0
-楚雄彝族自治州,293077.69,Chuxiong Yi Autonomous Prefecture,Yunnan,10921,-0.10170677390380824,0
-榆中县,14953.98,Yuzhong County,Gansu,,-0.16901787334250873,0
-榆林,1506125.8900000001,"Yulin, Shaanxi",Shaanxi,11793,0.1918734031121558,0
-榆树市,58754.880000000005,"Yushu, Jilin",Jilin,,-0.15841724265408386,0
-榆次区,270768.45,Yuci District,Shanxi,,-0.10710602401463781,0
-榆阳区,191484.99,Yuyang District,Shaanxi,,-0.12629409273378525,0
-榕城区,445164.64,"Rongcheng, Jieyang",Guangdong,,-0.06489890946543055,0
-榕江县,7875.22,Rongjiang County,Guizhou,,-0.17073106463519894,0
-槐荫区,288023.02,"Huaiyin, Jinan",Shandong,,-0.10293009785198876,0
-樊城区,175100.89,"Fancheng, Xiangyang",Hubei,,-0.13025934900162955,0
-樟树市,29289.38,Zhangshu,Jiangxi,,-0.16554844049590406,0
-横峰县,22917.7,Hengfeng County,Jiangxi,,-0.167090505306098,0
-横州市,7875.22,"Hengzhou, Guangxi","Hengzhou, Guangxi",,-0.17073106463519894,0
-歙县,15750.44,"She County, Anhui",Anhui,,-0.1688251152412345,0
-正安县,8760.18,Zheng'an County,Guizhou,,-0.1705168878914784,0
-正定县,38049.56,Zhengding County,Hebei,,-0.1634283143582191,0
-正镶白旗,7875.22,Plain and Bordered White Banner,Plain and Bordered White Banner,,-0.17073106463519894,0
-正阳县,7875.22,Zhengyang County,Henan,,-0.17073106463519894,0
-武义县,55392.92,"Wuyi County, Zhejiang",Zhejiang,,-0.15923089936774174,0
-武乡县,15838.94,Wuxiang County,Shanxi,,-0.16880369659878822,0
-武侯区,1465091.62,"Wuhou, Chengdu",Sichuan,,0.18194234822882893,0
-武冈市,18228.32,"Wugang, Hunan",Hunan,,-0.16822542229496548,0
-武功县,17520.36,Wugong County,Shaanxi,,-0.16839676175379342,0
-武城县,7875.22,Wucheng County,Shandong,,-0.17073106463519894,0
-武夷山市,71053.98,"Wuyishan, Fujian",Fujian,,-0.1554406321985908,0
-武威,106092.93000000001,"Wuwei, Gansu",Gansu,3682,-0.14696055602069982,0
-武宁县,32385.84,Wuning County,Jiangxi,,-0.16479903970958507,0
-武安市,84238.95,Wu'an,Hebei,,-0.1522496247624888,0
-武定县,18228.32,Wuding County,Yunnan,,-0.16822542229496548,0
-武宣县,15838.94,Wuxuan County,Guangxi,,-0.16880369659878822,0
-武平县,23625.66,Wuping County,Fujian,,-0.16691916584727004,0
-武昌区,914590.34,"Wuchang, Wuhan",Hubei,,0.04871082187240319,0
-武汉,39376701.83,Wuhan,Hubei,20610,9.35725560982225,2
-武江区,78399.12000000001,"Wujiang, Shaoguan",Guangdong,,-0.15366297200223006,0
-武清区,262980.55,"Wuqing, Tianjin","Wuqing, Tianjin",,-0.10899084034805526,0
-武穴市,29466.38,Wuxue,Hubei,,-0.1655056032110115,0
-武胜县,17520.35,Wusheng County,Sichuan,,-0.16839676417397903,0
-武进区,1595641.69,"Wujin, Changzhou",Jiangsu,,0.2135378880103862,0
-武邑县,22032.74,"Wuyi County, Hebei",Hebei,,-0.16730468204981852,0
-武都区,16635.4,"Wudu, Longnan",Gansu,,-0.16861093849751396,0
-武陟县,51499.12,Wuzhi County,Henan,,-0.16017327123166664,0
-武陵区,129978.76000000001,"Wuling, Changde",Hunan,,-0.1411797418703856,0
-武隆区,32385.84,"Wulong, Chongqing","Wulong, Chongqing",,-0.16479903970958507,0
-武鸣区,15750.44,"Wuming, Nanning","Wuming, Nanning",,-0.1688251152412345,0
-殷都区,14953.98,"Yindu, Anyang",Henan,,-0.16901787334250873,0
-毕节,415749.60000000003,Bijie,Guizhou,4247,-0.07201789505077798,0
-民权县,37694.69,Minquan County,Henan,,-0.16351419948415033,0
-水城县,10353.1,"Shuicheng, Liupanshui",Guizhou,,-0.17013137168892992,0
-水富市,8760.18,Shuifu,Yunnan,,-0.1705168878914784,0
-水磨沟区,167238.07,"Shuimogou, Ürümqi","Shuimogou, Ürümqi",,-0.13216229736546595,0
-永修县,24510.620000000003,Yongxiu County,Jiangxi,,-0.16670498910354953,0
-永吉县,20706.2,"Yongji County, Jilin",Jilin,,-0.1676257293486965,0
-永嘉县,579758.46,Yongjia County,Zhejiang,,-0.032324707137068996,0
-永城市,114131.88,Yongcheng,Henan,,-0.14501498092811696,0
-永宁县,7875.22,Yongning County,Yongning County,,-0.17073106463519894,0
-永安市,89625.68000000001,Yong'an,Fujian,,-0.1509459361317013,0
-永定区,33359.29,,,,-0.16456344674360382,0
-永川区,93707.09,"Yongchuan, Chongqing","Yongchuan, Chongqing",,-0.14995815916597585,0
-永州,450170.86,Yongzhou,Hunan,6967,-0.06368731131641978,0
-永年区,68394.69,"Yongnian, Handan",Hebei,,-0.1560842297315963,0
-永年县,7875.22,,,,-0.17073106463519894,0
-永康市,699112.46,"Yongkang, Zhejiang",Zhejiang,,-0.0034388240801852153,0
-永新县,10353.1,Yongxin County,Jiangxi,,-0.17013137168892992,0
-永春县,147330.98,Yongchun County,Fujian,,-0.136980182595478,0
-永泰县,18936.28,Yongtai County,Fujian,,-0.1680540828361375,0
-永济市,31589.38,"Yongji, Shanxi",Shanxi,,-0.16499179781085932,0
-永清县,33270.8,Yongqing County,Hebei,,-0.16458486296586453,0
-永胜县,15838.94,Yongsheng County,Yunnan,,-0.16880369659878822,0
-永靖县,8760.18,Yongjing County,Gansu,,-0.1705168878914784,0
-永顺县,7870.8,Yongshun County,Hunan,,-0.17073213435722845,0
-汇川区,100431.86,"Huichuan, Zunyi",Guizhou,,-0.1483306400228852,0
-汉中,754024.85,Hanzhong,Shaanxi,4953,0.009850993403217058,0
-汉南区,26015.04,"Hannan, Wuhan",Hubei,,-0.1663408915434473,0
-汉台区,67338.06,Hantai District,Shaanxi,,-0.15633995380129148,0
-汉寿县,21854.47,Hanshou County,Hunan,,-0.16734782669828066,0
-汉川市,50791.16,Hanchuan,Hubei,,-0.16034461069049458,0
-汉滨区,36898.23,Hanbin District,Shaanxi,,-0.16370695758542458,0
-汉阳区,784496.5,"Hanyang, Wuhan",Hubei,,0.017225698217888483,0
-汕头,5729974.22,Shantou,Guangdong,8232,1.2141230881699994,0
-汕尾,1228044.42,Shanwei,Guangdong,7455,0.1245725265373754,0
-汝南县,7875.22,Runan County,Henan,,-0.17073106463519894,0
-汝城县,7963.72,Rucheng County,Hunan,,-0.17070964599275265,0
-汝州市,155115.24,Ruzhou,Henan,,-0.1350962472096143,0
-江北区,947963.7000000001,江北区,江北区,,0.05678779435908387,0
-江华瑶族自治县,7875.22,Jianghua Yao Autonomous County,Hunan,,-0.17073106463519894,0
-江南区,123349.55,江南区,江南区,,-0.1427841337200054,0
-江城区,81672.57,"Jiangcheng, Yangjiang",Guangdong,,-0.15287073635120407,0
-江夏区,560892.62,"Jiangxia, Wuhan",Hubei,,-0.03689059054281894,0
-江宁区,1769897.27,"Jiangning, Nanjing",Jiangsu,,0.2557109723300526,0
-江安县,7875.22,Jiang'an County,Sichuan,,-0.17073106463519894,0
-江山市,53092.03,Jiangshan,Zhejiang,,-0.15978775744930374,0
-江岸区,1169922.22,"Jiang'an, Wuhan",Hubei,,0.11050587546402378,0
-江川区,9468.14,"Jiangchuan, Yuxi",Yunnan,,-0.17034554843265046,0
-江州区,7078.76,Jiangzhou District,Jiangzhou District,,-0.17092382273647316,0
-江干区,1278013.62,Jianggan District,Zhejiang,,0.13666600030152273,0
-江汉区,585150.48,"Jianghan, Wuhan",Hubei,,-0.03101973822810592,0
-江油市,32474.340000000004,Jiangyou,Sichuan,,-0.16477762106713878,0
-江津区,82379.65,"Jiangjin, Chongqing","Jiangjin, Chongqing",,-0.1526996098687078,0
-江海区,41807.08,"Jianghai, Jiangmen",Guangdong,,-0.1625189247834759,0
-江都区,200593.82,"Jiangdu, Yangzhou",Jiangsu,,-0.12408958682560425,0
-江门,2589400.04,Jiangmen,Guangdong,11582,0.45404585158849664,0
-江阳区,106802.68000000001,"Jiangyang, Luzhou",Sichuan,,-0.14678878334865178,0
-江阴市,1611944.6400000001,Jiangyin,Jiangsu,,0.21748350447219084,0
-江陵县,17520.36,Jiangling County,Hubei,,-0.16839676175379342,0
-池州,645060.24,Chizhou,Anhui,11695,-0.016520464459937496,0
-汤旺县,7875.22,Tangwang County,Heilongjiang,,-0.17073106463519894,0
-汤阴县,32474.34,Tangyin County,Henan,,-0.16477762106713878,0
-汨罗市,15833.05,Miluo City,Hunan,,-0.16880512208809903,0
-汶上县,55303.54,Wenshang County,Shandong,,-0.15925253098651967,0
-汾阳市,77161.07,Fenyang,Shanxi,,-0.15396260307884732,0
-沁阳市,22297.350000000002,Qinyang,Henan,,-0.16724064151899692,0
-沂南县,49021.240000000005,Yinan County,Shandong,,-0.16077296417793566,0
-沂水县,128216.83,Yishui County,Shandong,,-0.14160616162954254,0
-沂源县,53045.14,Yiyuan County,Shandong,,-0.1597991056995219,0
-沅江市,8760.18,Yuanjiang,Hunan,,-0.1705168878914784,0
-沅陵县,7875.22,Yuanling County,Hunan,,-0.17073106463519894,0
-沈丘县,79373.46,Shenqiu County,Henan,,-0.15342716363973158,0
-沈北新区,316363.73,Shenbei New Area,Liaoning,,-0.09607112006482574,0
-沈河区,446494.92000000004,"Shenhe, Shenyang",Liaoning,,-0.064576957017143,0
-沈阳,16223042.26,Shenyang,Liaoning,14050,3.7536402917104312,2
-沙依巴克区,141223.92,"Saybag, Ürümqi","Saybag, Ürümqi",,-0.13845820445466472,0
-沙县,70700.87999999999,,,,-0.1555260889516731,0
-沙县区,7875.22,"Shaxian, Sanming",Fujian,,-0.17073106463519894,0
-沙坡头区,11061.06,"Shapotou, Zhongwei","Shapotou, Zhongwei",,-0.16996003223010195,0
-沙坪坝区,324079.64,"Shapingba, Chongqing","Shapingba, Chongqing",,-0.09420372664745019,0
-沙市区,183782.31,"Shashi, Jingzhou",Hubei,,-0.128158284245629,0
-沙河口区,533919.5,"Shahekou, Dalian",Liaoning,,-0.043418586169268775,0
-沙河市,42030.97,"Shahe, Hebei",Hebei,,-0.16246473924836516,0
-沙洋县,27873.46,Shayang County,Hubei,,-0.16589111941356,0
-沙湾区,19113.28,"Shawan, Leshan",Sichuan,,-0.16801124555124494,0
-沛县,118036.96,Pei County,Jiangsu,,-0.14406987909484975,0
-沧县,25395.58,Cang County,Hebei,,-0.166490812359829,0
-沧州,2671935.75,Cangzhou,Hebei,,0.47402102516522526,0
-沧源佤族自治县,8760.18,Cangyuan Va Autonomous County,Yunnan,,-0.1705168878914784,0
-沭阳县,284811.18,Shuyang County,Jiangsu,,-0.10370742273961232,0
-河东区,666869.12,,,,-0.011242310755146609,0
-河北区,337330.99,"Hebei, Tianjin","Hebei, Tianjin",,-0.09099665401942066,0
-河南蒙古族自治县,22829.2,Henan Mongol Autonomous County,Qinghai,,-0.1671119239485443,0
-河口区,35128.33,"Hekou, Dongying",Shandong,,-0.16413530623249448,0
-河口瑶族自治县,17343.36,Hekou Yao Autonomous County,Yunnan,,-0.16843959903868602,0
-河曲县,6105.31,Hequ County,Shanxi,,-0.17115941570245438,0
-河池,192584.11000000002,Hechi,Hechi,4722,-0.1260280852955303,0
-河津市,15750.44,Hejin,Shanxi,,-0.1688251152412345,0
-河源,1315910.76,Heyuan,Guangdong,6958,0.14583781150374764,0
-河西区,611613.34,"Hexi, Tianjin","Hexi, Tianjin",,-0.024615234991426066,0
-河间市,68486.72,Hejian,Hebei,,-0.15606195676363777,0
-沾化区,40969.03,"Zhanhua, Binzhou",Shandong,,-0.16272174843660708,0
-沾益区,25395.58,"Zhanyi, Qujing",Yunnan,,-0.166490812359829,0
-沿河土家族自治县,7078.76,Yanhe Tujia Autonomous County,Guizhou,,-0.17092382273647316,0
-沿滩区,27873.449999999997,"Yantan, Zigong",Sichuan,,-0.16589112183374558,0
-泉山区,525514.91,"Quanshan, Xuzhou",Jiangsu,,-0.04545265292766023,0
-泉州,7717842.03,Quanzhou,Quanzhou,18180,1.6952239904623705,0
-泉港区,79195.58,"Quangang, Quanzhou",Fujian,,-0.15347021390095583,0
-泊头市,52471.69,Botou,Hebei,,-0.15993789124201707,0
-泌阳县,39548.28,Biyang County,Henan,,-0.16306559630390158,0
-法库县,18316.82,Faku County,Liaoning,,-0.1682040036525192,0
-泗县,17343.36,Si County,Anhui,,-0.16843959903868602,0
-泗水县,17520.36,Sishui County,Shandong,,-0.16839676175379342,0
-泗洪县,71585.85,Sihong County,Jiangsu,,-0.155311909787767,0
-泗阳县,137507.96,Siyang County,Jiangsu,,-0.13935753573810777,0
-泰兴市,200408.85,Taixing,Jiangsu,,-0.1241343529984098,0
-泰和县,10346.9,"Taihe County, Jiangxi",Jiangxi,,-0.17013287220399395,0
-泰宁县,16635.4,Taining County,Fujian,,-0.16861093849751396,0
-泰安,1818778.1500000001,Tai'an,Shandong,9779,0.26754105245637905,0
-泰山区,181826.58000000002,Taishan District,Taishan District,,-0.1286316072014649,0
-泰州,10111886.42,"Taizhou, Jiangsu",Jiangsu,16652,2.274627163230176,0
-泰来县,17520.36,Tailai County,Heilongjiang,,-0.16839676175379342,0
-泰顺县,36545.14,Taishun County,Zhejiang,,-0.16379241191832128,0
-泸县,18936.28,Lu County,Sichuan,,-0.1680540828361375,0
-泸州,735045.24,Luzhou,Sichuan,9291,0.005257575546042085,0
-泸溪县,8760.18,"Luxi County, Hunan",Hunan,,-0.1705168878914784,0
-泽州县,15838.94,Zezhou County,Shanxi,,-0.16880369659878822,0
-泽库县,7078.76,Zêkog County,Qinghai,,-0.17092382273647316,0
-泾县,44772.56,"Jing County, Anhui",Anhui,,-0.1618012235879774,0
-泾阳县,19024.78,Jingyang County,Shaanxi,,-0.16803266419369123,0
-洛宁县,24599.120000000003,Luoning County,Henan,,-0.16668357046110321,0
-洛川县,7875.22,Luochuan County,Shaanxi,,-0.17073106463519894,0
-洛江区,115207.99,"Luojiang, Quanzhou",Fujian,,-0.14475454233689805,0
-洛阳,4988671.86,Luoyang,Henan,8493,1.0347141594306863,0
-洛龙区,296957.57,"Luolong, Luoyang",Henan,,-0.10076777093822063,0
-洞口县,17431.86,Dongkou County,Hunan,,-0.16841818039623974,0
-洞头区,23625.66,"Dongtou, Wenzhou",Zhejiang,,-0.16691916584727004,0
-津南区,413232.77,"Jinnan, Tianjin","Jinnan, Tianjin",,-0.07262701461990895,0
-洪山区,2809239.95,"Hongshan, Wuhan",Hubei,,0.5072511897547571,0
-洪江市,8760.18,Hongjiang,Hunan,,-0.1705168878914784,0
-洪泽区,72116.82,"Hongze, Huai'an",Jiangsu,,-0.15518340519364604,0
-洪洞县,38137.159999999996,Hongtong County,Shanxi,,-0.16340711353247564,0
-洪湖市,60253.100000000006,Honghu,Hubei,,-0.15805464560904572,0
-洪雅县,7875.22,Hongya County,Sichuan,,-0.17073106463519894,0
-洮北区,64947.79,"Taobei, Baicheng",Jilin,,-0.15691844350163145,0
-洮南市,35084.08,Taonan,Jilin,,-0.1641460155537176,0
-浈江区,108702.65000000001,"Zhenjiang, Shaoguan",Guangdong,,-0.14632895534764984,0
-浉河区,105448.66,"Shihe, Xinyang",Henan,,-0.14711648131752322,0
-济南,13568386.02,Jinan,Shandong,16064,3.111164214621546,0
-济宁,3267211.69,Jining,Shandong,8912,0.6180888502018103,0
-济源,264077.92,Jiyuan,Henan,11099,-0.10872525644227805,0
-济源市,62559.3,Jiyuan,Henan,11099,-0.1574965024089369,0
-济阳区,7875.22,"Jiyang, Jinan",Shandong,,-0.17073106463519894,0
-浏阳市,51499.119999999995,Liuyang,Hunan,,-0.16017327123166664,0
-浑南区,537608.61,"Hunnan, Shenyang",Liaoning,,-0.04252575308412726,0
-浑江区,15838.94,"Hunjiang, Baishan",Jilin,,-0.16880369659878822,0
-浔阳区,90345.14,"Xunyang, Jiujiang",Jiangxi,,-0.15077181345944812,0
-浠水县,7875.22,"Xishui County, Hubei",Hubei,,-0.17073106463519894,0
-浦东新区,6303438.100000001,Pudong,Pudong,41755,1.3529119898827768,0
-浦北县,7078.76,Pubei County,Pubei County,,-0.17092382273647316,0
-浦口区,1068712.43,"Pukou, Nanjing",Jiangsu,,0.08601122796036435,0
-浦城县,22829.2,"Pucheng County, Fujian",Fujian,,-0.1671119239485443,0
-浦江县,410116.27,"Pujiang County, Zhejiang",Zhejiang,,-0.0733812654581446,0
-浮梁县,50702.66,Fuliang County,Jiangxi,,-0.1603660293329409,0
-海东,41322.12,,,,-0.16263629410371036,0
-海丰县,92556.64,Haifeng County,Guangdong,,-0.15023658941684964,0
-海伦市,7078.76,Hailun,Heilongjiang,,-0.17092382273647316,0
-海勃湾区,77602.67,Haibowan District,Haibowan District,,-0.1538557276833187,0
-海北藏族自治州,77496.48000000001,Haibei Tibetan Autonomous Prefecture,Qinghai,5479,-0.15388142763406867,0
-海南藏族自治州,70920.37000000001,Hainan Tibetan Autonomous Prefecture,Qinghai,4878,-0.15547296829822072,0
-海口,3275622.68,Haikou,Hainan,11408,0.6201244658789775,0
-海城区,123880.53,Haicheng District,Haicheng District,,-0.14265562670569887,0
-海城市,235367.26,"Haicheng, Liaoning",Liaoning,,-0.11567376899523774,0
-海宁市,1013310.66,Haining,Zhejiang,,0.0726029714346981,0
-海安市,221422.14,Hai'an,Jiangsu,,-0.11904874683874705,0
-海州区,740536.29,,,,0.006586511552874726,0
-海拉尔区,98219.48,Hailar District,Hailar District,,-0.14886607704181537,0
-海曙区,1620222.04,"Haishu, Ningbo",Zhejiang,,0.2194867888900993,0
-海林市,16635.4,Hailin,Heilongjiang,,-0.16861093849751396,0
-海沧区,345630.12,"Haicang, Xiamen",Fujian,,-0.08898811053823129,0
-海淀区,4065056.41,"Haidian, Beijing","Haidian, Beijing",,0.8111820794146745,0
-海港区,676038.13,,,,-0.009023240170102134,0
-海珠区,1181344.29,"Haizhu, Guangzhou",Guangdong,,0.11327022838296694,0
-海盐县,303501.8,"Haiyan County, Zhejiang",Zhejiang,,-0.09918394582572043,0
-海西蒙古族藏族自治州,141974.35,Haixi Mongol and Tibetan Autonomous Prefecture,Qinghai,13922,-0.13827658646764815,0
-海门区,89366.06,"Haimen, Nantong",Jiangsu,,-0.15100876898991494,0
-海门市,307491.18,"Haimen, Nantong",Jiangsu,,-0.09821844182795351,0
-海阳市,43623.9,Haiyang,Shandong,,-0.16207922062563107,0
-海陵区,872206.24,"Hailing, Taizhou",Jiangsu,,0.03845308307796591,0
-涉县,9468.14,"She County, Hebei",Hebei,,-0.17034554843265046,0
-涞水县,7078.76,Laishui County,Hebei,,-0.17092382273647316,0
-涞源县,19113.28,Laiyuan County,Hebei,,-0.16801124555124494,0
-涟水县,92115.06,Lianshui County,Jiangsu,,-0.1503434599720071,0
-涟源市,26811.5,Lianyuan,Hunan,,-0.16614813344217308,0
-涡阳县,29376.989999999998,Guoyang County,Anhui,,-0.16552723724997503,0
-润州区,253779.67,"Runzhou, Zhenjiang",Jiangsu,,-0.11121762406456598,0
-涧西区,183697.36000000002,"Jianxi, Luoyang",Henan,,-0.12817884372219185,0
-涪城区,327820.38,"Fucheng, Mianyang",Sichuan,,-0.09329839814412222,0
-涪陵区,67223.90000000001,"Fuling, Chongqing","Fuling, Chongqing",,-0.15636758263995437,0
-涵江区,69992.92,"Hanjiang, Putian",Fujian,,-0.15569742841050105,0
-涿州市,76895.58,Zhuozhou,Hebei,,-0.1540268565860006,0
-涿鹿县,9113.28,Zhuolu County,Hebei,,-0.1704314311383961,0
-淄博,5373916.22,Zibo,Shandong,16278,1.127950444191013,0
-淄川区,128392.91,"Zichuan, Zibo",Shandong,,-0.14156354700172394,0
-淅川县,46809.740000000005,Xichuan County,Henan,,-0.16130818822053414,0
-淇县,18448.670000000002,"Qi County, Hebi",Henan,,-0.1681720935055526,0
-淇滨区,196706.2,"Qibin, Hebi",Henan,,-0.1250304630148363,0
-淮上区,32297.34,"Huaishang, Bengbu",Anhui,,-0.16482045835203138,0
-淮北,1442000.86,Huaibei,Anhui,9604,0.17635395577399232,0
-淮南,1298568.35,Huainan,Anhui,7430,0.14164062643090106,0
-淮安,5707124.100000001,,,,1.208592935061132,0
-淮安区,186262.83000000002,"Huai'an, Huai'an",Jiangsu,,-0.127557952370365,0
-淮滨县,7875.22,Huaibin County,Henan,,-0.17073106463519894,0
-淮阳区,35744.25,"Huaiyang, Zhoukou",Henan,,-0.16398624216181065,0
-淮阴区,140516.83000000002,"Huaiyin, Huai'an",Jiangsu,,-0.13862933335734662,0
-深圳,51629793.95,Shenzhen,Guangdong,27705,12.322731304508178,2
-深州市,25395.57,Shenzhou City,Hebei,,-0.1664908147800146,0
-深泽县,7963.72,Shenze County,Hebei,,-0.17070964599275265,0
-淳安县,63622.130000000005,Chun'an County,Zhejiang,,-0.15723927782417774,0
-清丰县,16635.4,Qingfeng County,Henan,,-0.16861093849751396,0
-清原满族自治县,26280.54,Qingyuan Manchu Autonomous County,Liaoning,,-0.16627663561610845,0
-清城区,216880.55,"Qingcheng, Qingyuan",Guangdong,,-0.12014789590482204,0
-清徐县,78487.61,Qingxu County,Shanxi,,-0.15364155577996938,0
-清新区,16635.4,"Qingxin, Qingyuan",Guangdong,,-0.16861093849751396,0
-清江浦区,778311.5,"Qingjiangpu, Huai'an",Jiangsu,,0.0157288134322355,0
-清河县,52472.58,"Qinghe County, Hebei",Hebei,,-0.15993767584549984,0
-清流县,8760.18,Qingliu County,Fujian,,-0.1705168878914784,0
-清苑区,25660.18,"Qingyuan, Baoding",Hebei,,-0.16642677424919294,0
-清远,1304812.54,Qingyuan,Guangdong,7821,0.14315183629504438,0
-渑池县,25395.58,Mianchi County,Henan,,-0.166490812359829,0
-渝中区,212488.26,"Yuzhong, Chongqing","Yuzhong, Chongqing",,-0.12121091160008085,0
-渝北区,714113.81,"Yubei, Chongqing","Yubei, Chongqing",,0.0001917810255957908,0
-渝水区,175454.89,"Yushui, Xinyu",Jiangxi,,-0.1301736744318444,0
-渠县,15838.94,Qu County,Sichuan,,-0.16880369659878822,0
-温县,35748.68,"Wen County, Henan",Henan,,-0.16398517001959553,0
-温宿县,7963.72,Onsu County,Onsu County,,-0.17070964599275265,0
-温岭市,1251990.1500000001,Wenling,Zhejiang,,0.13036783759935672,0
-温州,20348865.61,Wenzhou,Zhejiang,12439,4.752166112390596,2
-温江区,326065.51,"Wenjiang, Chengdu",Sichuan,,-0.0937231092522546,0
-渭南,745081.5,Weinan,Shaanxi,4292,0.007686536726132243,0
-渭城区,80785.85,"Weicheng District, Xianyang",Shaanxi,,-0.15308533904758795,0
-渭滨区,114943.37000000001,"Weibin District, Baoji",Shaanxi,,-0.14481858528790523,0
-港北区,86261.06,港北区,港北区,,-0.15176023661472537,0
-港口区,27076.11,Gangkou District,Gangkou District,,-0.16608409291135148,0
-港闸区,265715.05,Gangzha District,Jiangsu,,-0.10832904059924878,0
-游仙区,53709.740000000005,"Youxian, Mianyang",Sichuan,,-0.15963826016539984,0
-湄潭县,16635.4,Meitan County,Guizhou,,-0.16861093849751396,0
-湖口县,22032.74,Hukou County,Jiangxi,,-0.16730468204981852,0
-湖州,6978743.140000001,Huzhou,Zhejiang,13646,1.5163483423566297,0
-湖滨区,27077.0,"Hubin, Sanmenxia",Henan,,-0.16608387751483422,0
-湖里区,1048395.74,"Huli, Xiamen",Fujian,,0.08109421192870259,0
-湘东区,17431.86,"Xiangdong, Pingxiang",Jiangxi,,-0.16841818039623974,0
-湘乡市,7875.22,Xiangxiang,Hunan,,-0.17073106463519894,0
-湘桥区,397459.31,"Xiangqiao, Chaozhou",Guangdong,,-0.07644448467505946,0
-湘潭,745901.84,Xiangtan,Hunan,14713,0.007885074230588592,0
-湘潭县,7875.22,Xiangtan County,Hunan,,-0.17073106463519894,0
-湘西土家族苗族自治州,266121.25,Xiangxi Tujia and Miao Autonomous Prefecture,Hunan,4189,-0.1082307326606987,0
-湘阴县,7875.22,Xiangyin County,Hunan,,-0.17073106463519894,0
-湛江,1883209.18,Zhanjiang,Guangdong,7876,0.2831345574735093,0
-湛河区,115474.34,"Zhanhe, Pingdingshan",Henan,,-0.14469008069378428,0
-湟中区,7875.22,"Huangzhong, Xining",Qinghai,,-0.17073106463519894,0
-湾沚区,7875.22,"Wanzhi, Wuhu",Anhui,,-0.17073106463519894,0
-溆浦县,7963.72,Xupu County,Hunan,,-0.17070964599275265,0
-源城区,178384.98,"Yuancheng, Heyuan",Guangdong,,-0.12946453827313884,0
-源汇区,56100.0,"Yuanhui, Luohe",Henan,,-0.15905977288524545,0
-溧水区,152714.16,"Lishui, Nanjing",Jiangsu,,-0.13567735313057397,0
-溧阳市,592013.3200000001,Liyang,Jiangsu,,-0.029358803582613464,0
-溪湖区,10085.84,"Xihu District, Benxi",Liaoning,,-0.17019605356893214,0
-滁州,1502869.19,Chuzhou,Anhui,13062,0.19108522127198824,0
-滑县,62029.22,Hua County,Henan,,-0.15762479160654064,0
-滕州市,300577.01,Tengzhou,Shandong,,-0.0998917992860648,0
-满城区,14157.52,"Mancheng, Baoding",Hebei,,-0.16921063144378296,0
-满洲里市,36985.17,Manzhouli,Manzhouli,,-0.16368591649192987,0
-滦南县,69019.48,Luannan County,Hebei,,-0.15593301895629672,0
-滦州市,73886.72,Luanzhou,Hebei,,-0.15475505654657615,0
-滦平县,23714.160000000003,Luanping County,Hebei,,-0.16689774720482375,0
-滨城区,141754.88,"Bincheng, Binzhou",Shandong,,-0.13832970228072936,0
-滨州,1722650.62,Binzhou,Shandong,10168,0.2442764061929351,0
-滨江区,1090068.6300000001,"Binjiang, Hangzhou",Zhejiang,,0.09117982470399613,0
-滨海县,139365.49,Binhai County,Jiangsu,,-0.13890797900473767,0
-滨海新区,988071.22,"Binhai, Tianjin","Binhai, Tianjin",,0.06649455854312147,0
-滨湖区,749776.15,"Binhu, Wuxi",Jiangsu,,0.008822729152804161,0
-滴道区,26280.53,Didao District,Heilongjiang,,-0.16627663803629403,0
-漠河市,8760.18,Mohe City,Heilongjiang,,-0.1705168878914784,0
-漯河,695090.3200000001,Luohe,Henan,6193,-0.004412256605935601,0
-漳州,2867677.37,Zhangzhou,Fujian,14107,0.5213941299181869,0
-漳平市,25214.16,Zhangping,Fujian,,-0.16653471936675107,0
-漳浦县,161732.75,Zhangpu County,Fujian,,-0.13349468697713143,0
-漾濞彝族自治县,8760.18,Yangbi Yi Autonomous County,Yunnan,,-0.1705168878914784,0
-潍坊,8631787.4,Weifang,Shandong,9932,1.9164157316541226,0
-潍城区,345002.7,"Weicheng, Weifang",Shandong,,-0.08913995782234033,0
-潘集区,30174.34,"Panji, Huainan",Anhui,,-0.16533426375218355,0
-潜山市,11148.67,"Qianshan, Anhui",Anhui,,-0.16993882898417292,0
-潜江,305229.24,"Qianjiang, Hubei",Hubei,9362,-0.0987658732866536,0
-潜江市,18228.32,"Qianjiang, Hubei",Hubei,9362,-0.16822542229496548,0
-潞城区,15838.94,"Lucheng District, Changzhi",Shanxi,,-0.16880369659878822,0
-潞州区,101582.32,"Luzhou District, Changzhi",Shanxi,,-0.14805220735182584,0
-潢川县,41146.020000000004,Huangchuan County,Henan,,-0.1626789135719001,0
-潮南区,323414.93,"Chaonan, Shantou",Guangdong,,-0.09436459880361371,0
-潮安区,432080.95,"Chao'an, Chaozhou",Guangdong,,-0.0680654052619059,0
-潮州,2557019.52,Chaozhou,Guangdong,7506,0.44620916480765066,0
-潮阳区,330041.63,"Chaoyang, Shantou",Guangdong,,-0.09276081442057627,0
-潼南区,17520.36,"Tongnan, Chongqing","Tongnan, Chongqing",,-0.16839676175379342,0
-澄城县,7875.22,Chengcheng County,Shaanxi,,-0.17073106463519894,0
-澄江市,28314.160000000003,Chengjiang,Yunnan,,-0.16578446183473422,0
-澄海区,414374.47000000003,"Chenghai, Shantou",Guangdong,,-0.0723507020314239,0
-澄迈县,92537.17,Chengmai County,Hainan,,-0.15024130151818782,0
-澜沧拉祜族自治县,7078.76,Lancang Lahu Autonomous County,Yunnan,,-0.17092382273647316,0
-澧县,7875.22,"Li County, Hunan",Hunan,,-0.17073106463519894,0
-濂溪区,84769.92,"Lianxi, Jiujiang",Jiangxi,,-0.1521211201683678,0
-濉溪县,34846.020000000004,"Suixi County, Anhui",Anhui,,-0.1642036304918053,0
-濠江区,33270.8,"Haojiang, Shantou",Guangdong,,-0.16458486296586453,0
-濮阳,822019.61,Puyang,Henan,6031,0.026306987218597182,0
-濮阳县,7078.76,Puyang County,Henan,,-0.17092382273647316,0
-瀍河回族区,55210.62,"Chanhe, Luoyang",Henan,,-0.1592750193509955,0
-灌云县,98042.47,Guanyun County,Jiangsu,,-0.14890891674689352,0
-灌南县,80080.54000000001,Guannan County,Jiangsu,,-0.1532560371572353,0
-灌阳县,8760.18,Guanyang County,Guanyang County,,-0.1705168878914784,0
-灞桥区,274647.81,"Baqiao, Xi'an",Shaanxi,,-0.10616714689870076,0
-灯塔市,24510.620000000003,Dengta,Liaoning,,-0.16670498910354953,0
-灵台县,7875.22,Lingtai County,Gansu,,-0.17073106463519894,0
-灵宝市,47694.700000000004,Lingbao City,Henan,,-0.16109401147681363,0
-灵寿县,15838.94,Lingshou County,Hebei,,-0.16880369659878822,0
-灵山县,34863.72,Lingshan County,Lingshan County,,-0.16419934676331607,0
-灵川县,19821.24,"Lingchuan County, Guangxi","Lingchuan County, Guangxi",,-0.167839906092417,0
-灵武市,7875.22,Lingwu,Lingwu,,-0.17073106463519894,0
-灵璧县,41942.48,Lingbi County,Anhui,,-0.16248615547062586,0
-炎陵县,7875.22,"Yanling County, Hunan",Hunan,,-0.17073106463519894,0
-烈山区,17431.86,"Lieshan, Huaibei",Anhui,,-0.16841818039623974,0
-烟台,6701872.2,Yantai,Shandong,20254,1.4493404365077307,0
-焦作,1432694.83,Jiaozuo,Henan,8910,0.1741017238060327,0
-爱民区,65745.14,Aimin District,Heilongjiang,,-0.15672547000383993,0
-爱辉区,66807.97,Aihui District,Heilongjiang,,-0.15646824541908078,0
-牙克石市,24599.120000000003,Yakeshi,Yakeshi,,-0.16668357046110321,0
-牟平区,83266.38,"Muping, Yantai",Shandong,,-0.15248500475213833,0
-牡丹区,260717.71,"Mudan, Heze",Shandong,,-0.10953848962345818,0
-牡丹江,1508161.33,Mudan River,Mudan River,,0.19236601736730688,0
-牧野区,84946.03,"Muye, Xinxiang",Henan,,-0.15207849827999248,0
-特克斯县,7963.72,Tekes County,Tekes County,,-0.17070964599275265,0
-犍为县,17431.86,Qianwei County,Sichuan,,-0.16841818039623974,0
-猇亭区,15042.48,"Xiaoting, Yichang",Hubei,,-0.16899645470006244,0
-献县,32562.840000000004,Xian County,Hebei,,-0.1647562024246925,0
-玄武区,1530145.03,"Xuanwu, Nanjing",Jiangsu,,0.19768648075653233,0
-玉屏侗族自治县,15838.94,Yuping Dong Autonomous County,Guizhou,,-0.16880369659878822,0
-玉山县,64771.68,Yushan County,Jiangxi,,-0.15696106539000676,0
-玉州区,130428.33,Yuzhou District,Yuzhou District,,-0.14107093758694406,0
-玉林,1000635.43,"Yulin, Guangxi","Yulin, Guangxi",5524,0.06953533053871552,0
-玉树藏族自治州,32562.84,Yushu Tibetan Autonomous Prefecture,Qinghai,2432,-0.1647562024246925,0
-玉泉区,81093.15,"Yuquan, Hohhot","Yuquan, Hohhot",,-0.15301096674449477,0
-玉溪,1218222.75,Yuxi,Yunnan,,0.12219550011979993,0
-玉环市,222719.48,Yuhuan,Zhejiang,,-0.1187347664817836,0
-玉田县,143701.79,"Yutian County, Hebei",Hebei,,-0.1378585139285813,0
-玉门市,18936.28,Yumen City,Gansu,,-0.1680540828361375,0
-玉龙纳西族自治县,7963.72,Yulong Naxi Autonomous County,Yunnan,,-0.17070964599275265,0
-王益区,7875.22,Wangyi District,Shaanxi,,-0.17073106463519894,0
-环县,36545.14,Huan County,Gansu,,-0.16379241191832128,0
-环翠区,497351.55000000005,"Huancui, Weihai",Shandong,,-0.052268708723435135,0
-珙县,8760.18,"Gong County, Sichuan",Sichuan,,-0.1705168878914784,0
-珠山区,164319.47,"Zhushan, Jingdezhen",Jiangxi,,-0.13286865273093187,0
-珠晖区,65126.55,"Zhuhui, Hengyang",Hunan,,-0.15687518026407551,0
-珠海,2807437.52,Zhuhai,Guangdong,24477,0.5068149682439722,0
-珲春市,16635.4,Hunchun,Jilin,,-0.16861093849751396,0
-琅琊区,157050.45,Langya District,Anhui,,-0.1346278904746032,0
-理县,7875.22,"Li County, Sichuan",Sichuan,,-0.17073106463519894,0
-琼中黎族苗族自治县,25307.08,Qiongzhong Li and Miao Autonomous County,Hainan,,-0.16651223100227527,0
-琼山区,230593.82,"Qiongshan, Haikou",Hainan,,-0.11682903006415082,0
-琼海,187592.07,Qionghai,Hainan,,-0.1272362516213785,0
-琼海市,98567.26000000001,Qionghai,Hainan,,-0.14878190782746542,0
-瑞丽市,37430.100000000006,Ruili,Yunnan,,-0.16357823517460077,0
-瑞安市,1014544.36,Rui'an,Zhejiang,,0.07290154973058494,0
-瑞昌市,8760.18,Ruichang,Jiangxi,,-0.1705168878914784,0
-瑞金市,38226.56,Ruijin,Jiangxi,,-0.16338547707332654,0
-瑶海区,955532.8300000001,"Yaohai, Hefei",Anhui,,0.05861966429241121,0
-璧山区,51322.12,"Bishan, Chongqing","Bishan, Chongqing",,-0.16021610851655924,0
-瓦房店市,54064.61,Wafangdian,Liaoning,,-0.15955237503946862,0
-瓮安县,14069.03,Weng'an County,Guizhou,,-0.16923204766604366,0
-瓯海区,899348.81,"Ouhai, Wenzhou",Zhejiang,,0.04502208874919003,0
-甘井子区,1107705.82,"Ganjingzi, Dalian",Liaoning,,0.09544835200758074,0
-甘南县,15042.48,Gannan County,Heilongjiang,,-0.16899645470006244,0
-甘南藏族自治州,49906.200000000004,Gannan Tibetan Autonomous Prefecture,Gansu,2888,-0.16055878743421514,0
-甘孜藏族自治州,216479.68,Garzê Tibetan Autonomous Prefecture,Sichuan,2958,-0.12024491388445417,0
-甘州区,7963.72,"Ganzhou, Zhangye",Gansu,,-0.17070964599275265,0
-甘泉县,18228.32,Ganquan County,Shaanxi,,-0.16822542229496548,0
-田家庵区,166265.5,"Tianjia'an, Huainan",Anhui,,-0.1323976773551155,0
-电白区,69195.58,"Dianbai, Maoming",Guangdong,,-0.15589039948810698,0
-界首市,41146.020000000004,Jieshou,Anhui,,-0.1626789135719001,0
-番禺区,1343584.15,"Panyu, Guangzhou",Guangdong,,0.15253528546630887,0
-登封市,114945.13,Dengfeng,Henan,,-0.1448181593352419,0
-白云区,1797748.52,Baiyun,Baiyun,,0.26245149171346693,0
-白城,308886.76,Baicheng,Jilin,5696,-0.09788068556778187,0
-白塔区,245994.72,Baita District,Liaoning,,-0.11310172644323523,0
-白山,384462.01,白山,白山,,-0.07959007248824741,0
-白沙黎族自治县,8760.18,Baisha Li Autonomous County,Hainan,,-0.1705168878914784,0
-白河县,7078.76,Baihe County,Shaanxi,,-0.17092382273647316,0
-白银,134454.0,,,,-0.14009665073568137,0
-白银区,38756.64,"Baiyin, Baiyin",Gansu,,-0.16325718787572283,0
-百色,257491.17,Baise,Baise,6803,-0.11031937218389483,0
-皇姑区,415086.76,"Huanggu, Shenyang",Liaoning,,-0.07217831463223671,0
-皋兰县,7875.22,Gaolan County,Gansu,,-0.17073106463519894,0
-盂县,15042.48,"Yu County, Shanxi",Shanxi,,-0.16899645470006244,0
-盈江县,26721.24,Yingjiang County,Yunnan,,-0.1661699780372827,0
-益阳,398978.44,Yiyang,Hunan,8263,-0.07607682702195857,0
-盐城,9849308.09,Yancheng,Jiangsu,11504,2.211078334253754,0
-盐山县,8760.18,"Yanshan County, Hebei",Hebei,,-0.1705168878914784,0
-盐池县,9468.14,Yanchi County,Yanchi County,,-0.17034554843265046,0
-盐湖区,235017.73,Yanhu District,Shanxi,,-0.11575836174206544,0
-盐田区,100077.88,"Yantian, Shenzhen",Guangdong,,-0.1484163097522992,0
-盐都区,646381.4400000001,"Yandu, Yancheng",Jiangsu,,-0.01620070954016307,0
-监利县,51054.86,Jianli,Hubei,,-0.16028079039656143,0
-盖州市,67426.56,Gaizhou,Liaoning,,-0.1563185351588452,0
-盘山县,24510.620000000003,Panshan County,Liaoning,,-0.16670498910354953,0
-盘州市,31584.07,Panzhou,Guizhou,,-0.1649930829294061,0
-盘锦,1623714.7,Panjin,Liaoning,14025,0.2203320774293812,0
-盘龙区,218291.16,"Panlong, Kunming",Yunnan,,-0.1198065021057129,0
-盱眙县,120960.18000000001,Xuyi County,Jiangsu,,-0.14336240560364255,0
-相城区,451190.92,"Xiangcheng, Suzhou",Jiangsu,,-0.06344043786541682,0
-相山区,255283.21000000002,"Xiangshan, Huaibei",Anhui,,-0.11085373948079545,0
-眉县,7078.76,Mei County,Shaanxi,,-0.17092382273647316,0
-眉山,898091.26,Meishan,Sichuan,5520,0.04471773831067783,0
-睢县,8760.18,"Sui County, Henan",Henan,,-0.1705168878914784,0
-睢宁县,126524.78,"Suining County, Jiangsu",Jiangsu,,-0.14201566913181643,0
-睢阳区,83707.96,"Suiyang, Shangqiu",Henan,,-0.15237813419698093,0
-石嘴山,182719.48,Shizuishan,Shizuishan,9929,-0.1284155088303882,0
-石家庄,10182094.200000001,Shijiazhuang,Hebei,7664,2.291618748956364,0
-石屏县,17520.36,Shiping County,Yunnan,,-0.16839676175379342,0
-石峰区,30704.420000000002,"Shifeng, Zhuzhou",Hunan,,-0.16520597455457983,0
-石拐区,8760.18,Shiguai District,Shiguai District,,-0.1705168878914784,0
-石景山区,540724.66,"Shijingshan, Beijing","Shijingshan, Beijing",,-0.04177161115424302,0
-石林彝族自治县,32385.84,Shilin Yi Autonomous County,Yunnan,,-0.16479903970958507,0
-石柱土家族自治县,19909.74,Shizhu Tujia Autonomous County,Shizhu Tujia Autonomous County,,-0.16781848744997072,0
-石河子,170025.68,Shihezi,Shihezi,,-0.1314876440110061,0
-石河子市,7047.79,Shihezi,Shihezi,,-0.17093131805123657,0
-石渠县,16723.9,Sêrxü County,Sichuan,,-0.16858951985506768,0
-石狮市,371461.97,"Shishi, Fujian",Fujian,,-0.08273632343228626,0
-石门县,7875.22,Shimen County,Hunan,,-0.17073106463519894,0
-石首市,16635.4,Shishou,Hubei,,-0.16861093849751396,0
-石鼓区,39641.6,"Shigu, Hengyang",Hunan,,-0.16304301113200229,0
-矿区,52295.58,Kuangqu,Kuangqu,,-0.1599805131303924,0
-砀山县,7963.72,Dangshan County,Anhui,,-0.17070964599275265,0
-硚口区,394649.58,"Qiaokou, Wuhan",Hubei,,-0.07712449148003808,0
-确山县,7875.22,Queshan County,Henan,,-0.17073106463519894,0
-碌曲县,17520.35,Luqu County,Gansu,,-0.16839676417397903,0
-碑林区,707467.97,"Beilin, Xi'an",Shaanxi,,-0.0014166355926554864,0
-碧江区,22829.2,"Bijiang, Tongren",Guizhou,,-0.1671119239485443,0
-磁县,26988.5,Ci County,Hebei,,-0.1661052961572805,0
-磐安县,33359.3,Pan'an County,Zhejiang,,-0.16456344432341824,0
-磐石市,32385.84,Panshi,Jilin,,-0.16479903970958507,0
-礼泉县,18228.32,Liquan County,Shaanxi,,-0.16822542229496548,0
-社旗县,20706.2,Sheqi County,Henan,,-0.1676257293486965,0
-祁东县,74683.17,Qidong County,Hunan,,-0.15456230086548747,0
-祁县,29466.37,"Qi County, Shanxi",Shanxi,,-0.1655056056311971,0
-祁门县,8760.18,Qimen County,Anhui,,-0.1705168878914784,0
-祁阳县,7875.22,Qiyang,Hunan,,-0.17073106463519894,0
-祁阳市,16635.4,Qiyang,Hunan,,-0.16861093849751396,0
-神农架林区,14157.52,Shennongjia,Hubei,4383,-0.16921063144378296,0
-神木市,34155.76,Shenmu,Shaanxi,,-0.164370686222144,0
-神池县,17520.35,Shenchi County,Shanxi,,-0.16839676417397903,0
-祥云县,7875.22,Xiangyun County,Yunnan,,-0.17073106463519894,0
-祥符区,7875.22,"Xiangfu, Kaifeng",Henan,,-0.17073106463519894,0
-禄劝彝族苗族自治县,7078.76,Luquan Yi and Miao Autonomous County,Yunnan,,-0.17092382273647316,0
-禅城区,753597.4,"Chancheng, Foshan",Guangdong,,0.009747542570294292,0
-福安市,91310.63,Fu'an,Fujian,,-0.15053814696119427,0
-福山区,343591.17,"Fushan, Yantai",Shandong,,-0.08948157427852348,0
-福州,17652509.44,Fuzhou,Fujian,19293,4.099597878344591,2
-福泉市,8760.18,"Fuquan, Guizhou",Guizhou,,-0.1705168878914784,0
-福海县,7963.72,Fuhai County,Fuhai County,,-0.17070964599275265,0
-福清市,622720.85,Fuqing,Fujian,,-0.021927011430312345,0
-福田区,2533984.2,"Futian, Shenzhen",Guangdong,,0.44063418986170927,0
-福绵区,8760.18,Fumian District,Fumian District,,-0.1705168878914784,0
-福鼎市,147415.68,Fuding,Fujian,,-0.13695968362355482,0
-禹会区,78562.83,"Yuhui, Bengbu",Anhui,,-0.15362335114398282,0
-禹城市,8760.18,"Yucheng, Shandong",Shandong,,-0.1705168878914784,0
-禹州市,104763.73000000001,"Yuzhou, Henan",Henan,,-0.14728224708894397,0
-禹王台区,18228.32,"Yuwangtai, Kaifeng",Henan,,-0.16822542229496548,0
-离石区,69727.44,Lishi District,Shanxi,,-0.15576167949746875,0
-秀山土家族苗族自治县,7875.22,Xiushan Tujia and Miao Autonomous County,Xiushan Tujia and Miao Autonomous County,,-0.17073106463519894,0
-秀屿区,60524.78,"Xiuyu, Putian",Fujian,,-0.157988894007014,0
-秀峰区,80169.04000000001,Xiufeng District,Xiufeng District,,-0.153234618514789,0
-秀洲区,438961.59,"Xiuzhou, Jiaxing",Zhejiang,,-0.06640016268606833,0
-秀英区,166176.11,"Xiuying, Haikou",Haikou,,-0.13241931139407906,0
-科尔沁区,91052.22,Horqin District,Horqin District,,-0.15060068697695186,0
-科尔沁右翼前旗,19821.239999999998,Horqin Right Front Banner,Horqin Right Front Banner,,-0.167839906092417,0
-科尔沁左翼中旗,8760.18,Horqin Left Middle Banner,Horqin Left Middle Banner,,-0.1705168878914784,0
-秦州区,38668.14,"Qinzhou, Tianshui",Gansu,,-0.1632786065181691,0
-秦淮区,767715.06,"Qinhuai, Nanjing",Jiangsu,,0.013164278295924325,0
-秦皇岛,2658332.16,Qinhuangdao,Hebei,,0.470728703920074,0
-秦都区,94147.78,Qindu District,Shaanxi,,-0.14985150400733568,0
-秭归县,50791.16,Zigui County,Hubei,,-0.16034461069049458,0
-稷山县,8760.18,Jishan County,Shanxi,,-0.1705168878914784,0
-稻城县,15838.94,Daocheng County,Sichuan,,-0.16880369659878822,0
-穆棱市,8760.18,Muling,Heilongjiang,,-0.1705168878914784,0
-立山区,161222.15,Lishan District,Liaoning,,-0.13361826165321136,0
-站前区,164228.32,Zhanqian District,Liaoning,,-0.13289071272255876,0
-竞秀区,145029.21,"Jingxiu, Baoding",Hebei,,-0.13753725365337172,0
-章丘区,183595.38,"Zhangqiu, Jinan",Shandong,,-0.12820352477480962,0
-章贡区,390470.84,"Zhanggong, Ganzhou",Jiangxi,,-0.07813582411208327,0
-端州区,165380.54,"Duanzhou, Zhaoqing",Guangdong,,-0.13261185409883602,0
-竹山县,7875.22,Zhushan County,Hubei,,-0.17073106463519894,0
-筠连县,7875.22,Junlian County,Sichuan,,-0.17073106463519894,0
-简阳市,66364.6,"Jianyang, Sichuan",Sichuan,,-0.15657554918745828,0
-管城回族区,1042985.03,"Guancheng, Zhengzhou",Henan,,0.07978471969287713,0
-米东区,45479.66,"Midong, Ürümqi",Xinjiang,,-0.1616300922651099,0
-米易县,15925.66,Miyi County,Sichuan,,-0.16878270874937643,0
-米林县,8760.18,Mainling,Mainling,,-0.1705168878914784,0
-类乌齐县,8760.18,Riwoche County,Riwoche County,,-0.1705168878914784,0
-精河县,8760.18,Jinghe County,Jinghe County,,-0.1705168878914784,0
-紫云苗族布依族自治县,7875.22,Ziyun Miao and Buyei Autonomous County,Guizhou,,-0.17073106463519894,0
-紫金县,8760.18,Zijin County,Guangdong,,-0.1705168878914784,0
-綦江区,36809.73,"Qijiang, Chongqing","Qijiang, Chongqing",,-0.16372837622787087,0
-繁峙县,18404.43,Fanshi County,Shanxi,,-0.16818280040659014,0
-繁昌区,7875.22,"Fanchang, Wuhu",Anhui,,-0.17073106463519894,0
-繁昌县,30704.43,"Fanchang, Wuhu",Anhui,,-0.16520597213439425,0
-红古区,17520.36,"Honggu, Lanzhou",Gansu,,-0.16839676175379342,0
-红塔区,188653.1,"Hongta, Yuxi",Yunnan,,-0.126979462670025,0
-红安县,29289.38,Hong'an County,Hubei,,-0.16554844049590406,0
-红寺堡区,16635.4,"Hongsibu, Wuzhong","Hongsibu, Wuzhong",,-0.16861093849751396,0
-红山区,102113.28,"Hongshan District, Chifeng","Hongshan District, Chifeng",,-0.14792370517789044,0
-红旗区,138477.88,"Hongqi, Xinxiang",Henan,,-0.13912279709763878,0
-红桥区,237752.23,"Hongqiao, Tianjin","Hongqiao, Tianjin",,-0.11509656199325896,0
-红河哈尼族彝族自治州,552100.96,Honghe Hani and Yi Autonomous Prefecture,Yunnan,9553,-0.03901833542473228,0
-红花岗区,57780.530000000006,"Honghuagang, Zunyi",Guizhou,,-0.15865305343676794,0
-红谷滩区,162974.02,"Honggutan, Nanchang",Jiangxi,,-0.1331942766007551,0
-纳溪区,17431.86,"Naxi, Luzhou",Sichuan,,-0.16841818039623974,0
-纳雍县,9468.14,Nayong County,Guizhou,,-0.17034554843265046,0
-细河区,83169.92,Xihe District,Liaoning,,-0.152508349862312,0
-绍兴,7911738.57,Shaoxing,Zhejiang,17500,1.742150551613018,0
-绛县,18228.32,Jiang County,Shanxi,,-0.16822542229496548,0
-绥中县,66364.6,Suizhong County,Liaoning,,-0.15657554918745828,0
-绥化,1504074.6,Suihua,Heilongjiang,3708,0.19137695286284906,0
-绥德县,17520.36,Suide County,Shaanxi,,-0.16839676175379342,0
-绥棱县,10353.1,Suiling County,Heilongjiang,,-0.17013137168892992,0
-绥芬河市,24510.620000000003,Suifenhe,Heilongjiang,,-0.16670498910354953,0
-绩溪县,7875.22,Jixi County,Anhui,,-0.17073106463519894,0
-绵竹市,24510.620000000003,Mianzhu,Sichuan,,-0.16670498910354953,0
-绵阳,1575103.72,Mianyang,Sichuan,5740,0.20856731811205195,0
-绿园区,556796.52,"Luyuan, Changchun",Jilin,,-0.03788192276117192,0
-缙云县,132729.21,Jinyun County,Zhejiang,,-0.1405140819255676,0
-罗城仫佬族自治县,7875.22,Luocheng Mulao Autonomous County,Luocheng Mulao Autonomous County,,-0.17073106463519894,0
-罗定市,76806.2,Luoding,Guangdong,,-0.15404848820477857,0
-罗山县,25350.44,Luoshan County,Henan,,-0.1665017370775694,0
-罗庄区,197147.79,"Luozhuang, Linyi",Shandong,,-0.1249235900394933,0
-罗湖区,1095104.51,"Luohu, Shenzhen",Guangdong,,0.09239860112345837,0
-罗源县,16635.4,Luoyuan County,Fujian,,-0.16861093849751396,0
-罗田县,19821.239999999998,Luotian County,Hubei,,-0.167839906092417,0
-罗甸县,7875.22,Luodian County,Guizhou,,-0.17073106463519894,0
-美兰区,254577.01,"Meilan, Haikou",Haikou,,-0.11102465298696007,0
-翁源县,27873.46,Wengyuan County,Guangdong,,-0.16589111941356,0
-翁牛特旗,10353.1,Ongniud Banner,Ongniud Banner,,-0.17013137168892992,0
-翔安区,229520.34,"Xiang'an, Xiamen",Fujian,,-0.11708883214656032,0
-翠屏区,64063.72,"Cuiping, Yibin",Sichuan,,-0.15713240484883473,0
-翼城县,33359.3,Yicheng County,Shanxi,,-0.16456344432341824,0
-耀州区,49994.69,Yaozhou District,Shaanxi,,-0.1605373712119544,0
-老城区,124853.99,"Laocheng, Luoyang",Henan,,-0.14242003131953204,0
-老边区,62737.17,Laobian District,Liaoning,,-0.15745345456789825,0
-聊城,2014877.05,Liaocheng,Shandong,7848,0.3150006255999984,0
-肃宁县,10353.1,Suning County,Hebei,,-0.17013137168892992,0
-肃州区,57869.91,"Suzhou, Jiuquan",Gansu,,-0.15863142181798998,0
-肇东市,61845.15,Zhaodong,Heilongjiang,,-0.1576693399626433,0
-肇州县,7875.22,Zhaozhou County,Heilongjiang,,-0.17073106463519894,0
-肇庆,1640521.36,Zhaoqing,Guangdong,9962,0.22439960105939621,0
-肇源县,11946.02,Zhaoyuan County,Heilongjiang,,-0.16974585548638144,0
-肥东县,106361.07,Feidong County,Anhui,,-0.14689566116436598,0
-肥乡区,15750.44,"Feixiang, Handan",Hebei,,-0.1688251152412345,0
-肥城市,50702.66,Feicheng,Shandong,,-0.1603660293329409,0
-肥西县,361733.67,Feixi County,Anhui,,-0.08509075257703451,0
-胶州市,155206.2,Jiaozhou City,Shandong,,-0.13507423320151354,0
-腾冲市,22829.2,Tengchong,Yunnan,,-0.1671119239485443,0
-自流井区,90875.22,"Ziliujing, Zigong",Sichuan,,-0.15064352426184444,0
-自贡,690541.64,Zigong,Sichuan,6655,-0.005513121583591881,0
-舒兰市,7078.76,Shulan,Jilin,,-0.17092382273647316,0
-舒城县,77334.38,Shucheng County,Anhui,,-0.1539206588424364,0
-舞阳县,14157.52,Wuyang County,Henan,,-0.16921063144378296,0
-舟山,1037627.56,Zhoushan,Zhejiang,16999,0.07848811252511768,0
-船山区,111843.37,"Chuanshan, Suining",Sichuan,,-0.1455688428199221,0
-船营区,128305.32,"Chuanying, Jilin City",Jilin,,-0.14158474540728183,0
-良庆区,75213.28,"Liangqing, Nanning","Liangqing, Nanning",,-0.15443400440732702,0
-色尼区,7875.22,"Seni, Nagqu","Seni, Nagqu",,-0.17073106463519894,0
-芒市,39464.6,Mangshi,Yunnan,,-0.16308584841689489,0
-芗城区,361112.41000000003,"Xiangcheng, Zhangzhou",Fujian,,-0.08524110902682185,0
-芙蓉区,761252.28,"Furong, Changsha",Hunan,,0.01160016559503145,0
-芜湖,5160490.17,Wuhu,Anhui,18163,1.076297379177753,0
-芜湖县,32385.840000000004,"Wanzhi, Wuhu",Anhui,,-0.16479903970958507,0
-芝罘区,461534.84,"Zhifu, Yantai",Shandong,,-0.060937017255552374,0
-芦淞区,51499.12,"Lusong, Zhuzhou",Hunan,,-0.16017327123166664,0
-芦溪县,7875.22,"Luxi County, Jiangxi",Jiangxi,,-0.17073106463519894,0
-芮城县,22740.71,Ruicheng County,Shanxi,,-0.167133340170805,0
-花垣县,7875.22,Huayuan County,Hunan,,-0.17073106463519894,0
-花山区,188475.24000000002,"Huashan, Ma'anshan",Anhui,,-0.12702250809087806,0
-花溪区,68575.22,Huaxi District,Guizhou,,-0.15604053812119148,0
-花都区,664197.39,"Huadu, Guangzhou",Guangdong,,-0.011888918999022537,0
-芷江侗族自治县,8760.18,Zhijiang Dong Autonomous County,Hunan,,-0.1705168878914784,0
-苍南县,366759.44,Cangnan County,Zhejiang,5760,-0.08387442296520084,0
-苏仙区,25395.58,"Suxian, Chenzhou",Hunan,,-0.166490812359829,0
-苏家屯区,77868.16,"Sujiatun, Shenyang",Liaoning,,-0.15379147417616543,0
-苏州,41893665.01,Suzhou,Jiangsu,27629,9.96640741098486,2
-若羌县,15750.44,Ruoqiang County,Ruoqiang County,,-0.1688251152412345,0
-英德市,56807.96,Yingde,Guangdong,,-0.1588884334264175,0
-茂南区,268859.29,"Maonan, Maoming",Guangdong,,-0.10756807616619438,0
-茂名,2029703.76,Maoming,Guangdong,9246,0.3185889645846854,0
-范县,25484.08,Fan County,Henan,,-0.1664693937173827,0
-茄子河区,14953.98,Qiezihe District,Heilongjiang,,-0.16901787334250873,0
-茅箭区,107860.18,"Maojian, Shiyan",Hubei,,-0.14653284872281053,0
-茌平区,51587.62,"Chiping, Liaocheng",Shandong,,-0.16015185258922035,0
-茌平县,8760.18,"Chiping, Liaocheng",Shandong,,-0.1705168878914784,0
-茶山镇,11941.59,,,,-0.16974692762859656,0
-荆州,1618807.31,Jingzhou (disambiguation),Jingzhou (disambiguation),,0.21914439797452828,0
-荆州区,78221.26000000001,"Jingzhou, Jingzhou",Hubei,,-0.15370601742308312,0
-荆门,993367.38,Jingmen,Hubei,7706,0.06777632755304613,0
-荔城区,270678.87,"Licheng, Putian",Fujian,,-0.10712770403712751,0
-荔波县,9644.25,Libo County,Guizhou,,-0.17030292654427512,0
-荔浦市,17520.36,"Lipu, Guangxi",Guangxi,,-0.16839676175379342,0
-荔湾区,649214.5700000001,"Liwan, Guangzhou",Guangdong,,-0.015515039500910517,0
-荣县,29907.96,"Rong County, Sichuan",Sichuan,,-0.16539873265585409,0
-荣成市,203695.6,"Rongcheng, Shandong",Shandong,,-0.1233388985005529,0
-荣昌区,38579.64,"Rongchang, Chongqing","Rongchang, Chongqing",,-0.1633000251606154,0
-荥阳市,101494.7,Xingyang,Henan,,-0.14807341301794044,0
-荷塘区,19113.28,"Hetang, Zhuzhou",Hunan,,-0.16801124555124494,0
-莆田,2302382.19,Putian,Fujian,12995,0.3845822052059856,0
-莒南县,57781.42,Junan County,Shandong,,-0.15865283804025068,0
-莒县,91849.56,Ju County,Shandong,,-0.15040771589934596,0
-莘县,53977.0,Shen County,Shandong,,-0.15957357828539764,0
-莞城街道,9461.06,Guancheng Subdistrict,Guangdong,,-0.17034726192404614,0
-莫力达瓦达斡尔族自治旗,7875.22,Morin Dawa Daur Autonomous Banner,Morin Dawa Daur Autonomous Banner,,-0.17073106463519894,0
-莱山区,340672.62,"Laishan, Yantai",Shandong,,-0.09018791754306148,0
-莱州市,179357.54,Laizhou,Shandong,,-0.12922916070367485,0
-莱芜区,248448.69,"Laiwu, Jinan",Shandong,,-0.11250782016070508,0
-莱西市,83248.67,Laixi,Shandong,,-0.15248929090081317,0
-莱阳市,35837.18,Laiyang,Shandong,,-0.16396375137714925,0
-莲池区,333380.59,"Lianchi, Baoding",Hebei,,-0.09195272413376884,0
-莲湖区,540470.11,"Lianhu, Xi'an",Shaanxi,,-0.04183321697836396,0
-莲都区,441092.05,"Liandu, Lishui",Zhejiang,,-0.06588455182746814,0
-获嘉县,28669.920000000002,Huojia County,Henan,,-0.16569836131228574,0
-菏泽,2105945.42,Heze,Shandong,5317,0.3370408612519332,0
-萍乡,712397.4,Pingxiang,Jiangxi,7728,-0.00022362204876842683,0
-萝北县,17520.36,Luobei County,Heilongjiang,,-0.16839676175379342,0
-营口,2143766.62,Yingkou,Liaoning,9942,0.34619429356480935,0
-营山县,16635.4,"Yingshan County, Sichuan",Sichuan,,-0.16861093849751396,0
-萧县,37341.6,Xiao County,Anhui,,-0.16359965381704705,0
-萧山区,2750962.37,"Xiaoshan, Hangzhou",Zhejiang,,0.4931469338377523,0
-萨尔图区,88044.26,Sartu District,Heilongjiang,,-0.15132866912082457,0
-葫芦岛,1316921.87,Huludao,Liaoning,4507,0.1460825188886501,0
-蒙城县,55569.92,Mengcheng County,Anhui,,-0.15918806208284914,0
-蒙自市,41057.520000000004,Mengzi City,Yunnan,,-0.16270033221434638,0
-蒙阴县,26192.04,Mengyin County,Shandong,,-0.16629805425855473,0
-蒲城县,22829.2,"Pucheng County, Shaanxi",Shaanxi,,-0.1671119239485443,0
-蒲江县,41146.020000000004,"Pujiang County, Sichuan",Sichuan,,-0.1626789135719001,0
-蒸湘区,99281.42,"Zhengxiang, Hengyang",Hunan,,-0.14860906785357342,0
-蓝山县,7698.23,Lanshan County,Hunan,,-0.17077389949990593,0
-蓟州区,55744.25,"Jizhou, Tianjin","Jizhou, Tianjin",,-0.15914587098750835,0
-蓬江区,289429.22000000003,"Pengjiang, Jiangmen",Guangdong,,-0.10258977135472357,0
-蓬溪县,7078.76,Pengxi County,Sichuan,,-0.17092382273647316,0
-蓬莱区,8760.18,"Penglai, Yantai",Shandong,,-0.1705168878914784,0
-蓬莱市,84151.33,"Penglai, Yantai",Shandong,,-0.1522708304286034,0
-蔚县,20706.19,"Yu County, Hebei",Hebei,,-0.16762573176888207,0
-蔡甸区,393138.08,"Caidian, Wuhan",Hubei,,-0.07749030253153598,0
-蕉城区,285723.05,"Jiaocheng, Ningde",Fujian,,-0.10348673327647677,0
-蕉岭县,7963.72,Jiaoling County,Guangdong,,-0.17070964599275265,0
-蕲春县,15838.94,Qichun County,Hubei,,-0.16880369659878822,0
-薛城区,115784.95,Xuecheng District,Shandong,,-0.1446149073092618,0
-藁城区,65568.15,"Gaocheng, Shijiazhuang",Hebei,,-0.15676830486854693,0
-藤县,21944.25,Teng County,Teng County,,-0.16732609827207923,0
-虎丘区,900081.46,"Huqiu, Suzhou",Jiangsu,,0.04519940364623264,0
-虎林市,23625.66,Hulin,Heilongjiang,,-0.16691916584727004,0
-虎门镇,11061.06,Humen Town,Guangdong,,-0.16996003223010195,0
-虞城县,41853.98,Yucheng County,Henan,,-0.16250757411307215,0
-虹口区,739362.87,"Hongkou, Shanghai","Hongkou, Shanghai",,0.006302522135707226,0
-蚌埠,2093466.62,Bengbu,Anhui,9295,0.33402076006143905,0
-蚌山区,196172.16,"Bengshan, Bengbu",Anhui,,-0.12515971060593253,0
-蛟河市,17520.36,"Jiaohe, Jilin",Jilin,,-0.16839676175379342,0
-蜀山区,1753330.22,"Shushan, Hefei",Anhui,,0.25170143876689133,0
-蠡县,18228.32,"Li County, Hebei",Hebei,,-0.16822542229496548,0
-衡南县,25395.58,Hengnan County,Hunan,,-0.166490812359829,0
-衡山县,16546.9,Hengshan County,Hunan,,-0.16863235713996025,0
-衡水,1265975.42,Hengshui,Hebei,4422,0.1337525324879984,0
-衡阳,1127624.23,Hengyang,Hunan,8288,0.10026897688767746,0
-衡阳县,6193.81,Hengyang County,Hunan,,-0.1711379970600081,0
-衢州,1825864.74,Quzhou,Zhejiang,10115,0.2692561387543839,0
-衢江区,78221.24,"Qujiang, Quzhou",Zhejiang,,-0.1537060222634543,0
-袁州区,96182.31,"Yuanzhou, Yichun",Jiangxi,,-0.14935910998907304,0
-裕华区,554001.83,"Yuhua, Shijiazhuang",Hebei,,-0.03855828960702748,0
-裕安区,132507.98,"Yu'an, Lu'an",Anhui,,-0.14056762369131215,0
-襄垣县,27873.46,Xiangyuan County,Shanxi,,-0.16589111941356,0
-襄城区,77864.61,"Xiangcheng, Xiangyang",Hubei,,-0.1537923333420489,0
-襄城县,38226.56,"Xiangcheng County, Henan",Henan,,-0.16338547707332654,0
-襄州区,50702.66,"Xiangzhou, Xiangyang",Hubei,,-0.1603660293329409,0
-襄汾县,16635.4,Xiangfen County,Shanxi,,-0.16861093849751396,0
-襄都区,31399.120000000003,"Xiangdu, Xingtai",Hebei,,-0.16503784426184046,0
-襄阳,2432060.4,Xiangyang,Hubei,9684,0.4159667386869416,0
-西丰县,10353.1,"Xifeng County, Liaoning",Liaoning,,-0.17013137168892992,0
-西乌珠穆沁旗,7875.22,West Ujimqin Banner,West Ujimqin Banner,,-0.17073106463519894,0
-西乡塘区,258809.75,"Xixiangtang, Nanning","Xixiangtang, Nanning",,-0.11000025135274426,0
-西充县,14953.98,Xichong County,Sichuan,,-0.16901787334250873,0
-西区,7963.72,Western District,Western District,,-0.17070964599275265,0
-西华县,23713.27,Xihua County,Henan,,-0.16689796260134102,0
-西双版纳傣族自治州,181654.89,Xishuangbanna Dai Autonomous Prefecture,Yunnan Province,,-0.1286731593678107,0
-西吉县,8760.18,Xiji County,Xiji County,,-0.1705168878914784,0
-西固区,39287.61,"Xigu, Lanzhou",Gansu,,-0.16312868328160185,0
-西城区,1281894.1,"Xicheng, Beijing","Xicheng, Beijing",,0.13760514847824556,0
-西塞山区,16634.510000000002,,,,-0.16861115389403122,0
-西夏区,71143.36,"Xixia, Yinchuan","Xixia, Yinchuan",,-0.15541900057981284,0
-西宁,1400717.6,Xining,Qinghai,7897,0.16636264068973097,0
-西安,25104612.34,Xi'an,Shaanxi,15108,5.903145081599316,2
-西安区,34863.72,,,,-0.16419934676331607,0
-西山区,300672.60000000003,"Xishan, Kunming",Yunnan,,-0.09986866473203722,0
-西岗区,404559.33,"Xigang, Dalian",Liaoning,,-0.07472614806781097,0
-西峡县,53083.19,Xixia County,Henan,,-0.1597898968933628,0
-西峰区,79814.16,"Xifeng, Qingyang",Gansu,,-0.15332050606090583,0
-西工区,238951.36000000002,"Xigong, Luoyang",Henan,,-0.11480635027894691,0
-西市区,38137.17,Xishi District,Liaoning,,-0.16340711111229006,0
-西平县,28576.989999999998,Xiping County,Henan,,-0.16572085209694715,0
-西昌市,109894.70000000001,Xichang,Sichuan,,-0.14604045712473346,0
-西湖区,2889525.81,Xihu,Xihu,,0.5266818578771606,0
-西秀区,9113.28,"Xixiu, Anshun",Guizhou,,-0.1704314311383961,0
-西陵区,188882.32,"Xiling, Yichang",Hubei,,-0.12692398717599634,0
-西青区,505601.84,"Xiqing, Tianjin","Xiqing, Tianjin",,-0.050271985428653417,0
-观山湖区,233780.55000000002,Guanshanhu District,Guizhou,,-0.11605778226253659,0
-解放区,110166.38,,,,-0.14597470552270175,0
-让胡路区,120870.8,Ranghulu District,Heilongjiang,,-0.1433840372224205,0
-讷河市,27873.46,Nehe,Heilongjiang,,-0.16589111941356,0
-许昌,1483804.6600000001,Xuchang,Henan,8208,0.18647125119880723,0
-诏安县,44243.37,Zhao'an County,Fujian,,-0.16192929738906384,0
-诸城市,284305.32,Zhucheng,Shandong,,-0.10382985024772394,0
-诸暨市,549139.86,Zhuji,Zhejiang,,-0.0397349765789436,0
-调兵山市,35040.72,Diaobingshan,Liaoning,,-0.1641565094784235,0
-谢家集区,8760.18,"Xiejiaji, Huainan",Anhui,,-0.1705168878914784,0
-谯城区,260132.89,"Qiaocheng, Bozhou",Anhui,,-0.10968002691696593,0
-谷城县,20706.2,"Gucheng County, Hubei",Hubei,,-0.1676257293486965,0
-象山区,38129.2,"Xiangshan District, Guilin","Xiangshan District, Guilin",,-0.16340904000020304,0
-象山县,164053.1,"Xiangshan County, Zhejiang",Zhejiang,,-0.13293311921441683,0
-贡嘎县,26988.5,Gonggar County,Gonggar County,,-0.1661052961572805,0
-贵南县,8760.18,Guinan County,Qinghai,,-0.1705168878914784,0
-贵池区,76008.85,"Guichi, Chizhou",Anhui,,-0.15424146170257005,0
-贵港,368192.97000000003,Guigang,Guigang,5368,-0.08352748210072596,0
-贵阳,3811338.45,Guiyang,Guizhou,10474,0.7497776244153354,0
-费县,62378.76,Fei County,Shandong,,-0.15754019643952732,0
-贺兰县,18315.93,Helan County,Helan County,,-0.16820421904903643,0
-贺州,158106.22,Hezhou,Hezhou,6982,-0.13437237454086856,0
-贾汪区,94675.22,"Jiawang, Xuzhou",Jiangsu,,-0.149723853738727,0
-资中县,17520.36,Zizhong County,Sichuan,,-0.16839676175379342,0
-资源县,7875.22,Ziyuan County,Ziyuan County,,-0.17073106463519894,0
-资溪县,7875.22,Zixi County,Jiangxi,,-0.17073106463519894,0
-资阳,404638.11,,,,-0.0747070818457554,0
-赛罕区,334301.81,"Saihan, Hohhot","Saihan, Hohhot",,-0.09172977179710931,0
-赞皇县,8760.18,Zanhuang County,Hebei,,-0.1705168878914784,0
-赣县区,19908.85,"Ganxian, Ganzhou",Jiangxi,,-0.16781870284648798,0
-赣州,3647562.2800000003,Ganzhou,Jiangxi,5440,0.7101407518000538,0
-赣榆区,166956.65,"Ganyu, Lianyungang",Jiangsu,,-0.13223040622825954,0
-赤坎区,201925.68,"Chikan, Zhanjiang",Guangdong,,-0.12376725198799395,0
-赤城县,10353.1,Chicheng County,Hebei,,-0.17013137168892992,0
-赤壁市,25395.58,"Chibi, Hubei",Hubei,,-0.166490812359829,0
-赤峰,662969.15,Chifeng,Chifeng,6947,-0.012186175873578788,0
-赫山区,76184.97,"Heshan, Yiyang",Hunan,,-0.15419883739400914,0
-赵县,32385.84,Zhao County,Hebei,,-0.16479903970958507,0
-越城区,791995.54,"Yuecheng, Shaoxing",Zhejiang,,0.019040605070435486,0
-越秀区,876942.77,"Yuexiu, Guangzhou",Guangdong,,0.03959941124187682,0
-路北区,874938.1900000001,"Lubei, Tangshan",Hebei,,0.03911426567944769,0
-路南区,247408.87,"Lunan, Tangshan",Hebei,,-0.11275947589842823,0
-路桥区,992201.87,"Luqiao, Taizhou",Zhejiang,,0.06749425250267807,0
-轮台县,1680.53,Luntai County,Luntai County,,-0.17223029458068587,0
-辉南县,26988.5,Huinan County,Jilin,,-0.1661052961572805,0
-辉县市,73090.28,Huixian,Henan,,-0.15494780980747921,0
-辛集市,162372.56,Xinji,Hebei,,-0.13333984108307992,0
-辰溪县,8760.18,Chenxi County,Hunan,,-0.1705168878914784,0
-辽中区,31677.88,Liaozhong District,Liaoning,,-0.16497037916841303,0
-辽源,457650.5,,,,-0.061877099623911844,0
-辽阳,1053108.99,Liaoyang (disambiguation),Liaoyang (disambiguation),,0.0822349059005666,0
-辽阳县,7875.22,Liaoyang County,Liaoning,,-0.17073106463519894,0
-达川区,16635.4,"Dachuan, Dazhou",Sichuan,,-0.16861093849751396,0
-达州,707572.61,Dazhou,Sichuan,3908,-0.0013913107706715333,0
-达拉特旗,43712.4,Dalad Banner,Dalad Banner,,-0.16205780198318478,0
-迁安市,68400.9,"Qian'an, Hebei",Hebei,,-0.1560827267963467,0
-迁西县,68842.49,"Qianxi County, Hebei",Hebei,,-0.15597585382100368,0
-迎江区,58666.380000000005,Yingjiang District,Anhui,,-0.15843866129653014,0
-迎泽区,519948.73000000004,"Yingze, Taiyuan",Shanxi,,-0.046799771788809126,0
-运城,1389265.65,Yuncheng,Shanxi,5508,0.16359105625625336,0
-运河区,123792.05,"Yunhe, Cangzhou",Hebei,,-0.14267704050777397,0
-进贤县,26103.54,Jinxian County,Jiangxi,,-0.16631947290100102,0
-连云区,166532.76,"Lianyun, Lianyungang",Jiangsu,,-0.1323329954751133,0
-连云港,5420849.26,Lianyungang,Jiangsu,9286,1.1393091108879319,0
-连城县,23360.18,Liancheng County,Fujian,,-0.1669834169342377,0
-连山区,69533.64,Lianshan District,Liaoning,,-0.15580858269414774,0
-连山壮族瑶族自治县,5307.96,Lianshan Zhuang and Yao Autonomous County,Guangdong,,-0.1713523892002459,0
-连州市,19113.28,Lianzhou,Guangdong,,-0.16801124555124494,0
-连平县,10353.1,Lianping County,Guangdong,,-0.17013137168892992,0
-连江县,75831.86,Lianjiang County,Fujian,,-0.15428429656727705,0
-迪庆藏族自治州,132593.82,Diqing Tibetan Autonomous Prefecture,Yunnan,11473,-0.14054684881823207,0
-通化,679218.64,Tonghua,Jilin,7252,-0.008253497723923123,0
-通化县,8760.18,Tonghua County,Jilin,,-0.1705168878914784,0
-通山县,55569.91,Tongshan County,Hubei,,-0.15918806450303474,0
-通川区,33270.8,"Tongchuan, Dazhou",Sichuan,,-0.16458486296586453,0
-通州区,1428591.29,"Tongzhou, Beijing","Tongzhou, Beijing",,0.17310859096960288,0
-通榆县,8760.18,Tongyu County,Jilin,,-0.1705168878914784,0
-通河县,30704.420000000002,Tonghe County,Heilongjiang,,-0.16520597455457983,0
-通海县,8760.18,Tonghai County,Yunnan,,-0.1705168878914784,0
-通渭县,7875.22,Tongwei County,Gansu,,-0.17073106463519894,0
-通许县,7875.22,Tongxu County,Henan,,-0.17073106463519894,0
-通辽,638641.67,Tongliao,Tongliao,9654,-0.018073877520349557,0
-遂宁,347650.45,Suining,Sichuan,4474,-0.08849915318350238,0
-遂川县,27777.88,Suichuan County,Jiangxi,,-0.16591425154740197,0
-遂平县,23709.74,Suiping County,Henan,,-0.16689881692685327,0
-遂昌县,8759.29,Suichang County,Zhejiang,,-0.17051710328799566,0
-遂溪县,17520.36,"Suixi County, Guangdong",Guangdong,,-0.16839676175379342,0
-道县,26280.53,Dao County,Hunan,,-0.16627663803629403,0
-道外区,595593.84,"Daowai, Harbin",Heilongjiang,,-0.028492251292762845,0
-道真仡佬族苗族自治县,7078.76,Daozhen Gelao and Miao Autonomous County,Guizhou,,-0.17092382273647316,0
-道里区,1136139.9100000001,"Daoli, Harbin",Heilongjiang,,0.10232992948775661,0
-遵义,1064827.54,Zunyi,Guizhou,8167,0.08507101248179762,0
-遵化市,134323.03,Zunhua,Hebei,,-0.1401283479063163,0
-邓州市,51676.11,Dengzhou,Henan,,-0.16013043636695967,0
-邕宁区,44407.08,"Yongning, Nanning","Yongning, Nanning",,-0.1618896765308166,0
-邗江区,778486.8200000001,"Hanjiang District, Yangzhou",Jiangsu,,0.01577124412594945,0
-邛崃市,39818.59,Qionglai City,Sichuan,,-0.16300017626729532,0
-邢台,1454437.94,Xingtai,Hebei,,0.17936395995021687,0
-邢台县,8760.18,Xingtai County,Hebei,,-0.1705168878914784,0
-那坡县,8760.18,Napo County,Napo County,,-0.1705168878914784,0
-那曲市,16635.4,Nagqu,Nagqu,3132,-0.16861093849751396,0
-邯山区,124500.88,"Hanshan, Handan",Hebei,,-0.14250549049279995,0
-邯郸,2514857.02,Handan,Hebei,,0.4360050573258247,0
-邳州市,279175.24,Pizhou,Jiangsu,,-0.10507142481541719,0
-邵东市,16635.4,Shaodong,Hunan,,-0.16861093849751396,0
-邵武市,16723.9,Shaowu,Fujian,,-0.16858951985506768,0
-邵阳,634512.4500000001,Shaoyang,Hunan,4731,-0.019073225393367175,0
-邵阳县,26988.5,Shaoyang County,Hunan,,-0.1661052961572805,0
-邹城市,104769.04000000001,Zoucheng,Shandong,,-0.1472809619703972,0
-邹平市,83084.08,Zouping,Shandong,,-0.15252912473539212,0
-邻水县,14953.98,Linshui County,Sichuan,,-0.16901787334250873,0
-郊区,89712.39,Suburb,Suburb,,-0.1509249507024751,0
-郎溪县,22961.06,Langxi County,Anhui,,-0.16708001138139209,0
-郏县,37872.56,"Jia County, Henan",Henan,,-0.16347115164311168,0
-郑州,19479096.06,Zhengzhou,Henan,14866,4.541665739485302,2
-郓城县,66715.93,Yuncheng County,Shandong,,-0.1564905208072249,0
-郫都区,503920.35000000003,"Pidu, Chengdu",Sichuan,,-0.050678937214947296,0
-郯城县,107954.0,Tancheng County,Shandong,,-0.1465101425416319,0
-郴州,547550.52,Chenzhou,Hunan,9558,-0.04011962635505187,0
-郸城县,63710.630000000005,Dancheng County,Henan,,-0.15721785918173142,0
-都兰县,8760.18,Dulan County,Qinghai,,-0.1705168878914784,0
-都匀市,73798.24,Duyun,Guizhou,,-0.15477647034865127,0
-都安瑶族自治县,8760.18,Du'an Yao Autonomous County,Du'an Yao Autonomous County,,-0.1705168878914784,0
-都昌县,22829.2,Duchang County,Jiangxi,,-0.1671119239485443,0
-都江堰市,75036.28,Dujiangyan City,Sichuan,,-0.1544768416922196,0
-郾城区,94591.15000000001,"Yancheng, Luohe",Henan,,-0.14974420023895815,0
-鄂城区,99002.66,"Echeng, Ezhou",Hubei,,-0.14867653294700084,0
-鄂尔多斯,1212988.67,Ordos City,Ordos City,33261,0.12092875562200031,0
-鄂州,369869.97000000003,Ezhou,Hubei,11066,-0.08312161697776072,0
-鄂托克旗,43712.4,Otog Banner,Otog Banner,,-0.16205780198318478,0
-鄂温克族自治旗,8760.18,Ewenki Autonomous Banner,Ewenki Autonomous Banner,,-0.1705168878914784,0
-鄄城县,60436.29,Juancheng County,Shandong,,-0.15801031022927467,0
-鄞州区,1676581.11,"Yinzhou, Ningbo",Zhejiang,,0.23312672978202356,0
-鄠邑区,49193.5,"Huyi, Xi'an",Shaanxi,,-0.1607312740610114,0
-鄢陵县,14953.98,"Yanling County, Henan",Henan,,-0.16901787334250873,0
-鄱阳县,57781.42,Poyang County,Jiangxi,,-0.15865283804025068,0
-酉阳土家族苗族自治县,7078.76,Youyang Tujia and Miao Autonomous County,Youyang Tujia and Miao Autonomous County,,-0.17092382273647316,0
-酒泉,161134.54,Jiuquan,Gansu,11573,-0.1336394648991404,0
-醴陵市,26186.730000000003,Liling,Hunan,,-0.16629933937710153,0
-重庆,13167573.76,Chongqing,Chongqing,13359,3.0141602091409982,0
-金东区,315604.58,"Jindong, Jinhua",Zhejiang,,-0.09625484845367431,0
-金乡县,17520.36,Jinxiang County,Shandong,,-0.16839676175379342,0
-金凤区,133878.76,"Jinfeng, Yinchuan","Jinfeng, Yinchuan",,-0.14023586949139663,0
-金华,14397321.040000001,Jinhua,Zhejiang,11096,3.311781873430431,0
-金台区,110165.49,Jintai District,Shaanxi,,-0.14597492091921901,0
-金坛区,380845.17,"Jintan, Changzhou",Jiangsu,,-0.0804654148921506,0
-金城江区,7875.22,Jinchengjiang District,Jinchengjiang District,,-0.17073106463519894,0
-金堂县,41935.4,Jintang County,Sichuan,,-0.16248786896202155,0
-金塔县,7875.22,Jinta County,Gansu,,-0.17073106463519894,0
-金安区,196705.32,"Jin'an, Lu'an",Anhui,,-0.125030675991168,0
-金寨县,24510.620000000003,Jinzhai County,Anhui,,-0.16670498910354953,0
-金山区,236345.17,,,,-0.11543709662648463,0
-金川区,26279.65,"Jinchuan, Jinchang",Gansu,,-0.1662768510126257,0
-金川县,7078.76,Jinchuan County,Sichuan,,-0.17092382273647316,0
-金州区,436591.18,"Jinzhou, Dalian",Liaoning,,-0.06697384589783223,0
-金平区,266344.26,"Jinping, Shantou",Guangdong,,-0.10817676010191964,0
-金昌,86451.34,Jinchang,Gansu,7665,-0.15171418532337305,0
-金水区,1591691.67,"Jinshui, Zhengzhou",Henan,,0.21258190986309033,0
-金沙县,17520.35,Jinsha County,Guizhou,,-0.16839676417397903,0
-金湖县,129887.62000000001,Jinhu County,Jiangsu,,-0.1412017994418269,0
-金湾区,158645.14,"Jinwan, Zhuhai",Guangdong,,-0.1342419458992058,0
-金溪县,26280.54,Jinxi County,Jiangxi,,-0.16627663561610845,0
-金牛区,757665.48,"Jinniu, Chengdu",Sichuan,,0.010732093428632065,0
-钟山区,53710.630000000005,"Zhongshan, Liupanshui",Guizhou,,-0.15963804476888258,0
-钟楼区,1301891.62,"Zhonglou, Changzhou",Jiangsu,,0.14244491944652224,0
-钟祥市,22740.71,Zhongxiang,Hubei,,-0.167133340170805,0
-钢城区,57604.43,"Gangcheng, Jinan",Shandong,,-0.15869567290495765,0
-钦北区,7875.22,Qinbei District,Qinbei District,,-0.17073106463519894,0
-钦南区,78575.77,Qinnan District,Qinnan District,,-0.15362021942383303,0
-钦州,348105.35000000003,Qinzhou,Qinzhou,7720,-0.08838905894114286,0
-钱塘区,564706.0700000001,"Qiantang, Hangzhou",Zhejiang,,-0.03596766487008678,0
-铁东区,349871.71,Tiedong District,Tiedong District,,-0.08796156703977084,0
-铁力市,46631.86,Tieli,Heilongjiang,,-0.1613512384817584,0
-铁岭,726254.08,Tieling,Liaoning,4477,0.0031299516734081107,0
-铁岭县,7875.22,Tieling County,Liaoning,,-0.17073106463519894,0
-铁西区,771426.63,Tiexi District,Tiexi District,,0.014062547117894569,0
-铁锋区,49817.7,Tiefeng District,Heilongjiang,,-0.16058020607666143,0
-铅山县,16635.4,"Yanshan County, Jiangxi",Jiangxi,,-0.16861093849751396,0
-铜仁,201073.14,Tongren,Guizhou,5838,-0.12397358249004092,0
-铜官区,173432.75,Tongguan District,Anhui,,-0.1306630698401646,0
-铜山区,247893.82,"Tongshan, Xuzhou",Jiangsu,,-0.11264210899837934,0
-铜川,237507.13,Tongchuan,Shaanxi,5832,-0.11515588074200003,0
-铜梁区,42561.94,"Tongliang, Chongqing","Tongliang, Chongqing",,-0.16233623465424418,0
-铜陵,1202016.03,Tongling,Anhui,13834,0.11827317310390052,0
-铜鼓县,7078.76,Tonggu County,Jiangxi,,-0.17092382273647316,0
-银川,1968049.85,Yinchuan,Yinchuan,11174,0.30366757414733403,0
-银州区,73620.36,"Yinzhou District, Tieling",Liaoning,,-0.1548195206098755,0
-银海区,14865.490000000002,Yinhai District,Yinhai District,,-0.16903928956476943,0
-锡山区,497163.74,"Xishan, Wuxi",Jiangsu,,-0.052314162228947435,0
-锡林浩特市,15838.94,Xilinhot,Xilinhot,,-0.16880369659878822,0
-锡林郭勒盟,295764.65,Xilingol League,Xilingol League,15417,-0.10105647971728307,0
-锦屏县,7875.22,"Jinping County, Guizhou",Guizhou,,-0.17073106463519894,0
-锦州,2322207.37,Jinzhou,Liaoning,6937,0.3893802666958534,0
-锦江区,942025.54,"Jinjiang, Chengdu",Sichuan,,0.05535064943446412,0
-镇宁布依族苗族自治县,8760.18,Zhenning Buyei and Miao Autonomous County,Guizhou,,-0.1705168878914784,0
-镇平县,48919.479999999996,"Zhenping County, Henan","Zhenping County, Henan",,-0.1607975919864705,0
-镇江,7539216.2,Zhenjiang,Jiangsu,19214,1.6519932245364795,0
-镇海区,340850.46,镇海区,镇海区,,-0.09014487696257957,0
-镇赉县,27872.57,Zhenlai County,Jilin,,-0.16589133481007726,0
-镇雄县,25380.53,Zhenxiong County,Yunnan,,-0.16649445473913765,0
-镜湖区,346556.66000000003,"Jinghu, Wuhu",Anhui,,-0.08876387066283938,0
-镜铁区,8760.18,,,,-0.1705168878914784,0
-长丰县,82380.54000000001,Changfeng County,Anhui,,-0.15269939447219052,0
-长乐区,199309.75,"Changle, Fuzhou",Fujian,,-0.12440035559629357,0
-长兴县,126798.69,Changxing County,Zhejiang,,-0.14194937782839875,0
-长垣市,32297.34,Changyuan,Henan,,-0.16482045835203138,0
-长宁区,990665.51,"Changning, Shanghai","Changning, Shanghai",,0.06712242486981053,0
-长宁县,15838.94,"Changning County, Sichuan",Sichuan,,-0.16880369659878822,0
-长安区,1093997.43,,,,0.09213066721747602,0
-长寿区,34067.26,"Changshou, Chongqing","Changshou, Chongqing",,-0.1643921048645903,0
-长岭县,40349.56,Changling County,Jilin,,-0.16287167167317435,0
-长春,11913177.48,Changchun,Jilin,11773,2.710573029397797,0
-长汀县,32385.84,Changting County,Fujian,,-0.16479903970958507,0
-长沙,12849710.700000001,Changsha,Hunan,19925,2.9372314494910228,0
-长沙县,226024.38,Changsha County,Hunan,,-0.11793491934708601,0
-长治,1180761.23,Changzhi,Shanxi,8610,0.11312911704212249,0
-长泰县,16635.4,"Changtai, Zhangzhou",Fujian,,-0.16861093849751396,0
-长洲区,23714.16,Changzhou District,Changzhou District,,-0.16689774720482375,0
-长海县,8760.18,Changhai County,Liaoning,,-0.1705168878914784,0
-长清区,120784.98000000001,"Changqing, Jinan",Shandong,,-0.14340480725512944,0
-长阳土家族自治县,15838.94,Changyang Tujia Autonomous County,Hubei,,-0.16880369659878822,0
-门头沟区,173517.72,"Mentougou, Beijing","Mentougou, Beijing",,-0.1306425055232306,0
-门源回族自治县,8760.18,Menyuan Hui Autonomous County,Qinghai,,-0.1705168878914784,0
-闵行区,2656806.98,"Minhang, Shanghai","Minhang, Shanghai",,0.4703595820546928,0
-闻喜县,34686.72,Wenxi County,Shanxi,,-0.16424218404820864,0
-闽侯县,528253.52,Minhou County,Fujian,,-0.04478985848257744,0
-闽清县,64241.590000000004,Minqing County,Fujian,,-0.15708935700779605,0
-阆中市,7875.22,Langzhong,Sichuan,,-0.17073106463519894,0
-阎良区,61852.21,"Yanliang, Xi'an",Shaanxi,,-0.1576676313116188,0
-阜南县,7963.72,Funan County,Anhui,,-0.17070964599275265,0
-阜宁县,110424.79000000001,"Funing County, Jiangsu",Jiangsu,,-0.14591216550694416,0
-阜新,545198.61,,,,-0.04068883222347954,0
-阜阳,2793174.7600000002,Fuyang,Anhui,5827,0.5033631156254726,0
-防城区,7875.22,Fangcheng District,Fangcheng District,,-0.17073106463519894,0
-防城港,203607.1,Fangchenggang,Fangchenggang,12020,-0.12336031714299918,0
-阳东区,26811.5,"Yangdong, Yangjiang",Guangdong,,-0.16614813344217308,0
-阳信县,27784.96,"Yangxin County, Shandong",Shandong,,-0.16591253805600628,0
-阳原县,7078.76,Yangyuan County,Hebei,,-0.17092382273647316,0
-阳城县,27740.71,Yangcheng County,Shanxi,,-0.1659232473772294,0
-阳新县,38934.520000000004,"Yangxin County, Hubei",Hubei,,-0.16321413761449857,0
-阳明区,25395.58,Yangming District,Heilongjiang,,-0.166490812359829,0
-阳春市,59462.840000000004,Yangchun,Guangdong,,-0.15824590319525592,0
-阳曲县,7875.22,Yangqu County,Shanxi,,-0.17073106463519894,0
-阳朔县,24510.620000000003,Yangshuo County,Yangshuo County,,-0.16670498910354953,0
-阳江,830990.4,Yangjiang,Guangdong,8991,0.028478084884933152,0
-阳泉,527120.4400000001,Yangquan,Shanxi,8678,-0.045064084871086346,0
-阳西县,26811.5,Yangxi County,Guangdong,,-0.16614813344217308,0
-阳谷县,71407.08,"Yanggu, Shandong",Shandong,,-0.1553551754455085,0
-阳高县,7875.22,Yanggao County,Shanxi,,-0.17073106463519894,0
-阿克塞哈萨克族自治县,8760.18,Aksay Kazakh Autonomous County,Gansu,,-0.1705168878914784,0
-阿克苏地区,134532.76,Aksu Prefecture,Xinjiang,8820,-0.14007758935399697,0
-阿克苏市,35830.100000000006,Aksu City,Aksu City,,-0.16396546486854496,0
-阿勒泰地区,79193.82,Altay Prefecture,Xinjiang,7469,-0.15347063985361917,0
-阿图什市,7078.76,Artush,Artush,,-0.17092382273647316,0
-阿坝藏族羌族自治州,123283.2,Ngawa Tibetan and Qiang Autonomous Prefecture,Sichuan,4599,-0.14280019165137617,0
-阿城区,52207.08,"Acheng, Harbin",Heilongjiang,,-0.1600019317728387,0
-阿拉善左旗,7875.22,Alxa Left Banner,Alxa Left Banner,,-0.17073106463519894,0
-阿拉善盟,72423.02,Alxa League,Alxa League,21384,-0.15510929911096746,0
-阿拉尔,24510.620000000003,"Aral, Xinjiang","Aral, Xinjiang",,-0.16670498910354953,0
-阿拉尔市,19113.28,"Aral, Xinjiang","Aral, Xinjiang",,-0.16801124555124494,0
-阿荣旗,7078.76,Arun Banner,Arun Banner,,-0.17092382273647316,0
-阿里地区,7862.32,Ngari Prefecture,Ngari Prefecture,5841,-0.17073418667460638,0
-阿鲁科尔沁旗,26097.36,Ar Horqin Banner,Ar Horqin Banner,,-0.1663209685756939,0
-陆丰市,41057.520000000004,"Lufeng, Guangdong",Guangdong,,-0.16270033221434638,0
-陆河县,10353.1,Luhe County,Guangdong,,-0.17013137168892992,0
-陆良县,8760.18,Luliang County,Yunnan,,-0.1705168878914784,0
-陇南,151222.15,Longnan,Gansu,1954,-0.13603844724036251,0
-陇西县,7078.76,Longxi County,Gansu,,-0.17092382273647316,0
-陈仓区,27683.18,Chencang District,Shaanxi,,-0.1659371707049123,0
-陕州区,35660.18,"Shanzhou, Sanmenxia",Henan,,-0.16400658866204182,0
-陵城区,7875.22,"Lingcheng, Dezhou",Shandong,,-0.17073106463519894,0
-陵水黎族自治县,115555.40000000001,Lingshui Li Autonomous County,Hainan,,-0.14467046266941483,0
-隆回县,16635.4,Longhui County,Hunan,,-0.16861093849751396,0
-隆尧县,7872.57,Longyao County,Hebei,,-0.17073170598437953,0
-隆昌市,7078.76,Longchang,Sichuan,,-0.17092382273647316,0
-隆阳区,41044.240000000005,"Longyang, Baoshan",Yunnan,,-0.16270354622080613,0
-随县,7963.72,"Sui County, Hubei",Hubei,,-0.17070964599275265,0
-随州,536092.97,Suizhou,Hubei,5764,-0.04289256609245824,0
-雁塔区,1660012.02,"Yanta, Xi'an",Shaanxi,,0.22911670250100252,0
-雁山区,7875.22,Yanshan District,Guangxi,,-0.17073106463519894,0
-雁峰区,35040.72,"Yanfeng, Hengyang",Hunan,,-0.1641565094784235,0
-雁江区,31589.38,"Yanjiang, Ziyang",Sichuan,,-0.16499179781085932,0
-雄关区,24599.120000000003,"Xiongguan, Jiayuguan","Xiongguan, Jiayuguan",,-0.16668357046110321,0
-雄县,56984.96,Xiong County,Hebei,,-0.15884559614152494,0
-雅安,333632.76,Ya'an,Sichuan,5222,-0.09189169431381765,0
-集宁区,59462.840000000004,Jining District,Jining District,,-0.15824590319525592,0
-集安市,54507.07,"Ji'an, Jilin",Jilin,,-0.15944529150797954,0
-集美区,754487.89,"Jimei, Xiamen",Fujian,,0.009963057676644512,0
-集贤县,18228.32,Jixian County,Heilongjiang,,-0.16822542229496548,0
-雨城区,74239.83,"Yucheng, Ya'an",Sichuan,,-0.15466959737330827,0
-雨山区,134036.29,"Yushan, Ma'anshan",Anhui,,-0.14019774430784224,0
-雨湖区,69103.55,"Yuhu, Xiangtan",Hunan,,-0.15591267245606552,0
-雨花区,746448.68,"Yuhua, Changsha",Hunan,,0.008017419659236386,0
-雨花台区,1005858.88,"Yuhuatai, Nanjing",Jiangsu,,0.07079950237923598,0
-零陵区,25395.58,"Lingling, Yongzhou",Hunan,,-0.166490812359829,0
-雷山县,7875.22,Leishan County,Guizhou,,-0.17073106463519894,0
-雷州市,50521.25,Leizhou,Guangdong,,-0.1604099339196774,0
-霍城县,7875.22,Huocheng County,Huocheng County,,-0.17073106463519894,0
-霍尔果斯市,8760.18,Khorgos,Khorgos,,-0.1705168878914784,0
-霍山县,17343.36,Huoshan County,Anhui,,-0.16843959903868602,0
-霍州市,37164.6,Huozhou,Shanxi,,-0.16364249110193962,0
-霍林郭勒市,32562.84,Holingol,Holingol,,-0.1647562024246925,0
-霍邱县,16635.4,Huoqiu County,Anhui,,-0.16861093849751396,0
-霞山区,111046.03,"Xiashan, Zhanjiang",Guangdong,,-0.145761813897528,0
-霞浦县,62643.36,Xiapu,Fujian,,-0.1574761583288913,0
-霸州市,170336.31,"Bazhou, Hebei",Hebei,,-0.13141246578611243,0
-青云谱区,176832.74,"Qingyunpu, Nanchang",Jiangxi,,-0.12984020916071878,0
-青冈县,51410.62,Qinggang County,Heilongjiang,,-0.16019468987411292,0
-青县,87247.8,Qing County,Hebei,,-0.1515214272220988,0
-青山区,555861.11,,,,-0.03810830934117963,0
-青山湖区,725176.15,"Qingshanhu, Nanchang",Jiangxi,,0.0028690726084123434,0
-青岛,14388306.24,Qingdao,Shandong,19412,3.309600124527326,0
-青川县,9463.72,Qingchuan County,Sichuan,,-0.17034661815467997,0
-青州市,184980.45,Qingzhou,Shandong,,-0.12786831212969005,0
-青浦区,933910.66,"Qingpu, Shanghai","Qingpu, Shanghai",,0.05338669787271801,0
-青田县,68311.51000000001,Qingtian County,Zhejiang,,-0.15610436083531024,0
-青白江区,67426.56,"Qingbaijiang, Chengdu",Sichuan,,-0.1563185351588452,0
-青秀区,584425.7,"Qingxiu, Nanning","Qingxiu, Nanning",,-0.031195148439091467,0
-青羊区,763544.31,"Qingyang, Chengdu",Sichuan,,0.01215487939216326,0
-青铜峡市,7875.22,Qingtongxia,Qingtongxia,,-0.17073106463519894,0
-青阳县,33978.76,"Qingyang, Anhui",Anhui,,-0.16441352350703659,0
-靖宇县,7963.72,Jingyu County,Jilin,,-0.17070964599275265,0
-靖州苗族侗族自治县,18307.97,Jingzhou Miao and Dong Autonomous County,Hunan,,-0.16820614551676383,0
-靖江市,474196.43,Jingjiang,Jiangsu,,-0.057872677492710675,0
-靖西市,20706.2,"Jingxi, Guangxi",Guangxi,,-0.1676257293486965,0
-靖边县,25484.08,Jingbian County,Shaanxi,,-0.1664693937173827,0
-静安区,1921751.4,"Jing'an, Shanghai","Jing'an, Shanghai",,0.2924624900075902,0
-静海区,258731.88,"Jinghai, Tianjin","Jinghai, Tianjin",,-0.1100190973379114,0
-鞍山,3329383.99,Anshan,Liaoning,10389,0.6331357006398141,0
-韩城市,32385.84,Hancheng,Shaanxi,,-0.16479903970958507,0
-韶关,955316.01,Shaoguan,Guangdong,8429,0.05856718982851058,0
-韶山市,7875.22,Shaoshan,Hunan,,-0.17073106463519894,0
-项城市,18624.78,Xiangcheng City,Henan,,-0.16812947161717728,0
-顺义区,683909.04,"Shunyi, Beijing","Shunyi, Beijing",,-0.007118333876125744,0
-顺城区,127411.62000000001,Shuncheng District,Liaoning,,-0.14180103739320551,0
-顺平县,8760.18,Shunping County,Hebei,,-0.1705168878914784,0
-顺庆区,75725.67,"Shunqing, Nanchong",Sichuan,,-0.154309996518027,0
-顺德区,941218.88,"Shunde, Foshan",Guangdong,,0.05515542274389098,0
-顺昌县,26280.54,Shunchang County,Fujian,,-0.16627663561610845,0
-顺河回族区,7875.22,"Shunhe, Kaifeng",Henan,,-0.17073106463519894,0
-颍上县,35438.06,Yingshang County,Anhui,,-0.16406034582430365,0
-颍东区,40790.26,Yingdong District,Anhui,,-0.1627650140943486,0
-颍州区,300322.16000000003,Yingzhou District,Anhui,,-0.09995347771575334,0
-颍泉区,131755.76,Yingquan District,Anhui,,-0.14074967489154883,0
-额尔古纳市,19245.14,Ergun City,Ergun City,,-0.16797933298409276,0
-额敏县,7875.22,Emin County,Emin County,,-0.17073106463519894,0
-饶平县,57780.42,Raoping County,Guangdong,,-0.15865308005880938,0
-饶河县,16635.4,Raohe County,Heilongjiang,,-0.16861093849751396,0
-饶阳县,33447.8,Raoyang County,Hebei,,-0.16454202568097195,0
-香坊区,1155976.18,"Xiangfang, Harbin",Heilongjiang,,0.10713067496344043,0
-香河县,81318.6,Xianghe County,Hebei,,-0.15295640366043248,0
-香洲区,654600.04,"Xiangzhou, Zhuhai",Guangdong,,-0.014211655813507036,0
-马尔康市,8007.08,Barkam,Sichuan,,-0.17069915206804676,0
-马尾区,191041.59,"Mawei, Fuzhou",Fujian,,-0.12640140376271955,0
-马村区,16635.4,"Macun, Jiaozuo",Henan,,-0.16861093849751396,0
-马鞍山,3095365.7600000002,Ma On Shan,Ma On Shan,,0.5764989459021519,0
-驻马店,1183426.74,Zhumadian,Henan,4261,0.11377421993056322,0
-驿城区,126800.88,"Yicheng, Zhumadian",Henan,,-0.14194884780775519,0
-高县,7875.22,Gao County,Sichuan,,-0.17073106463519894,0
-高唐县,61055.76,Gaotang County,Shandong,,-0.15786038699270744,0
-高坪区,15838.94,"Gaoping, Nanchong",Sichuan,,-0.16880369659878822,0
-高安市,42030.98,Gao'an,Jiangxi,,-0.16246473682817958,0
-高密市,149719.47,Gaomi,Shandong,,-0.13640212368817256,0
-高州市,73706.75,Gaozhou,Guangdong,,-0.15479861262658812,0
-高平市,27689.38,Gaoping,Shanxi,,-0.16593567018984826,0
-高明区,121846.03,"Gaoming, Foshan",Guangdong,,-0.14314801346340475,0
-高淳区,143878.76,"Gaochun, Nanjing",Jiangsu,,-0.1378156839042455,0
-高港区,130401.79000000001,"Gaogang, Taizhou",Jiangsu,,-0.14107736075949234,0
-高碑店市,124982.31,Gaobeidian,Hebei,,-0.14238897549807775,0
-高要区,60967.26,"Gaoyao, Zhaoqing",Guangdong,,-0.15788180563515372,0
-高邮市,162284.08000000002,Gaoyou,Jiangsu,,-0.13336125488515505,0
-高阳县,57869.920000000006,Gaoyang County,Hebei,,-0.1586314193978044,0
-高陵区,84856.5,"Gaoling, Xi'an",Shaanxi,,-0.15210016620155425,0
-高青县,8760.18,Gaoqing County,Shandong,,-0.1705168878914784,0
-魏县,7078.76,"Wei County, Handan",Hebei,,-0.17092382273647316,0
-魏都区,244753.12,"Weidu, Xuchang",Henan,,-0.1134022166857359,0
-鱼台县,7875.22,Yutai County,Shandong,,-0.17073106463519894,0
-鱼峰区,70345.14,Yufeng District,Yufeng District,,-0.15561218463375043,0
-鲁山县,16635.4,"Lushan County, Henan",Henan,,-0.16861093849751396,0
-鲅鱼圈区,177900.02000000002,Bayuquan District,Liaoning,,-0.12958190759337332,0
-鲤城区,372427.44,"Licheng, Quanzhou",Fujian,,-0.08250266177440357,0
-鸠江区,315738.24,"Jiujiang, Wuhu",Anhui,,-0.09622250025311645,0
-鸡冠区,74151.34,Jiguan District,Heilongjiang,,-0.15469101359556897,0
-鸡西,886142.63,Jixi,Heilongjiang,4531,0.04182594809945765,0
-鹤城区,87336.29,"Hecheng, Huaihua",Hunan,,-0.1515000109998381,0
-鹤壁,608564.66,Hebi,Henan,7217,-0.02535307213100965,0
-鹤山市,143790.96,"Heshan, Guangdong",Guangdong,,-0.13783693313370068,0
-鹤岗,368277.01,Hegang,Heilongjiang,4011,-0.08350714286105154,0
-鹤庆县,7875.22,Heqing County,Yunnan,,-0.17073106463519894,0
-鹰潭,194312.41,Yingtan,Jiangxi,8921,-0.12560980462050295,0
-鹿城区,1903585.1500000001,"Lucheng, Wenzhou",Zhejiang,,0.28806592036533174,0
-鹿泉区,113876.3,"Luquan, Shijiazhuang",Hebei,,-0.14507683603135338,0
-鹿邑县,26099.12,Luyi County,Henan,,-0.16632054262303056,0
-麒麟区,99900.90000000001,"Qilin, Qujing",Yunnan,,-0.14845914219682058,0
-麟游县,7875.22,Linyou County,Shaanxi,,-0.17073106463519894,0
-麦积区,15838.94,"Maiji, Tianshui",Gansu,,-0.16880369659878822,0
-麻城市,33270.8,Macheng,Hubei,,-0.16458486296586453,0
-麻山区,8760.18,Mashan District,Heilongjiang,,-0.1705168878914784,0
-麻江县,7875.22,Majiang County,Guizhou,,-0.17073106463519894,0
-麻章区,78665.5,"Mazhang, Zhanjiang",Guangdong,,-0.15359850309855952,0
-麻阳苗族自治县,7875.22,Mayang Miao Autonomous County,Hunan,,-0.17073106463519894,0
-黄冈,1012085.98,Huanggang,Hubei,4065,0.07230657614621086,0
-黄南藏族自治州,67515.06,Huangnan Tibetan Autonomous Prefecture,Qinghai,4364,-0.1562971165163989,0
-黄埔区,552324.78,"Huangpu, Guangzhou",Guangdong,,-0.038964166830920646,0
-黄山,1132492.1400000001,Huangshan,Huangshan,,0.10144710144983238,0
-黄山区,40349.560000000005,Huangshan District,Anhui,,-0.16287167167317432,0
-黄岛区,854955.81,"Huangdao, Qingdao",Shandong,,0.03427815887214995,0
-黄岩区,654099.77,"Huangyan, Taizhou",Zhejiang,,-0.014332730437875451,0
-黄州区,65923.01,"Huangzhou, Huanggang",Hubei,,-0.1566824221628013,0
-黄梅县,7875.22,Huangmei County,Hubei,,-0.17073106463519894,0
-黄浦区,998563.6,"Huangpu, Shanghai","Huangpu, Shanghai",,0.06903390922821277,0
-黄石,1072343.55,Huangshi (disambiguation),Huangshi (disambiguation),,0.086890026389286,0
-黄石港区,76077.88,"Huangshigang, Huangshi",Hubei,,-0.15422475516146195,0
-黄陂区,158124.79,"Huangpi, Wuhan",Hubei,,-0.1343678802562332,0
-黄骅市,194492.93,Huanghua,Hebei,,-0.1255661154302837,0
-黎川县,16855.75,Lichuan County,Jiangxi,,-0.16855760970810107,0
-黑山县,34952.22,Heishan County,Liaoning,,-0.1641779281208698,0
-黑河,629225.77,Black River,Black River,,-0.02035270006735521,0
-黔东南苗族侗族自治州,372867.26,Qiandongnan Miao and Dong Autonomous Prefecture,Guizhou,4599,-0.0823962171719095,0
-黔南布依族苗族自治州,455696.53,Qiannan Buyei and Miao Autonomous Prefecture,Guizhou,6619,-0.06234999662708441,0
-黔江区,17520.36,"Qianjiang, Chongqing","Qianjiang, Chongqing",,-0.16839676175379342,0
-黔西南布依族苗族自治州,169891.16,Qianxinan Buyei and Miao Autonomous Prefecture,Guizhou,,-0.13152020034752446,0
-黔西县,9468.14,"Qianxi, Guizhou",Guizhou,,-0.17034554843265046,0
-黔西市,8760.18,"Qianxi, Guizhou",Guizhou,,-0.1705168878914784,0
-黟县,17343.36,"Yi County, Anhui",Anhui,,-0.16843959903868602,0
-鼎城区,14953.98,"Dingcheng, Changde",Hunan,,-0.16901787334250873,0
-鼎湖区,16635.4,"Dinghu, Zhaoqing",Guangdong,,-0.16861093849751396,0
-鼓楼区,2323673.06,Gulou,Gulou,,0.38973499087717656,0
-齐河县,23714.16,Qihe County,Shandong,,-0.16689774720482375,0
-齐齐哈尔,2495229.63,Qiqihar,Heilongjiang,3699,0.43125486468668517,0
-龙井市,16723.9,"Longjing, Jilin",Jilin,,-0.16858951985506768,0
-龙亭区,130687.46,"Longting, Kaifeng",Henan,,-0.1410082233178242,0
-龙凤区,78220.36,Longfeng District,Heilongjiang,,-0.153706235239786,0
-龙华区,2247143.15,Longhua District,Longhua District,,0.37121333236037907,0
-龙南县,16635.4,"Longnan, Jiangxi",Jiangxi,,-0.16861093849751396,0
-龙口市,115946.92,Longkou,Shandong,,-0.14457570756330668,0
-龙圩区,7078.76,Longxu District,Longxu District,,-0.17092382273647316,0
-龙城区,8760.18,Longcheng District,Liaoning,,-0.1705168878914784,0
-龙子湖区,87676.11,"Longzihu, Bengbu",Anhui,,-0.15141776825321554,0
-龙安区,33230.97,"Long'an, Anyang",Henan,,-0.16459450256505817,0
-龙山区,36456.64,,,,-0.16381383056076756,0
-龙山县,8760.18,Longshan County,Hunan,,-0.1705168878914784,0
-龙岗区,2876735.49,"Longgang, Shenzhen",Guangdong,,0.5235863630652555,0
-龙岩,1627482.47,Longyan,Fujian,16575,0.22124394769435127,0
-龙文区,140336.53,"Longwen, Zhangzhou",Fujian,,-0.13867296930348294,0
-龙江县,33182.3,Longjiang County,Heilongjiang,,-0.1646062816083108,0
-龙沙区,214491.18,Longsha District,Heilongjiang,,-0.12072616778845917,0
-龙泉市,81407.08,Longquan,Zhejiang,,-0.15293498985835735,0
-龙泉驿区,604304.29,"Longquanyi, Chengdu",Sichuan,,-0.02638416073800276,0
-龙海区,52295.58,"Longhai, Zhangzhou",Fujian,,-0.1599805131303924,0
-龙海市,183161.95,"Longhai, Zhangzhou",Fujian,,-0.1283084228787135,0
-龙港区,149277.02000000002,"Longgang District, Huludao",Liaoning,,-0.13650920479947604,0
-龙港市,104945.16,"Longgang, Zhejiang",Zhejiang,,-0.14723833766183628,0
-龙游县,89901.76000000001,Longyou County,Zhejiang,,-0.15087911964801123,0
-龙湖区,518951.36,"Longhu, Shantou",Guangdong,,-0.047041153838714836,0
-龙湾区,479679.68,"Longwan, Wenzhou",Zhejiang,,-0.056545629230636024,0
-龙潭区,33359.3,Longtan District,Longtan District,,-0.16456344432341824,0
-龙胜各族自治县,7875.22,Longsheng Various Nationalities Autonomous County,Longsheng Various Nationalities Autonomous County,,-0.17073106463519894,0
-龙里县,7875.22,Longli County,Guizhou,,-0.17073106463519894,0
-龙门县,15750.44,Longmen County,Guangdong,,-0.1688251152412345,0
-龙马潭区,68842.48000000001,"Longmatan, Luzhou",Sichuan,,-0.1559758562411893,0
+七台河,340006.23000000004,Qitaihe,Heilongjiang,3986,-0.3554672479535907,2
+万宁,109412.42,,,,-0.3736888410848845,2
+三亚,783431.9600000001,Sanya,Hainan,12261,-0.32042761165109446,2
+三明,1239542.6,Sanming,Fujian,17004,-0.2843856098951323,2
+三门峡,1157131.95,Sanmenxia,Henan,8867,-0.29089772456978663,2
+上海,130980218.12,Shanghai,Shanghai,27001,9.967762103456955,1
+上饶,2582832.65,,,,-0.17823842082524674,2
+东方,76186.73,Eastern,Eastern,,-0.3763143452330075,2
+东莞,17134360.71,Dongguan,Guangdong,16010,0.971627760525955,0
+东营,2673596.77,Dongying,Shandong,29006,-0.17106621240577563,2
+中卫,80080.54000000001,Zhongwei,Zhongwei,4473,-0.37600665518031023,2
+中山,4650609.12,中山,中山,,-0.014842094086021265,2
+临夏回族自治州,125915.94,Linxia Hui Autonomous Prefecture,Gansu,1690,-0.37238472790563576,2
+临汾,1391162.1,Linfen,Shanxi,6056,-0.27240459080459295,2
+临沂,10440611.9,Linyi,Shandong,6730,0.44268568988276713,0
+临沧,151930.1,Lincang,Yunnan,6596,-0.3703290810555648,2
+临高县,76716.81,Lingao County,Hainan,,-0.3762724581498849,2
+丹东,1729684.82,Dandong,Liaoning,6549,-0.24565442231768134,2
+丽水,3719857.7600000002,,,,-0.08839035016591487,2
+丽江,280456.66000000003,Lijiang,Yunnan,7340,-0.3601728731205607,2
+乌兰察布,408253.17000000004,Ulanqab,Ulanqab,6939,-0.35007435395901293,2
+乌海,299437.21,Wuhai,Wuhai,,-0.35867302427592707,2
+乌鲁木齐,4302154.58,Ürümqi,Ürümqi,14200,-0.042377078015694535,2
+乐东黎族自治县,32384.96,Ledong Li Autonomous County,Hainan,,-0.37977557444540705,2
+乐山,1064832.69,Leshan,Sichuan,6418,-0.29819124021983595,2
+九江,1983740.47,Jiujiang,Jiangxi,6343,-0.22557886744044348,2
+云浮,697571.76,Yunfu,Guangdong,7391,-0.327212310817874,2
+五家渠,17520.36,Wujiaqu,Wujiaqu,,-0.38095017966685435,2
+五指山,33270.8,Wuzhishan,Wuzhishan,,-0.37970557509867947,2
+亳州,1622285.1500000001,Bozhou,Anhui,6133,-0.2541411769672325,2
+仙桃,541315.13,,,,-0.33955975733401034,2
+伊春,570823.97,"Yichun, Heilongjiang",Heilongjiang,3265,-0.33722795980546244,2
+伊犁哈萨克自治州,301204.48,Ili Kazakh Autonomous Prefecture,Ili Kazakh Autonomous Prefecture,6858,-0.35853337406201563,2
+佛山,13635374.0,Foshan,Guangdong,19699,0.6951367645125573,0
+佳木斯,1797266.59,Jiamusi,Heilongjiang,5771,-0.24031409025918998,2
+保亭黎族苗族自治县,34155.75,Baoting Li and Miao Autonomous County,Hainan,,-0.3796356460800231,2
+保定,6483403.53,Baoding,Hebei,,0.12998587866975053,2
+保山,384276.15,"Baoshan, Yunnan",Yunnan,7734,-0.3519690253855394,2
+信阳,1589601.98,Xinyang,Henan,4777,-0.2567238110196423,2
+儋州,167416.82,Danzhou,Hainan,13292,-0.36910531572214894,2
+克孜勒苏柯尔克孜自治州,54241.6,Kizilsu Kyrgyz Autonomous Prefecture,Kizilsu Kyrgyz Autonomous Prefecture,3698,-0.3780484560925894,2
+克拉玛依,172148.71,Karamay,Karamay,30452,-0.36873140033247725,2
+六安,1969857.07,Lu'an,Anhui,6769,-0.22667593793890564,2
+六盘水,309252.26,Liupanshui,Guizhou,6412,-0.3578974360341468,2
+兰州,3853094.83,Lanzhou,Gansu,9147,-0.0778619162953539,2
+兴安盟,290942.52,Hinggan League,Hinggan League,5040,-0.3593442772681755,2
+内江,583267.05,Neijiang,Sichuan,5151,-0.33624470383228544,2
+凉山彝族自治州,663938.99,Liangshan Yi Autonomous Prefecture,Sichuan,4540,-0.32986998255163985,2
+包头,3014956.19,Baotou,Baotou,22003,-0.14409188702048265,2
+北京,106318875.2,Beijing,Beijing,28421,8.01901527126943,1
+北屯,16277.0,Beitun,Beitun,,-0.3810484303529232,2
+北海,898878.8,北海,北海,,-0.3113049671760603,2
+十堰,1158802.79,Shiyan,Hubei,6180,-0.2907656942838588,2
+南京,50997663.77,Nanjing,Jiangsu,27223,3.6475162869396316,1
+南充,1166218.6600000001,Nanchong,Sichuan,3834,-0.2901796899767416,2
+南宁,6438747.05,Nanning,Nanning,9028,0.12645711001270912,2
+南平,1295077.1400000001,,,,-0.27999725362219696,2
+南昌,13940126.92,Nanchang,Jiangxi,12183,0.7192184331133481,0
+南通,22439111.36,Nantong,Jiangsu,21211,1.39081077331917,0
+南阳,2653865.91,"Nanyang, Henan",Henan,4669,-0.17262535097523904,2
+博尔塔拉蒙古自治州,87335.41,Bortala Mongol Autonomous Prefecture,Bortala Mongol Autonomous Prefecture,10749,-0.37543337314225195,2
+厦门,16136893.55,Xiamen,Fujian,21527,0.8928076016008429,0
+双鸭山,777347.5800000001,Shuangyashan,Heilongjiang,4694,-0.32090840121268843,2
+台州,20176167.53,"Taizhou, Zhejiang",Zhejiang,12020,1.2119922623225754,0
+合肥,32420883.54,Hefei,Anhui,18691,2.179573452565535,0
+吉安,1201613.37,,,,-0.28738278920728844,2
+吉林,3088151.79,Jilin,Jilin,7762,-0.1383079484047803,2
+吐鲁番,49198.240000000005,,,,-0.3784469839365702,2
+吕梁,1407190.44,Lüliang,Shanxi,7241,-0.27113802649373814,2
+吴忠,185113.29,"Wuzhong, Ningxia","Wuzhong, Ningxia",4778,-0.36770693527039205,2
+周口,1691479.82,Zhoukou,Henan,3866,-0.24867339305926836,2
+呼伦贝尔,753538.46,Hulunbuir,Hulunbuir,10136,-0.32278980513005356,2
+呼和浩特,5072014.11,Hohhot,Hohhot,16295,0.018457456631653785,2
+和田地区,88530.12,Hotan Prefecture,Hotan Prefecture,2827,-0.37533896679400747,2
+咸宁,974848.73,Xianning,Hubei,6620,-0.3053018001583816,2
+咸阳,2069722.4300000002,Xianyang,Shaanxi,,-0.218784546761362,2
+哈密市,312219.5,Hami,Hami,14227,-0.35766296382518814,2
+哈尔滨,33267729.76,Harbin,Heilongjiang,9477,2.246491498915583,0
+唐山,11005677.09,,,,0.4873373133796737,0
+商丘,2126185.87,Shangqiu,Henan,4115,-0.2143227885273781,2
+商洛,250592.04,Shangluo,Shaanxi,4218,-0.36253278449311965,2
+喀什地区,221207.13,Kashgar Prefecture,Xinjiang,4269,-0.36485478903530444,2
+嘉兴,13464994.24,Jiaxing,Zhejiang,15695,0.6816733039603097,0
+嘉峪关,203291.18,Jiayu Pass,Jiayu Pass,,-0.3662705128635399,2
+四平,950384.1900000001,"Siping, Jilin",Jilin,6051,-0.3072349955638622,2
+固原,38668.14,Guyuan,Guyuan,2861,-0.37927907564723606,2
+图木舒克,15838.94,Tumxuk,Tumxuk,,-0.38108304598760606,2
+塔城地区,120782.31,Tacheng Prefecture,Xinjiang,7842,-0.37279038891252325,2
+大兴安岭地区,203649.58000000002,Daxing'anling Prefecture,Heilongjiang,4466,-0.3662421919863305,2
+大同,2560143.61,Datong (disambiguation),Datong (disambiguation),,-0.18003131567970815,2
+大庆,1891482.54,Daqing,Heilongjiang,17247,-0.23286911718129893,2
+大理白族自治州,775564.66,Dali Bai Autonomous Prefecture,Yunnan,7567,-0.32104928809436856,2
+大连,15322024.36,Dalian,Liaoning,17141,0.8284163899052344,0
+天水,234923.03,Tianshui,Gansu,2688,-0.3637709544378817,2
+天津,36401566.230000004,Tianjin,Tianjin,17420,2.4941282116978987,0
+天门,357746.94,Tianmen,Hubei,5470,-0.35406537164355323,2
+太原,13571258.56,Taiyuan,Shanxi,12570,0.6900703429069042,0
+威海,4147108.41,Weihai,Shandong,19460,-0.05462887361378715,2
+娄底,846579.6900000001,Loudi,Hunan,6423,-0.3154376587845158,2
+孝感,1277996.6,Xiaogan,Hubei,4804,-0.28134696309767154,2
+宁德,2489272.56,Ningde,Fujian,12849,-0.18563156764608824,2
+宁波,27049039.740000002,Ningbo,Zhejiang,24369,1.755088718615118,0
+安庆,1601622.81,Anqing,Anhui,9874,-0.25577392137013066,2
+安康,210461.09,Ankang,Shaanxi,4582,-0.3657039443905701,2
+安阳,1617302.78,Anyang,Henan,5962,-0.2545348853628289,2
+安顺,286381.46,Anshun,Guizhou,5678,-0.359704693619193,2
+定安县,56100.01,Ding'an County,Hainan,,-0.3779016039681064,2
+定西,150555.77000000002,Dingxi,Gansu,1764,-0.370437681030942,2
+宜宾,925072.66,Yibin,Sichuan,5469,-0.3092351203772322,2
+宜昌,3030980.88,Yichang,Hubei,13223,-0.14282561113374004,2
+宜春,1255733.76,"Yichun, Jiangxi",Jiangxi,4730,-0.283106179498264,2
+宝鸡,1423021.4000000001,Baoji,Shaanxi,,-0.26988705921062767,2
+宣城,1782624.05,Xuancheng,Anhui,11430,-0.24147114823177257,2
+宿州,1976987.04,"Suzhou, Anhui",Anhui,6310,-0.2261125255369061,2
+宿迁,4737778.9,Suqian,Jiangsu,11561,-0.007953911508594777,2
+屯昌县,37606.2,Tunchang County,Hainan,,-0.3793629904696237,2
+山南,16635.4,"Shannan, Tibet","Shannan, Tibet",7171,-0.3810201094757138,2
+山南市,34863.72,"Shannan, Tibet","Shannan, Tibet",7171,-0.37957970207489494,2
+岳阳,1235091.55,Yueyang,Hunan,13962,-0.2847373332224282,2
+崇左,334108.87,Chongzuo,Chongzuo,7337,-0.3559332591377971,2
+巴中,238544.29,Bazhong,Sichuan,2421,-0.36348480136923417,2
+巴彦淖尔,436500.08,Bayannuur,Bayannuur,,-0.34784227452359234,2
+巴音郭楞蒙古自治州,371463.77,Bayingolin Mongol Autonomous Prefecture,Bayingolin Mongol Autonomous Prefecture,14889,-0.35298146355724724,2
+常州,27311490.56,Changzhou,Jiangsu,,1.775827662383879,0
+常德,942089.0700000001,Changde,Hunan,12042,-0.3078904784738989,2
+平凉,90605.31,Pingliang,Gansu,2664,-0.37517498464786864,2
+平顶山,2186824.65,Mesa,Mesa,,-0.2095310936543109,2
+广元,334682.34,Guangyuan,Sichuan,3735,-0.355887943363653,2
+广安,441051.37,Guang'an,Sichuan,4985,-0.34748263020095194,2
+广州,46937516.55,Guangzhou,Guangdong,23436,3.3266822164327365,1
+庆阳,369244.29000000004,"Qingyang, Gansu",Gansu,4394,-0.3531568475431532,2
+廊坊,4660139.5600000005,Langfang,Hebei,,-0.014088995813165566,2
+延安,682848.76,Yan'an,Shaanxi,8655,-0.3283757267641738,2
+延边朝鲜族自治州,1217918.72,Yanbian Korean Autonomous Prefecture,Jilin,6441,-0.2860943354818249,2
+开封,1155947.3900000001,Kaifeng,Henan,5814,-0.2909913288619383,2
+张家口,1469542.6400000001,Zhangjiakou,Hebei,,-0.2662109366501684,2
+张家界,145155.57,Zhangjiajie,Hunan,4724,-0.3708644064804569,2
+张掖,82380.54000000001,Zhangye,Gansu,4930,-0.37582490847946876,2
+徐州,13758595.9,Xuzhou,Jiangsu,11683,0.7048737965979588,0
+德宏傣族景颇族自治州,436112.99,Dehong Dai and Jingpo Autonomous Prefecture,Yunnan,6568,-0.347872862493344,2
+德州,1560526.7,,,,-0.2590213485048785,2
+德阳,1628076.22,Deyang,Sichuan,7338,-0.2536835648512142,2
+忻州,816573.55,Xinzhou,Shanxi,5396,-0.31780875311059786,2
+怀化,822069.09,Huaihua,Hunan,5333,-0.31737449386523153,2
+怒江傈僳族自治州,31059.300000000003,Nujiang Lisu Autonomous Prefecture,Yunnan,6702,-0.3798803285025539,2
+恩施土家族苗族自治州,494499.14,Enshi Tujia and Miao Autonomous Prefecture,Hubei,3242,-0.343259171129284,2
+惠州,6575755.94,Huizhou,Guangdong,12728,0.1372835942489954,2
+成都,50125640.550000004,Chengdu,Sichuan,15250,3.578608746377807,1
+扬州,12667117.15,Yangzhou,Jiangsu,18311,0.618624813184427,0
+承德,1549952.3800000001,Chengde,Hebei,,-0.25985693449341873,2
+抚州,1545287.76,"Fuzhou, Jiangxi",Jiangxi,4453,-0.2602255341871924,2
+抚顺,1428826.8,Fushun,Liaoning,9401,-0.26942831473364276,2
+拉萨,236077.02000000002,Lhasa (city),Lhasa (city),13100,-0.3636797657964452,2
+揭阳,5440895.600000001,Jieyang,Guangdong,6273,0.04760658437469865,2
+攀枝花,479043.41000000003,Panzhihua,Sichuan,12055,-0.34448048762345673,2
+文山壮族苗族自治州,162321.24,Wenshan Zhuang and Miao Autonomous Prefecture,Yunnan,6010,-0.369507970006442,2
+文昌,147046.93,,,,-0.3707149506369336,2
+新乡,2792189.88,,,,-0.16169494871662993,2
+新余,843562.9,Xinyu,Jiangxi,13062,-0.3156760464495731,2
+无锡,30159893.650000002,Wuxi,Jiangsu,26831,2.000909342503133,0
+日喀则,41146.020000000004,Shigatse,Shigatse,3608,-0.3790832728145921,2
+日照,3965766.93,Sunlight,Sunlight,,-0.06895853262062106,2
+昆明,10072707.17,Kunming,Yunnan,13008,0.4136137460125544,0
+昆玉,7078.76,,,,-0.381775278080553,2
+昌吉回族自治州,295051.37,Changji Hui Autonomous Prefecture,Changji Hui Autonomous Prefecture,11974,-0.35901959468915257,2
+昌江黎族自治县,24599.120000000003,Changjiang Li Autonomous County,Hainan,,-0.3803908138946592,2
+昌都,69019.48000000001,Chamdo,Chamdo,5668,-0.3768807035119668,2
+昭通,306717.75,Zhaotong,Yunnan,4563,-0.35809771378664673,2
+晋中,1906583.23,Jinzhong,Shanxi,6954,-0.23167585605611177,2
+晋城,1394354.5,Jincheng,Shanxi,10420,-0.27215232638382497,2
+普洱,302177.88,Puer,Puer,,-0.35845645569740736,2
+景德镇,1595158.6,Jingdezhen,Jiangxi,7581,-0.25628472521406404,2
+曲靖,1147047.94,Qujing,Yunnan,,-0.29169456611272265,2
+朔州,685283.26,Shuozhou,Shanxi,11064,-0.3281833518323483,2
+朝阳,874947.92,,,,-0.3131959926057274,2
+本溪,561645.2000000001,Benxi,Liaoning,10862,-0.3379532690077594,2
+来宾,148144.27,Laibin,Laibin,6214,-0.3706282384957591,2
+杭州,73908149.18,Hangzhou,Zhejiang,27223,5.4579098251766816,1
+松原,588428.41,松原,松原,,-0.3358368515923483,2
+林芝,89501.78,Nyingchi,Nyingchi,7873,-0.3752621859247293,2
+果洛藏族自治州,16767.260000000002,Golog Tibetan Autonomous Prefecture,Qinghai,2928,-0.3810096898583343,2
+枣庄,2566816.2,Zaozhuang,Shandong,9252,-0.17950404558467853,2
+柳州,1795204.6500000001,Liuzhou,Liuzhou,11366,-0.24047702538629132,2
+株洲,1223031.07,Zhuzhou,Hunan,13893,-0.2856903560270217,2
+桂林,1945638.28,Guilin,Guilin,7249,-0.22858971410450285,2
+梅州,1602172.72,Meizhou,Guangdong,5234,-0.25573046731436555,2
+梧州,388666.42,Wuzhou,Wuzhou,7512,-0.351622104912364,2
+楚雄彝族自治州,328029.91000000003,Chuxiong Yi Autonomous Prefecture,Yunnan,10921,-0.35641362040933955,2
+榆林,1840339.22,"Yulin, Shaanxi",Shaanxi,11793,-0.2369104779117694,2
+武威,127948.68000000001,"Wuwei, Gansu",Gansu,3682,-0.3722241001714321,2
+武汉,47946984.17,Wuhan,Hubei,20610,3.4064506553637535,1
+毕节,526711.55,Bijie,Guizhou,4247,-0.3407137366755213,2
+永州,592545.2000000001,Yongzhou,Hunan,6967,-0.33551154159210594,2
+汉中,821362.91,Hanzhong,Shaanxi,4953,-0.3174302964240142,2
+汕头,7625131.850000001,Shantou,Guangdong,8232,0.22020559841641496,2
+汕尾,1448817.8800000001,Shanwei,Guangdong,7455,-0.2678486135004868,2
+江门,3737973.6,Jiangmen,Guangdong,11582,-0.0869588309689702,2
+池州,762923.0700000001,Chizhou,Anhui,11695,-0.32204823038823427,2
+沈阳,20462929.97,Shenyang,Liaoning,14050,1.2346523177118203,0
+沧州,3513438.5,Cangzhou,Hebei,,-0.10470166298989202,2
+河池,263284.12,Hechi,Hechi,4722,-0.36152985246406893,2
+河源,1549069.2,Heyuan,Guangdong,6958,-0.2599267236461358,2
+泉州,10797037.8,Quanzhou,Quanzhou,18180,0.47085057310862305,0
+泰安,2316146.36,Tai'an,Shandong,9779,-0.19931205272401376,2
+泰州,12357518.35,"Taizhou, Jiangsu",Jiangsu,16652,0.59416022166943,0
+泸州,977762.9600000001,Luzhou,Sichuan,9291,-0.3050715168157758,2
+洛阳,6154418.91,Luoyang,Henan,8493,0.1039894137512287,2
+济南,17169036.45,Jinan,Shandong,16064,0.9743678480669281,0
+济宁,4063358.29,Jining,Shandong,8912,-0.06124683361599636,2
+济源,326637.22000000003,Jiyuan,Henan,11099,-0.35652367119751127,2
+海东,49285.840000000004,,,,-0.37844006175787737,2
+海北藏族自治州,86256.66,Haibei Tibetan Autonomous Prefecture,Qinghai,5479,-0.37551861629596184,2
+海南藏族自治州,79680.55,Hainan Tibetan Autonomous Prefecture,Qinghai,4878,-0.37603826251199274,2
+海口,4165173.17,Haikou,Hainan,11408,-0.05320139077400725,2
+海西蒙古族藏族自治州,173563.73,Haixi Mongol and Tibetan Autonomous Prefecture,Qinghai,13922,-0.3686195850209012,2
+淄博,6643410.98,Zibo,Shandong,16278,0.1426297161252132,2
+淮北,1786107.09,Huaibei,Anhui,9604,-0.24119591734964255,2
+淮南,1529163.95,Huainan,Anhui,7430,-0.2614996425665382,2
+淮安,7227294.94,,,,0.18876840456185684,2
+深圳,65597631.61,Shenzhen,Guangdong,27705,4.801210194466698,1
+清远,1619557.69,Qingyuan,Guangdong,7821,-0.25435670168752694,2
+温州,27360744.23,Wenzhou,Zhejiang,12439,1.7797197023955473,0
+渭南,985144.33,Weinan,Shaanxi,4292,-0.3044882387091712,2
+湖州,9392442.6,Huzhou,Zhejiang,13646,0.35985903240521816,2
+湘潭,915437.25,Xiangtan,Hunan,14713,-0.3099965134114737,2
+湘西土家族苗族自治州,325030.10000000003,Xiangxi Tujia and Miao Autonomous Prefecture,Hunan,4189,-0.3566506663096228,2
+湛江,2462699.5100000002,Zhanjiang,Guangdong,7876,-0.1877313781542607,2
+滁州,2117810.3,Chuzhou,Anhui,13062,-0.21498462862092907,2
+滨州,2105969.25,Binzhou,Shandong,10168,-0.21592031200005926,2
+漯河,956791.25,Luohe,Henan,6193,-0.3067287077303432,2
+漳州,3984435.2,Zhangzhou,Fujian,14107,-0.06748336023674337,2
+潍坊,11088298.07,Weifang,Shandong,9932,0.49386604839501846,0
+潜江,323457.56,"Qianjiang, Hubei",Hubei,9362,-0.3567749288995973,2
+潮州,3444340.2,Chaozhou,Guangdong,7506,-0.11016183171109087,2
+澄迈县,92537.17,Chengmai County,Hainan,,-0.3750223284820044,2
+濮阳,1086183.37,Puyang,Henan,6031,-0.29650410298039115,2
+烟台,8475508.96,Yantai,Shandong,20254,0.28740265677017324,2
+焦作,1832475.3900000001,Jiaozuo,Henan,8910,-0.23753188015458612,2
+牡丹江,1854143.69,Mudan River,Mudan River,,-0.2358196444859582,2
+玉林,1226894.73,"Yulin, Guangxi","Yulin, Guangxi",5524,-0.2853850484365116,2
+玉树藏族自治州,32562.84,Yushu Tibetan Autonomous Prefecture,Qinghai,2432,-0.3797615183136046,2
+玉溪,1472531.61,Yuxi,Yunnan,,-0.2659747473299882,2
+珠海,3745180.93,Zhuhai,Guangdong,24477,-0.08638930555619798,2
+琼中黎族苗族自治县,25307.08,Qiongzhong Li and Miao Autonomous County,Hainan,,-0.3803348706797341,2
+琼海,286159.33,Qionghai,Hainan,,-0.35972224639947903,2
+甘南藏族自治州,92910.63,Gannan Tibetan Autonomous Prefecture,Gansu,2888,-0.37499281755900604,2
+甘孜藏族自治州,310362.88,Garzê Tibetan Autonomous Prefecture,Sichuan,2958,-0.3578096745033257,2
+白城,452630.14,Baicheng,Jilin,5696,-0.3465676722673421,2
+白山,434368.21,白山,白山,,-0.34801073554060236,2
+白沙黎族自治县,8760.18,Baisha Li Autonomous County,Hainan,,-0.3816424117598013,2
+白银,181085.86000000002,,,,-0.36802518401620515,2
+百色,349162.85000000003,Baise,Baise,6803,-0.35474368905104314,2
+益阳,524007.67000000004,Yiyang,Hunan,8263,-0.34092739809703054,2
+盐城,12600832.290000001,Yancheng,Jiangsu,11504,0.6133869633493219,0
+盘锦,2029072.29,Panjin,Liaoning,14025,-0.2219967332108167,2
+眉山,1180932.8800000001,Meishan,Sichuan,5520,-0.2890169678287171,2
+石嘴山,240412.4,Shizuishan,Shizuishan,9929,-0.3633371827477954,2
+石家庄,13206624.73,Shijiazhuang,Hebei,7664,0.6612568665513795,0
+石河子,177073.47,Shihezi,Shihezi,,-0.3683422442966354,2
+神农架林区,14157.52,Shennongjia,Hubei,4383,-0.38121591230835783,2
+福州,22972312.26,Fuzhou,Fujian,19293,1.4329444709107908,0
+秦皇岛,3550627.86,Qinhuangdao,Hebei,,-0.10176294843058442,2
+红河哈尼族彝族自治州,700846.1,Honghe Hani and Yi Autonomous Prefecture,Yunnan,9553,-0.3269535714733377,2
+绍兴,11133374.870000001,Shaoxing,Zhejiang,17500,0.4974280308665372,0
+绥化,1851464.03,Suihua,Heilongjiang,3708,-0.2360313920356873,2
+绵阳,2064409.96,Mianyang,Sichuan,5740,-0.21920433975954443,2
+聊城,2640735.87,Liaocheng,Shandong,7848,-0.17366289073694213,2
+肇庆,2016677.1400000001,Zhaoqing,Guangdong,9962,-0.22297620174078875,2
+自贡,855745.17,Zigong,Sichuan,6655,-0.31471339976206847,2
+舟山,1386350.56,Zhoushan,Zhejiang,16999,-0.27278480016153517,2
+芜湖,6411662.100000001,Wuhu,Anhui,18163,0.12431684901055376,2
+苏州,50724167.06,Suzhou,Jiangsu,27629,3.625904493577236,1
+茂名,2595875.12,Maoming,Guangdong,9246,-0.1772078008716274,2
+荆州,2063438.32,Jingzhou (disambiguation),Jingzhou (disambiguation),,-0.2192811190484164,2
+荆门,1180161.21,Jingmen,Hubei,7706,-0.28907794542725557,2
+莆田,3130706.23,Putian,Fujian,12995,-0.13494528358905933,2
+莱芜,6105.31,"Laiwu, Jinan",Shandong,,-0.38185220039617657,2
+菏泽,2809442.8200000003,Heze,Shandong,5317,-0.16033161614062263,2
+萍乡,856714.21,Pingxiang,Jiangxi,7728,-0.3146368259259887,2
+营口,2727948.09,Yingkou,Liaoning,9942,-0.16677135453778366,2
+葫芦岛,1707750.24,Huludao,Liaoning,4507,-0.24738769951304845,2
+蚌埠,2602410.48,Bengbu,Anhui,9295,-0.17669137473301366,2
+衡水,1567844.47,Hengshui,Hebei,4422,-0.25844309608965377,2
+衡阳,1520504.78,Hengyang,Hunan,8288,-0.26218389281850596,2
+衢州,2399876.27,Quzhou,Zhejiang,10115,-0.1926956897221628,2
+襄阳,2840496.71,Xiangyang,Hubei,9684,-0.15787772829027685,2
+西双版纳傣族自治州,219438.07,Xishuangbanna Dai Autonomous Prefecture,Yunnan Province,,-0.36499458069556123,2
+西宁,1704533.56,Xining,Qinghai,7897,-0.24764188254681493,2
+西安,30850582.54,Xi'an,Shaanxi,15108,2.055487789053302,0
+许昌,1926847.19,Xuchang,Henan,8208,-0.2300745917622055,2
+贵港,497989.43,Guigang,Guigang,5368,-0.34298336734994483,2
+贵阳,4615934.99,Guiyang,Guizhou,10474,-0.017582054404303812,2
+贺州,267653.13,Hezhou,Hezhou,6982,-0.3611846119625718,2
+资阳,447021.29000000004,,,,-0.3470108853034355,2
+赣州,4313691.55,Ganzhou,Jiangxi,5440,-0.0414654231308217,2
+赤峰,968991.31,Chifeng,Chifeng,6947,-0.3057646552716178,2
+辽源,521980.60000000003,Liaoyuan,Jilin,9618,-0.3410875777861066,2
+辽阳,1461117.0,Liaoyang (disambiguation),Liaoyang (disambiguation),,-0.26687673329037637,2
+达州,830214.2100000001,Dazhou,Sichuan,3908,-0.31673086400090184,2
+运城,1850541.8,Yuncheng,Shanxi,5508,-0.23610426693130346,2
+连云港,6856342.26,Lianyungang,Jiangsu,9286,0.15945561075389197,2
+迪庆藏族自治州,132593.82,Diqing Tibetan Autonomous Prefecture,Yunnan,11473,-0.37185703979319423,2
+通化,889546.53,Tonghua,Jilin,7252,-0.31204240599513083,2
+通辽,801809.8300000001,Tongliao,Tongliao,9654,-0.3189753867637056,2
+遂宁,520813.28,Suining,Sichuan,4474,-0.34117981976820494,2
+遵义,1348587.72,Zunyi,Guizhou,8167,-0.27576883128519,2
+邢台,2189108.82,Xingtai,Hebei,,-0.20935059784489302,2
+那曲市,24510.620000000003,Nagqu,Nagqu,3132,-0.38039780719162636,2
+邯郸,3373335.81,Handan,Hebei,,-0.1157726202449015,2
+邵阳,863693.0,Shaoyang,Hunan,4731,-0.31408535981365576,2
+郑州,24822514.93,Zhengzhou,Henan,14866,1.5791480496762977,0
+郴州,629842.56,Chenzhou,Hunan,9558,-0.33256429283988925,2
+鄂尔多斯,1613209.95,Ordos City,Ordos City,33261,-0.25485830203657034,2
+鄂州,494976.17,Ezhou,Hubei,11066,-0.3432214760733264,2
+酒泉,288731.88,Jiuquan,Gansu,11573,-0.3595189627145878,2
+重庆,17009110.41,Chongqing,Chongqing,13359,0.9617304436544722,0
+金华,19086008.86,Jinhua,Zhejiang,11096,1.12584759203289,0
+金昌,112730.99,Jinchang,Gansu,7665,-0.37342660667227073,2
+钦州,476498.82,Qinzhou,Qinzhou,7720,-0.34468156190062815,2
+铁岭,934018.71,Tieling,Liaoning,4477,-0.30852820078024823,2
+铜仁,255580.22,Tongren,Guizhou,5838,-0.3621386169895529,2
+铜川,302455.8,Tongchuan,Shaanxi,5832,-0.3584344943743213,2
+铜陵,1431725.78,Tongling,Anhui,13834,-0.26919923645068383,2
+银川,2330749.87,Yinchuan,Yinchuan,11174,-0.19815807891392412,2
+锡林郭勒盟,335229.25,Xilingol League,Xilingol League,15417,-0.355844726368802,2
+锦州,3004142.81,Jinzhou,Liaoning,6937,-0.1449463636030677,2
+镇江,9502554.9,Zhenjiang,Jiangsu,19214,0.36856013990394487,2
+长春,15564746.610000001,Changchun,Jilin,11773,0.8475963760610301,0
+长沙,16622635.120000001,Changsha,Hunan,19925,0.9311910484743555,0
+长治,1354105.51,Changzhi,Shanxi,8610,-0.27533281383804376,2
+阜新,657390.65,,,,-0.3303874343738088,2
+阜阳,3399523.48,Fuyang,Anhui,5827,-0.1137032625817596,2
+防城港,256078.79,Fangchenggang,Fangchenggang,12020,-0.3620992198362318,2
+阳江,1025748.81,Yangjiang,Guangdong,8991,-0.30127966032682973,2
+阳泉,691956.74,Yangquan,Shanxi,8678,-0.3276560114092475,2
+阿克苏地区,213273.49,Aksu Prefecture,Xinjiang,8820,-0.36548170768559324,2
+阿勒泰地区,95917.72,Altay Prefecture,Xinjiang,7469,-0.37475519639090454,2
+阿坝藏族羌族自治州,161994.7,Ngawa Tibetan and Qiang Autonomous Prefecture,Sichuan,4599,-0.3695337732967432,2
+阿拉善盟,80298.24,Alxa League,Alxa League,21384,-0.37598945245997406,2
+阿拉尔,43623.9,"Aral, Xinjiang","Aral, Xinjiang",,-0.378887469981948,2
+阿里地区,15737.54,Ngari Prefecture,Ngari Prefecture,5841,-0.38109105864650406,2
+陇南,199446.93000000002,Longnan,Gansu,1954,-0.3665742866699356,2
+陵水黎族自治县,115555.40000000001,Lingshui Li Autonomous County,Hainan,,-0.3732034209334343,2
+随州,643869.09,Suizhou,Hubei,5764,-0.3314559121652134,2
+雅安,421853.12,Ya'an,Sichuan,5222,-0.3489996817659218,2
+青岛,18187003.48,Qingdao,Shandong,19412,1.0548079129660315,0
+鞍山,4210787.59,Anshan,Liaoning,10389,-0.04959692540626842,2
+韶关,1274877.97,Shaoguan,Guangdong,8429,-0.2815933981905609,2
+马鞍山,3532555.18,Ma On Shan,Ma On Shan,,-0.10319105711117764,2
+驻马店,1601863.21,Zhumadian,Henan,4261,-0.25575492488887747,2
+鸡西,1059309.9000000001,Jixi,Heilongjiang,4531,-0.2986276527685057,2
+鹤壁,853627.49,Hebi,Henan,7217,-0.3148807394809546,2
+鹤岗,461807.10000000003,Hegang,Heilongjiang,4011,-0.3458425060917966,2
+鹰潭,244747.81,Yingtan,Jiangxi,8921,-0.3629945973285367,2
+黄冈,1221446.17,Huanggang,Hubei,4065,-0.2858155953079625,2
+黄南藏族自治州,105298.24,Huangnan Tibetan Autonomous Prefecture,Qinghai,4364,-0.3740139448421315,2
+黄山,1432103.66,Huangshan,Huangshan,,-0.26916937625793863,2
+黄石,1331840.04,Huangshi (disambiguation),Huangshi (disambiguation),,-0.27709223806203753,2
+黑河,782926.66,Black River,Black River,,-0.3204675406110663,2
+黔东南苗族侗族自治州,493650.45,Qiandongnan Miao and Dong Autonomous Prefecture,Guizhou,4599,-0.34332623487169145,2
+黔南布依族苗族自治州,593557.61,Qiannan Buyei and Miao Autonomous Prefecture,Guizhou,6619,-0.33543154064541075,2
+黔西南布依族苗族自治州,236387.62,Qianxinan Buyei and Miao Autonomous Prefecture,Guizhou,,-0.36365522208980106,2
+齐齐哈尔,3125773.96,Qiqihar,Heilongjiang,3699,-0.1353350330673896,2
+龙岩,2170428.31,Longyan,Fujian,16575,-0.21082673743730038,2
