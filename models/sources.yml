@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: main
+    tables:
+      - name: raw_dataset_1
+        meta:
+          dagster:
+            asset_key: ["raw_dataset_1"]
+      - name: raw_dataset_2
+        meta:
+          dagster:
+            asset_key: ["raw_dataset_2"]
+      - name: raw_mapping
+        meta:
+          dagster:
+            asset_key: ["raw_mapping"]
+      - name: translations_city_mapping
+        meta: 
+          dagster: 
+            asset_key: ["translations_city_mapping"]
+      - name: translations_district_mapping
+        meta: 
+          dagster: 
+            asset_key: ["translations_district_mapping"]
+      - name: currency_code_mapping
+        meta: 
+          dagster:
+            asset_key: ["currency_code_mapping"]
+

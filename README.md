@@ -135,6 +135,8 @@ dtypes: float64(1), int64(2), object(4)
   - Data flow: 
   - (Docker) Postgres container <-> (Docker) Pandas script <-> Source Data 
 - Advanced: Self contained Dockerized Airflow with Celery executors to run dags
+  - New stack: Modern Data Stack (MDS): Dagster orchestrator, dbt core transformation workflow and scaffolds, duckdb OLAP warehouse, streamlit visualization app 
+  - Note to self: Dagster has diff project templates to choose from, look through them at `dagster project list-examples`
   - (Docker-compose) Airflow Orchestrator/Webserver -> (Docker-compose) Executors DAGS <- Source Data 
   - Executors DAGS -> (Docker) Postgres
 - Idempotent pipelines: Philosophy of pipelines should be to upsert where possible, update if data exists, insert if do not, otherwise each rerun will have multiple duplicate data rows. 

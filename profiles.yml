@@ -1,0 +1,7 @@
+etl:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: data/output/datawarehouse.duckdb
+      threads: 24

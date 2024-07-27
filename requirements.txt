@@ -8,4 +8,8 @@ streamlit==1.36.0,
 plotly==5.23.0,
 scikit-learn==1.5.1,
 matplotlib==3.9.1,
-selenium==4.23.1
+selenium==4.23.1,
+dagster==1.7.15,
+dagster-dbt==0.23.15,
+dbt-duckdb==1.8.2,
+dagster-webserver==1.7.15
