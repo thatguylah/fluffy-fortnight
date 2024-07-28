@@ -146,6 +146,7 @@ Q&A and code review of data preparation and the app (30 mins)
   - Then, after playing around with google, i realized there is a separate wikipedia domain at https://zh.wikipedia.org/wiki/ for mainly the chinese market! No surprises that this one fared much better. 
   - There was a small problem where the http response object was still in chinese, and i still had the translation issue. 
   - Enter Selenium: By making use of the translate function in wikipedia itself, i could hit the endpoint, translate it to english, and then scrape it using beautiful soup 4. 
+  - Should also mention that this process can take quite long, hence we use thread-safe multithreading to reduce our time waiting for the script to complete
   - Now this solution is full fledged, not only could i find the english name, i could also pull in additional metadata that is needed downstream all in JSON format. Two birds with one stone. 
   - Achieved 95% valid translations for cities
   - Achieved 98% valid translatiosn for districts
@@ -206,9 +207,59 @@ ORDER BY
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 **Q2.Find the city with the highest average sales by district**
-
+For each city, find the district with the highest average sales. Then return top 1 or top n cities. 
+![alt text](assets/screenshots/q2.png)
+~~~~~~~~~~~~~~~~~~~~~~sql
+WITH district_avg AS (
+    SELECT SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG, SHIP_TO_DISTRICT_NAME, SHIP_TO_DISTRICT_NAME_ENG, AVG(RMB_DOLLARS) as avg_sales
+    FROM CURATED_DATASET
+    GROUP BY SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG,SHIP_TO_DISTRICT_NAME, SHIP_TO_DISTRICT_NAME_ENG,
+),
+top_districts AS (
+    SELECT SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG, SHIP_TO_DISTRICT_NAME, SHIP_TO_DISTRICT_NAME_ENG, avg_sales
+    FROM (
+        SELECT SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG, SHIP_TO_DISTRICT_NAME, SHIP_TO_DISTRICT_NAME_ENG, avg_sales,
+               ROW_NUMBER() OVER (PARTITION BY SHIP_TO_CITY_CD ORDER BY avg_sales DESC) as rank
+        FROM district_avg
+    ) ranked
+    WHERE rank = 1
+)
+SELECT SHIP_TO_CITY_CD, SHIP_TO_CITY_CD_ENG, SHIP_TO_DISTRICT_NAME, SHIP_TO_DISTRICT_NAME_ENG, avg_sales as top_avg_sales
+FROM top_districts
+ORDER BY top_avg_sales DESC
+LIMIT 10;
+~~~~~~~~~~~~~~~~~~~~~~
 **Q3.Discuss and show how to cluster cities into n-number of tiers based on sales (e.g. lowest spending to highest spending).**
 
+Used k-means clustering from scikit learn. 
+![q3](assets/screenshots/q3.png)
+
+## Section 3.5 - Deeper analysis and findings
+
+- Translated Cities and Districts name to English by scraping Wikipedia. 
+- Also bonus of obtaining useful Province and Demographics metadata. 
+- Mapping files are stored in `data/static/mapping`
+
+![province spend](assets/screenshots/spending_by_province_map.png)
+- It is well known that coastal cities have higher GDP per capita. 
+- From this heat map, it looks like coastal provinces have both will and capital to purchase. 
+- Ignoring cities like Shanghai, Beijing, no doubt these cities rank top 5 in city ranking, but they cannot amass the same spending as a province. 
+- Of these provinces, it looks like Shandong as a coastal province is lagging behind. 
+
+![correlation](assets/screenshots/total_spend_vs_gdp_per_capita.png)
+- Correlation between total spend and gdp per capita, corr coefficient at 0.65
+
+![dongying](assets/screenshots/dongying_corr.png)
+- Zooming in to Shandong province, we see that Dongying is by far the highest GDP per capita city within the province but has spent one of the least within the province!
+- There could be a huge opportunity in Dongying if efforts are shored up within this city. 
+
+## Section 4 - Future Improvements
+
+**Cloud Deployment**
+
+**Data Security/Privacy**
+
+**Data Governance**
 
 ## About Me
 Hi there! Thanks for reviewing my takehome assessment!
