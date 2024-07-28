@@ -38,6 +38,12 @@ DISTRICTS_TRANSLATIONS_FILE_PATH = (
     .resolve()
 )
 
+CITY_CLUSTER_RESULTS_FILE_PATH = (
+    Path(__file__)
+    .joinpath("..", "..", "..", "data", "static", "cluster", "cluster_results.csv")
+    .resolve()
+)
+
 # If DAGSTER_DBT_PARSE_PROJECT_ON_LOAD is set, a manifest will be created at run time.
 # Otherwise, we expect a manifest to be present in the project's target directory.
 if os.getenv("DAGSTER_DBT_PARSE_PROJECT_ON_LOAD"):

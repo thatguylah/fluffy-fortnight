@@ -5,3 +5,4 @@ data/backup/*
 target/
 dbt_modules/
 **/.DS_Store
+tmp*

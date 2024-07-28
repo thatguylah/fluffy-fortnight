@@ -11,6 +11,7 @@ from .assets import (
     translations_city_mapping,
     translations_district_mapping,
     currency_code_mapping,
+    curated_city_cluster_results,
 )
 from .constants import dbt_project_dir
 from .schedules import schedules
@@ -24,6 +25,7 @@ defs = Definitions(
         translations_city_mapping,
         translations_district_mapping,
         currency_code_mapping,
+        curated_city_cluster_results,
     ],
     schedules=schedules,
     resources={

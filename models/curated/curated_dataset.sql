@@ -16,12 +16,12 @@ translations_district_df AS (
 merged_data AS (
     SELECT 
         p.ORDER_ID,
-        CAST(p.ORDER_TIME_PST AS INTEGER) AS ORDER_TIME_PST,
+        p.ORDER_TIME_PST,
         p.SHIP_TO_CITY_CD,
         p.SHIP_TO_DISTRICT_NAME,
         p.RPTG_AMT,
         p.CURRENCY_CD,
-        CAST(p.ORDER_QTY AS INTEGER) AS ORDER_QTY,
+        p.ORDER_QTY,
         tc.SHIP_TO_CITY_CD_ENG,
         td.SHIP_TO_DISTRICT_NAME_ENG,
         cc.MULTIPLIER
