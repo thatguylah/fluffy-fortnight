@@ -72,7 +72,7 @@ fig = px.choropleth(
     },
     color_continuous_scale="Viridis",
     labels={
-        "TOTAL_SPENDING": "Total Spending",
+        "TOTAL_SPENDING": "Total Spending(RMB)",
         "TOTAL_COUNT_OF_CITIES": "Total Count of Cities",
         "TOTAL_COUNT_OF_DISTRICTS": "Total Count of Districts",
     },
@@ -96,6 +96,12 @@ st.plotly_chart(fig)
 # Add explanatory text
 st.write(
     "This map shows the total sales in different regions of China. The lighter the color, the higher the total sales."
+)
+st.write(
+    "It has been studied that in China, coastal cities have a higher GDP per capita than inner regions."
+)
+st.write(
+    "source: https://typeset.io/questions/why-does-coastal-regions-in-china-have-a-higher-gdp-per-5gt586emod"
 )
 
 # Execute the query and fetch the data

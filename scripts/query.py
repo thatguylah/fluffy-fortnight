@@ -71,28 +71,8 @@ con = duckdb.connect(database=DUCKDB_FILE_PATH, read_only=True)
 # Query to find the city with the highest average sales by district
 highest_avg_sales_by_district = con.execute(
     """
-WITH HourlySales AS (
-    SELECT
-        SHIP_TO_CITY_CD,
-        ROUND(ORDER_TIME_PST / 10000) AS ORDER_HOUR_PST,
-        SUM(RMB_DOLLARS) AS total_sales,
-        ROW_NUMBER() OVER (PARTITION BY ROUND(ORDER_TIME_PST / 10000) ORDER BY SUM(RMB_DOLLARS) DESC) AS rank
-    FROM
-        CURATED_DATASET
-    GROUP BY
-        SHIP_TO_CITY_CD,
-        ROUND(ORDER_TIME_PST / 10000)
-)
-SELECT
-    SHIP_TO_CITY_CD,
-    ORDER_HOUR_PST,
-    total_sales
-FROM
-    HourlySales
-WHERE
-    rank = 1
-ORDER BY
-    ORDER_HOUR_PST;
+select distinct province from translations_city_mapping;
+
 """
 ).fetchdf()
 

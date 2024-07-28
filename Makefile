@@ -5,7 +5,6 @@ PIP = $(VENV_DIR)/bin/pip
 
 ####################################################################################################################
 # Setup local env to run EDA scripts
-# Default target
 all: setup
 
 # Target to set up the virtual environment and install packages
@@ -28,6 +27,7 @@ activate:
 clean:
 	rm -rf $(VENV_DIR)
 
+# Utilizing the venv created with make setup above, run etl to execute local scripts 
 etl:
 	rm -rf data/output/datawarehouse.duckdb
 	python scripts/ddl.py
@@ -40,8 +40,9 @@ etl:
 	# python scripts/clustering.py
 	python scripts/load_clustering_results.py
 	# streamlit run visualization/dashboard.py
+
+# Productionized version of etl with dagster/dbt and streamlit containers
 build:
-	cd orchestrator
-	DAGSTER_DBT_PARSE_PROJECT_ON_LOAD=1 dagster dev
-	
-.PHONY: all setup activate clean etl build up
+	docker-compose up --build
+
+.PHONY: all setup activate clean etl build

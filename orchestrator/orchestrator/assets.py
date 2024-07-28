@@ -239,9 +239,19 @@ def translations_city_mapping(context: AssetExecutionContext) -> None:
         )
         for item in json_data:
             metadata = json.dumps(item["metadata"])
-            province = item["metadata"].get("Province", "").replace('"', "")
-            if not province:
+            if item["SHIP_TO_CITY_CD_ENG"] in [
+                "Shanghai",
+                "Beijing",
+                "Tianjin",
+                "Chongqing",  # 4 municipalities
+            ]:
                 province = item["SHIP_TO_CITY_CD_ENG"]
+            else:
+                province = item["metadata"].get("Province", "").replace(
+                    '"', ""
+                ) or item["metadata"].get("Autonomous region", "").replace('"', "")
+                if not province:
+                    province = None
 
             per_capita_str = item["metadata"].get("Per capita", "")
             per_capita_usd = extract_per_capita(per_capita_str)

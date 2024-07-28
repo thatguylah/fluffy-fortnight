@@ -1,5 +1,4 @@
-
-Scenario :
+## Scenario :
 The Sales team would like to analyse on store sales performance across different locations, and obtain actionable insights for driving strategic marketing initiatives.
 
 For example, ability to
@@ -8,172 +7,218 @@ For example, ability to
 
 You are provided a sample data set of orders for a single day between 5am and 12pm. The order timestamp is in format HHMMSS.
 
-
+## Requirements
 Perform the following data engineering tasks (Python, Scala, Java etc.)
-Setup a database locally. For example, you can use mysql or sqlite3.
-Process and load the data from both “dataset1.xlsx” and “dataset2.json”, performing any data cleansing and mapping as required
-Additional bonus - perform translation of districts and cities to English
-Create the necessary tables to answer the questions below
+- Setup a database locally. For example, you can use mysql or sqlite3.
+- Process and load the data from both “dataset1.xlsx” and “dataset2.json”, performing  any data cleansing and mapping as required
+- Additional bonus - perform translation of districts and cities to English
+- Create the necessary tables to answer the questions below
 
 Build a simple web app (Flask, Django, NodeJS etc.) which provides actionable insights to sales analysts on sales performance across different locations.
 Plot some charts to allow users to answer the following questions :
-Find the city with the highest per-hour sales
-Find the city with the highest average sales by district
-Discuss and show how to cluster cities into n-number of tiers based on sales (e.g. lowest spending to highest spending).
-Discuss (and if possible, show) what other types of metadata we can include to get deeper insights and analysis.
-Analyse the dataset yourself and share/showcase any interesting insights you find
+- Find the city with the highest per-hour sales
+- Find the city with the highest average sales by district
+- Discuss and show how to cluster cities into n-number of tiers based on sales (e.g. lowest spending to highest spending).
+- Discuss (and if possible, show) what other types of metadata we can include to get deeper insights and analysis.
+- Analyse the dataset yourself and share/showcase any interesting insights you find
+
 In the presentation interview session : 
 Do an intro & presentation on this project (includes demo of the app). Highlight any issues found in the data, or challenges with the process. (1 hour)
 Q&A and code review of data preparation and the app (30 mins) 
 
-Initial thoughts:
-- What is the relationship if any between dataset 1 and dataset 2? Or does the assessment require me to derive their rs on my own?
-  - Datasets 1 and 2 cannot be joined bc no overlapping ORDER_ID 
-  - They are likely the same datasets just different source files
-- RPTG_AMT stands for REPORTING_AMOUNT in full?
-- Is there a data dictionary/data catalogue i can refer to or i should build one using the datasets on hand?
-- For null values, or otherwise invalid values how should i proceed or do i make my own assumptions and carry on?
-- Could i propose multiple solutions or is that considered too much for the assessment and i should focus on just one solution and the visuals and presentation materials?
+## Prerequisites
+- Docker (Must have) 
+- Python 3.12.4 (In case you are not running Docker and need to build from source)
+- 3Ds stack (Dagster, dbt, Duckdb) - These are all managed by docker. 
 
-# Section 1 - Exploratory Data Analysis Using Jupyter Notebooks (eda/)
-Initial EDA and findings:
-- Adding on initial thoughts:
-  - Quite obvious these datasets represent transactions of goods and services within China
-  - Manual eyeballing and profilling: ORDER_QTY and RPTG_AMT reveals this is likely the case
-  - Lack of SKU or any product key means each order_id is a rolled up aggregate or they represent the same goods and services, most likely the former. 
-  - Prompting a LLM like ChatGPT reveals that the cities and districts are actual locations in China + Wikipedia and google searching 
-  
-- It seems like dataset1 and dataset2 are likely the same dataset just different source file formats
-  - Cannot be joined due to no overlapping ORDER_ID, hence there cannot be duplicates across files
-  - Current hypothesis: Perhaps each dataset could logically represent a type of store (physical,online) or are grouped by geographical locations?
-  - Contain same schema just that one is denormalized and the other is normalized
-- Summary statistics:
-  - Dataset 1
-  - RangeIndex: 159750 entries, 0 to 159749
-Data columns (total 6 columns):
- #   Column             Non-Null Count   Dtype  
----  ------             --------------   -----  
- 0   ORDER_ID           159750 non-null  object 
- 1   ORDER_TIME  (PST)  159750 non-null  object 
- 2   CITY_DISTRICT_ID   159750 non-null  int64  
- 3   RPTG_AMT           159750 non-null  float64
- 4   CURRENCY_CD        159750 non-null  object 
- 5   ORDER_QTY          159712 non-null  float64
-   - Dataset 2
-   - RangeIndex: 40236 entries, 0 to 40235
-Data columns (total 7 columns):
- #   Column                 Non-Null Count  Dtype  
----  ------                 --------------  -----  
- 0   ORDER_ID               40236 non-null  object 
- 1   ORDER_TIME_PST         40236 non-null  int64  
- 2   SHIP_TO_DISTRICT_NAME  40236 non-null  object 
- 3   SHIP_TO_CITY_CD        40236 non-null  object 
- 4   RPTG_AMT               40236 non-null  float64
- 5   CURRENCY_CD            40236 non-null  object 
- 6   ORDER_QTY              40236 non-null  int64  
-dtypes: float64(1), int64(2), object(4)
-- Data Profiling Tools:
-  - AutoViz
-  - Lux
-- Data Quality Checks
-  - ORDER_QTY (INTEGER type, cannot be float):
-    - Dataset 1: 38 rows failed
-    - Dataset 2: 0 rows failed 
-    - [x] Data validtaion: Can be casted as Integer
-    - [x] Data validation: Greater than 0 
-    - [ ] Data validation: Upper bound for number of order qty, outliers
-  - CURRENCY_CD (ENUM type, "USD" or "RMB")
-    - Dataset 1: 37 rows where currency is USD
-    - Dataset 2: 0 rows where currency is USD, 100% RMB
-    - [x] Data validation: Check all unique values across both datasets
-    - [x] Data validation: Row distributions and skew
-  - RPTG_AMT (FLOAT type, used to denote currency)
-    - Dataset 1: All rows are floats with two dp
-    - Dataset 2: All rows are floats with two dp
-    - [ ] Data validation: Box plot to see outliers of RPTG_AMT
-    - [x] Data validation: Check that value cannot be less than 0
-    - [ ] Data validation: Upper bound of practical value
-  - CITY_DISTRICT_ID (INTEGER type, categorical ordinal, used in junction with mapping table)
-    - Mapping Table: 362 unique cities, 2545 unique districts, 2582 unique pairings of city and district
-    - Dataset 1: 37 rows where CITY_DISTRICT_ID = 999999
-    - ❌ Data validation: Check if all IDs in dataset1 are present in mapping table 
-  - SHIP_TO_DISTRICT_NAME and SHIP_TO_CITY_CD (STRING and STRING, used to denote district name and city name(province), both in chinese characters)
-    - Dataset 2: 119 rows where district not in mapping table, 2 rows where  city not in mapping table, 2 rows where both are no in mapping table
-    - ❌ Data validation: Check if all composite key (CITY_DISTRICT) combination is present in mapping table
-  - ORDER_TIME PST (LONG/BIGINT, used to represent HHMMSS)
-    - Dataset 1:replace string time values with null 
-    - [ ] Data validation: check lower bound of 5am, 50000 (in excel leading 0s are dropped)
-    - [ ] Data validation: check upper bound of 12pm, 120000
-  - ORDER_ID (STRING type, used as PK)
-    - Dataset 1: Each order_id is unique. 
-    - Dataset 2: Each order_id is unique. 
-    - Dataset 1 & 2: Each order_id is unique. (Cannot be joined on order_id, meaning no duplicates across datasets)
-    - [x] Data validation:: Check for uniqueness across dataset 1
-    - [x] Data validation: Check for uniqueness across dataset 2
-    - [x] Data validation: Check for uniqueness across dataset 1 and 2
-  
-# Section 1.5 Data Preparation (Cleaning of null/invalid values)
-- Stand up EXCEPTIONS_ table to load all erroneous values
-- Two EXCEPTIONS_ table, one for excel source, another for json source due to differing schema that cannot be reconciled
+## How to use
+- From the root of this directory,
+- `make build` to use docker compose to build both dagster + dbt container and streamlit container 
+- if not using make commands, run `docker-compose up --build` to get the same result. 
+- Dagster will be listening on localhost 3000 and streamlit will be listening on port 8501. 
+- Highly recommended to build using the above two methods, otherwise if building by source, install python 3.12.4, and then create a `venv` using the provided make commands and install `requirements.txt`. After pip install, cd to `orchestrator` and run `dagster dev`. Or you can run `dbt build` in the root folder. 
+
+## Folder Structure 
+- `assets/`: Contains project documentation files like screenshots, images,  ERDs, architecture diagrams 
+- `data/`: Contains input data(partioned by date and window), output data, static mapping/cluster/geojson files and backups all of the above. 
+- `eda/`: Contains Jupyter notebook used for initial Exploratory Data Analysis
+- `macros/`: Macros used in dbt. 
+- `models/`: dbt Models. Split further into qualified, processed and curated. 
+- `orchestrator/`: Contains all python and config files needed to run dagster. Also defines sources for dbt. 
+- `scripts/`: Initial version of the project where ELT logic was housed in pure python scripts. Contains scripts for webscraper and k-means clustering. 
+- `visualization`: Contains all python and config files needed to run streamlist dashboard. 
+
+## Section 1 - Exploratory Data Analysis 
+**Initial Thoughts and Questions**
+- My goal here was to do a deep dive into the source datasets to make heads or tails of what i was looking at. 
+- Looking at the Excel data, it was clear that the two sheets were related by CITY_DISTRICT_ID, an identifier for each unique city-district pairing. 
+- Looking at the JSON data, it looked like the schema between the two could be unified. 
+
+**EDA**
+- Tried joining the two datasets based on ORDER_ID, returned an empty set. This means that there are no overlapping ORDER_ID. Each is unique across both datasets. 
+- This was the confirmation i needed to prove both datasets could be part of one whole. 
+- Confirmed this dataset represents transactions of goods/services with China. -> Thanks to ORDER_QTY and RPTG_AMT
+- Lack of SKU or any product key means each order_id is a rolled up aggregate or they represent the same goods and services, most likely the former. 
+- Had to confirm the names of these chinese cities were real -> Google, Wikipedia, ChatGPT confirmed it.
+- Current hypothesis: Perhaps each dataset could logically represent a type of store (physical,online) or are grouped by geographical locations?
+- Contain same schema just that one is denormalized and the other is normalized
+- Used pandas to profile the data and generate descriptive statistics. 
+- ![alt text](assets/screenshots/image.png)
+- ![alt text](assets/screenshots/image-1.png)
+- Clearly based on the above, we have some data quality issues!
+
+## Section 1.5 - Data Quality Checks
 - ORDER_QTY: 
-  - dataset1: load into exceptions table with descriptive status msg then replace all rows that failed check with NaN 
-- CURRENCY_CD:
-  - Check either USD or RMB, load both
-- RPTG_AMT:
-  - load into exceptions table then replace all rows that failed with 0
-- CITY_DISTRICT_ID:
-  - dataset 1 only: load into exceptions table w descriptive status msg, then replace all rows that failed check with NaN
+  - dataset 1: 38 rows failed
+  - dataset 2: 0 rows failed
+  - checks applied: valid integer, greater than 0 
+- CURRENCY_CD
+  - dataset 1: 37 rows where currency is USD
+  - dataset 2: all rows are RMB, none are USD
+  - checks applied: scan for unique values across both datasets, row distribution and skew
+- RPTG_AMT
+  - dataset 1: no issues found 
+  - dataset 2: no issues found 
+  - checks applied: greater than 0, float type with 2 dp, no significant outliers
+- CITY_DISTRICT_ID
+  - dataset 1: 37 rows where CITY_DISTRICT_ID = 999999
+  - checks applied: join city_district_id with mapping table 
 - SHIP_TO_DISTRICT_NAME and SHIP_TO_CITY_CD:
-  - dataset 2 only: load into exceptions table, continue loading into silver as per normal
+  - dataset 2: no issues found
+  - i note that some cities and districts cannot be found in excel mapping table -> dimension table is out of date
+  - checks applied: non-null and valid strings 
+- ORDER_TIME_PST
+  - dataset 1: 4 rows where time is "time"
+  - dataset 2: no issues found
+  - checks applied: valid integer, greater than 0
+
+**Data remediation:**  
+  - Catch all of the above errors, replace invalid values with NULL or NaN
+  - For each error, grab their ORDER_ID key, and load them into EXCEPTIONS table with descriptive error msg of data quality failure. 
+  - Reasoning: For most analytical OLAP warehouses, data just needs to only be eventually consistent, i thought it is better to have partially incorrect data than to have them completely excluded. Plus, with the EXCEPTIONS table, turn around time to resolve DQ issues can be shortened. 
+
+
+## Section 2 - Data Engineering
+
+**Entity Relations Diagram** 
+![ERD](assets/erd/combined_erd.png)
+
+- Modelled relations with fact table (dataset) 
+- Star schema (fact table joined with dimension tables (mappings)) 
+- CURRENCY_CODE_MAPPING should be modelled as Slowly Changing Dimension type 2 as the exchange rate fluctuates. 
+- Propose to use an averaged currency conversion rate to reduce shocks from forex market
+- Decoupled city and district mappings into two separate mapping tables -> Alternatively can consider modelling a province, city, district mapping in one table with an assigned ID. 
+
+**Data Flow** 
+![Data Flow Diagram](assets/dags/ETL_Dagster_dags.png)
+
+- Following medallion architecture setup (Bronze, Silver, Gold) as popularized by databricks. 
+- dbt also advocates for a similar staging and mart distinction 
+- dbt also has some level of built in data testing. Refer to schemas.yml for tested fields. 
+- Building idempotent pipelines: Philosophy of pipelines should be to upsert where possible, update if data exists, insert if do not, otherwise each rerun will have multiple duplicate data rows. 
+- Why are idempotent pipelines important? I realized a mistake in bronze layer that the columns CITY and DISTRICT in dataset 2 were swapped, with idempotent pipeline, i just had to change the position of columns in my DDL script, and run everything from the top to get back to a correct state.
+
+
+**Architecture Diagram:**
+![Architecture Diagram](assets/architecture/data_flow.png)
+- Key technology stack:
+  - Dagster (Orchestrator and Executor for jobs) - Docker managed
+  - Dbt (SQL Templating engine) - Docker managed
+  - Duckdb (OLAP datawarehouse) 
+  - Python and Selenium for webscraping 
+  - Python and Sci-kit learn for k-means clustering.
+  - Python and Streamlit for dashboard viz - Docker managed  
+
+**Challenges Faced** 
+- Initially, i was running an Airflow <-> Postgres setup on two docker containers 
+- Unexpectedly, standing up a docker container for postgres and using pandas + sqlalchemy + psycopg2 as ORM and db driver were harder than expected with non-ideal performance. 
+- In the interest of time, i havent deep dived into why performance was so slow, was taking ~8 mins to bulk load 150k rows into postgres. 
+- Not to mention, there was way too many dependencies even within docker containers to manage
+- Cause of that, i switched to duckdb with much better performance and minimal bloat, it has no other dependencies and can standalone, and plays nice with excel,json and pandas. Any smaller and it would be a binary! 
+- As a result, duckdb is heavily reliant on SQL and less on ORM, hence the project became an SQL heavy workflow, which made sense to bring in dbt at that point. 
+- By the way, it is my first time using Dagster, duckdb and dbt! Glad to try out new technologies for this project. 
   
-# Section 2 - Data Engineering Infra + ELT + Data Quality Checks
-- Stand up postgres container using Dockerfile
-- Aft postgres container is stood up, run DDL on initialization, make sure to create indexes properly
-  - Unexpectedly huge challenge here, somehow standing up a docker container for postgres and using pandas + sqlalchemy + psycopg2 as ORM and db driver were harder than expected with non-ideal performance. In the interest of time, i havent deep dived into why performance was so slow, was taking ~8 mins to bulk load 150k rows into postgres. 
-  - Cause of that, i switched to duckdb with much better performance and minimal bloat, it has no other dependencies and can standalone, and plays nice with excel,json and pandas. 
-- Basic: Docker container to run ELT scripts using pandas to hit the data/ folders and load them into pg
-  - Data flow: 
-  - (Docker) Postgres container <-> (Docker) Pandas script <-> Source Data 
-- Advanced: Self contained Dockerized Airflow with Celery executors to run dags
-  - New stack: Modern Data Stack (MDS): Dagster orchestrator, dbt core transformation workflow and scaffolds, duckdb OLAP warehouse, streamlit visualization app 
-  - Note to self: Dagster has diff project templates to choose from, look through them at `dagster project list-examples`
-  - (Docker-compose) Airflow Orchestrator/Webserver -> (Docker-compose) Executors DAGS <- Source Data 
-  - Executors DAGS -> (Docker) Postgres
-- Idempotent pipelines: Philosophy of pipelines should be to upsert where possible, update if data exists, insert if do not, otherwise each rerun will have multiple duplicate data rows. 
-- Why idempotent pipelines are important? I just realized my mistake in bronze layer that the columns CITY and DISTRICT in dataset 2 were swapped, with idempotent pipeline, i just had to change the position of columns in my DDL script, and run everything from the top to get back to a correct state. 
-- Data Quality Checks: Pydantic validators vs Great Expectations suite vs Bare bones pytest
-- ERD
-- Medallion architecture: Bronze, Silver, Gold tables
-- Stack used: (Basic) Pandas, Postgres, Docker, Pydantic
-  - Updated Basic Stack: Pandas, DuckDB, Pydantic, BeautifulSoup, Requests
-- (Advanced) Airflow/Dagster, Spark?, Pandas?, Postgres, Docker, Pydantic/GE
-  - Infra problems so far, Airflow doesnt play nice with versions of SQLAlchemy and Psycopg2
-  - Dependencies have alot to be managed
-- (Stretch) Full cloud deployment on aws 
-- 
-# Section 2.5 Translating Chinese districts and cities to English
+## Section 2.5 Translation feature
 - Method 1: Reading from Wikipedia
   - Pros and cons: pros, relatively static, reliable, although quite a few misses, but could work in a pinch
-  - Also i just realized there is a https://zh.wikipedia.org/wiki/ for mainly chinese market
+  - By looping through each city and district and appending it to the end of the url, i could see if wikipedia had an entry on that city/district.
+  - At first, i was scraping the english wikipedia at https://en.wikipedia.org/wiki/, unsurprisingly this got quite alot of misses that didnt work quite as well.  
+  - Then, after playing around with google, i realized there is a separate wikipedia domain at https://zh.wikipedia.org/wiki/ for mainly the chinese market! No surprises that this one fared much better. 
+  - There was a small problem where the http response object was still in chinese, and i still had the translation issue. 
+  - Enter Selenium: By making use of the translate function in wikipedia itself, i could hit the endpoint, translate it to english, and then scrape it using beautiful soup 4. 
+  - Now this solution is full fledged, not only could i find the english name, i could also pull in additional metadata that is needed downstream all in JSON format. Two birds with one stone. 
+  - Achieved 95% valid translations for cities
+  - Achieved 98% valid translatiosn for districts
+
 - Method 2: Using Translate API
   - For some reason, all API clients using google or even bing seem to time out and is not very reliable. 
-- Method 3: LLM translation (locally hosted or api?)
+  - Tried some opensource solutions that didnt require an API key, most of the responses were laughable with very few hits
+
+- Method 3: LLM translation (locally hosted and api)
   - Open source LLM models on hugging face like the Helsinki-NLP/opus-mt-en-fr were also laughable in some of the translations with quite small rate limiting 
-  - locally hosted models could work but were too expensive and resource intensive to host
+  - Same issue as above, timed out after a few requests 
+  - Locally hosted models could work but were too expensive and resource intensive to host, not to mention time consuming to wrangle with for deployment 
+
 - Method 4: Manual Translation by copying into ChatGPT:
   - Once off manual effort to generate key value pairs
-- Conclusion: Ended up i went with Wikpedia solution as it was way easier to develop and i could also have a bonus of querying other metadata that comes along with scrapinga wiki page.
-- There were two wiki scraping methods, one is to query a wikipedia table with most of the cities but no further metadata, i went the other option to put each city/district as a slug to pull data from each wiki page. 
-  
-# Section 3 - Analysis and Findings
-- First 2 queries can be solved in SQL and charts
-- Clustering into N-tier cities 
-- Basic: Flask/Streamlit app running Dash or Plotly visuals, probably can only do static visuals? 
-- Advanced: Data Viz tool like Tableau/Metabase/Looker over ODBC connection to postgres container, using SQL queries to generate visuals 
+  - This worked second best. If wikipedia scraping could not cut it, this was my best alternative. 
+ 
+**Scalability:**
+  - Dockerized applications have ability to scale to cloud service providers which can provision serverless container runners (AWS ECS)
+  - Currently Duckdb runs on a single node while the persistent file is stored in file storage. The duckdb file could be hosted in an s3 bucket for multiple concurrent reads, however it is not designed for multiple concurrent writes. Which would be suitable for an ELT pipeline as there is only one pipeline writing to the datawarehouse.  
+  - Alternatively, proposal to onboard to enterprise datawarehouse platform (Snowflake, dbt cloud, Redshift) or enterprise data platform (Databricks). Can also build on cloud native solutions (Kubernetes deployments) 
+  - Python and Selenium module have been optimized for concurrency by using a thread-safe multithreading approach to scrape wikipedia. 
+  - Can consider enterprise BI tools (Tableau/Quicksight/Metabase) for visualization
 
-# Section 3.5 - Deeper analysis and findings
-- Other metadata, demographics, population, income
-  
-# Section 4 - Future improvements
-- Data security/privacy
-- Data governance
+## Section 3 - Analysis and Findings
+**Q1.Find the city with the highest per-hour sales**
+
+Analysis: This question looks like it can be interpreted in 2 ways. 
+
+Either 1) For each hour, find the city with the highest spending or 2) Find the city-hour pair with the highest spending. Why not both? 
+
+The interesting analysis is that while Shanghai tops the charts in sales across all times of day, at certain peak periods, other cities can do better in sales than Shanghai at off-peak periods. Refer to the next two figures.
+
+![query1](assets/screenshots/query1.png)
+~~~~~~~~~~~sql
+WITH HourlySales AS (
+    SELECT
+        SHIP_TO_CITY_CD,
+        ROUND(CAST(ORDER_TIME_PST AS BIGINT) / 10000) AS ORDER_HOUR_PST,
+        SUM(RMB_DOLLARS) AS total_sales,
+        ROW_NUMBER() OVER (PARTITION BY ROUND(CAST(ORDER_TIME_PST AS BIGINT) / 10000) ORDER BY SUM(RMB_DOLLARS) DESC) AS rank
+    FROM
+        CURATED_DATASET
+    GROUP BY
+        SHIP_TO_CITY_CD,
+        ROUND(CAST(ORDER_TIME_PST AS BIGINT) / 10000)
+)
+SELECT
+    SHIP_TO_CITY_CD,
+    ORDER_HOUR_PST,
+    total_sales
+FROM
+    HourlySales
+WHERE
+    rank = 1
+ORDER BY
+    ORDER_HOUR_PST;
+~~~~~~~~~~~~~~~~~~~~~~~
+
+**Q2.Find the city with the highest average sales by district**
+
+**Q3.Discuss and show how to cluster cities into n-number of tiers based on sales (e.g. lowest spending to highest spending).**
+
+
+## About Me
+Hi there! Thanks for reviewing my takehome assessment!
+
+My name is Yao Kuan and im currently a Data Engineer in the DE team within the Government of Singapore Technology Agency. We work mainly on Whole-of-Government data platforms for internal users of all walks of life.
+
+In my day to day, i usually work on not just building data pipelines, but on building data platforms, which of course covers different domains from Security, Networking, DevOps, AI/ML and a little bit of Frontend engineering with a dominant Backend and Data engineering focus.
+
+For us, the name of the game is to move as much overhead as we can over to our cloud service provider, happy to chat more about how we achieved this!
+
+Last but not least, recently i have been contributing to an open source python SDK known as python-telegram-bot. Find my contribution here: https://github.com/thatguylah/python-telegram-bot
+
+Enough about me though, lets get started!
