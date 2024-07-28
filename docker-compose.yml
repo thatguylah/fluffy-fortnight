@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  orchestrator:
+    build:
+      context: ./orchestrator
+    volumes:
+      - ./data:/app/data # Mount the data directory as a shared volume
+      - ./models:/app/models
+      - ./macros:/app/macros
+      - ./target:/app/target
+      - ./orchestrator:/app/orchestrator
+      - ./.user.yml:/app/.user.yml
+      - ./dbt_project.yml:/app/dbt_project.yml
+      - ./profiles.yml:/app/profiles.yml
+    ports:
+      - "3000:3000"
+
+  dashboard:
+    build:
+      context: ./visualization
+    volumes:
+      - ./data:/app/data # Mount the data directory as a shared volume
+    ports:
+      - "8501:8501"
