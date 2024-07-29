@@ -2,82 +2,113 @@ version: 2
 
 models:
   - name: qualified_dataset_1
-    description: Cleaned and qualified dataset 1 ready for silver layer. 
+    description: Cleaned and qualified dataset 1 ready for silver layer.
     columns:
       - name: order_id
         description: Primary key of transactions. Unique across both datasets 1 and 2.
-        tests: 
+        tests:
           - unique
           - not_null
       - name: order_time_pst
-        description: Time of order in HHMMSS format, as bigint, replaced invalid values. 
+        description: Time of order in HHMMSS format, as bigint, replaced invalid values.
       - name: city_district_id
-        description: Mapping key to raw_mapping, replaced invalid values. 
-        tests: 
-          - relationships: 
+        description: Mapping key to raw_mapping, replaced invalid values.
+        tests:
+          - relationships:
               to: ref('raw_mapping')
               field: city_district_id
       - name: currency_cd
-        description: Enum of currency codes 
-        tests: 
-          - accepted_values: 
-              values: ['USD','RMB']
+        description: Enum of currency codes
+        tests:
+          - accepted_values:
+              values: ["USD", "RMB"]
       - name: rptg_amt
-        description: Reporting amount in specified currency, replaced invalid values. 
-        tests: 
-          - not_null 
+        description: Reporting amount in specified currency, replaced invalid values.
+        tests:
+          - not_null
       - name: order_qty
-        description: Order Quantity, replaced invalid values. 
+        description: Order Quantity, replaced invalid values.
 
   - name: qualified_dataset_2
-    description: Cleaned and qualified dataset 2 ready for silver layer. 
+    description: Cleaned and qualified dataset 2 ready for silver layer.
     columns:
       - name: order_id
         description: Primary key of transactions. Unique across both datasets 1 and 2.
-        tests: 
+        tests:
           - unique
           - not_null
       - name: order_time_pst
-        description: Time of order in HHMMSS format, as bigint, replaced invalid values. 
+        description: Time of order in HHMMSS format, as bigint, replaced invalid values.
       - name: ship_to_district_name
         description: District Name in Chinese characters.
-        tests: 
+        tests:
           - not_null
       - name: ship_to_city_cd
-        description: City Name in Chinese characters. 
+        description: City Name in Chinese characters.
       - name: currency_cd
-        description: Enum of currency codes 
-        tests: 
-          - accepted_values: 
-              values: ['USD','RMB']
+        description: Enum of currency codes
+        tests:
+          - accepted_values:
+              values: ["USD", "RMB"]
       - name: rptg_amt
-        description: Reporting amount in specified currency, replaced invalid values. 
-        tests: 
-          - not_null 
+        description: Reporting amount in specified currency, replaced invalid values.
+        tests:
+          - not_null
       - name: order_qty
-        description: Order Quantity, replaced invalid values. 
+        description: Order Quantity, replaced invalid values.
+
+  - name: exceptions_dataset
+    description: Rows who failed data quality checks from raw tables
+    columns:
+      - name: order_id
+        description: Primary key of transactions. Data quality issue detected
+      - name: validation_error
+        description: Describes error message of data quality check
+
   - name: processed_dataset
-    description: Silver layer dataset, ready for dimension table joining. 
+    description: Silver layer dataset, ready for dimension table joining.
     columns:
       - name: order_id
         description: Primary key of transactions. Unique across both datasets 1 and 2.
-        tests: 
+        tests:
           - unique
           - not_null
       - name: order_time_pst
-        description: Time of order in HHMMSS format, as bigint, replaced invalid values. 
+        description: Time of order in HHMMSS format, as bigint, replaced invalid values.
       - name: ship_to_district_name
         description: District Name in Chinese characters.
       - name: ship_to_city_cd
-        description: City Name in Chinese characters. 
+        description: City Name in Chinese characters.
       - name: currency_cd
-        description: Enum of currency codes 
-        tests: 
-          - accepted_values: 
-              values: ['USD','RMB']
+        description: Enum of currency codes
+        tests:
+          - accepted_values:
+              values: ["USD", "RMB"]
       - name: rptg_amt
-        description: Reporting amount in specified currency, replaced invalid values. 
-        tests: 
-          - not_null 
+        description: Reporting amount in specified currency, replaced invalid values.
+        tests:
+          - not_null
       - name: order_qty
-        description: Order Quantity, replaced invalid values. 
+        description: Order Quantity, replaced invalid values.
+  - name: curated_dataset
+    description: Gold layer dataset, ready for end user consumption
+    columns:
+      - name: order_id
+        description: Primary key of transactions.
+        tests:
+          - unique
+          - not_null
+      - name: order_time_pst
+        description: Time of order in HHMMSS format, as bigint, replaced invalid values.
+      - name: ship_to_district_name
+        description: District Name in Chinese characters.
+      - name: ship_to_city_cd
+        description: City Name in Chinese characters.
+      - name: ship_to_district_name_eng
+        description: District Name in English characters.
+      - name: ship_to_city_cd_eng
+        description: City Name in English characters.
+      - name: rmb_dollars
+        description: Total spend in RMB dollars
+      - name: order_qty
+        description: Order Quantity, replaced invalid values.
