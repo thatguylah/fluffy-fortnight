@@ -100,6 +100,14 @@ Q&A and code review of data preparation and the app (30 mins)
 
 ## Section 2 - Data Engineering
 
+**Batch vs Streaming**
+- Because the requirements dont call for real-time analytics, and it is assumed data is refreshed a few times a day, 5am to 12pm (7 hour window), we can break this up into multiple batch jobs per day. 
+- Triggering the batch pipeline could be either schedule based (based on time) or event based (when new files get added), for this project, it will be a manual trigger on the orchestrator UI 
+- Can we add in stream processing as well as batch? Yes! If we are able to use a Change Data Capture (CDC) pattern to the upstream system, we can convert it into stream based processing and utlize tools like Kafka or RabbitMQ for message queues. 
+- Alternatively, each batch file could be chunked into a row level granularity and process each row at a time, in a pseudo-streaming pattern. This is quite doable in AWS lamdba and AWS Step Functions
+- Combining both, we can have a lambda data architecture where we have both batch processing for large scale data and stream processing for real-time data. 
+- References: https://www.databricks.com/glossary/lambda-architecture
+
 **Entity Relations Diagram** 
 ![ERD](assets/erd/combined_erd.png)
 
@@ -114,9 +122,23 @@ Q&A and code review of data preparation and the app (30 mins)
 
 - Following medallion architecture setup (Bronze, Silver, Gold) as popularized by databricks. 
 - dbt also advocates for a similar staging and mart distinction 
+- Follows ELT style of data pipelining. 
+- ELT vs ETL, whats the difference? IMO, its a matter of prioritization, in ELT style workloads, first and foremost priority is to load all sources into the warehouse first, with transformations/processing coming afterwards. 
+- An antithesis to this idea is the WAP, Write-Audit-Publish pattern which takes after ETL style workloads where Publish is to the final data warehouse 
 - dbt also has some level of built in data testing. Refer to schemas.yml for tested fields. 
+- Idempotency:
+  >In the data engineering context, this can come to mean that: running a data pipeline multiple times with the same input will always produce the same output.
 - Building idempotent pipelines: Philosophy of pipelines should be to upsert where possible, update if data exists, insert if do not, otherwise each rerun will have multiple duplicate data rows. 
+- Some ways of building idempotent pipelines in SQL terms: 
+  - 1. DROP table before CREATE it and then INSERT INTO (this method removes previously loaded values), 
+  - 2. performing an UPSERT, if primary key exists, do an UPDATE, otherwise INSERT (this method is safer as it does not remove prev loaded values)
+  - 3. a `freshness` indicator, mark each row with the last_inserted datetime, and a batch job that removes data with too long a last_inserted delta (rows 1,2,3 inserted, pipeline changed to upsert only rows 1,3 moving forward, rows 1,3 will continously have a later last_inserted)
+  - this second method enables us to do incremental refreshes, with the tradeoff that some data could be stale (eg. pipeline changed to remove certain values, but warehouse still contain those values from prev runs)
+  - this is where ELT pipelines shine, as assuming the raw data does not change (the EL portion can do incremental refreshes using method 2), the transformation layer could always be idempotent (by doing full refreshes using method 1)
 - Why are idempotent pipelines important? I realized a mistake in bronze layer that the columns CITY and DISTRICT in dataset 2 were swapped, with idempotent pipeline, i just had to change the position of columns in my DDL script, and run everything from the top to get back to a correct state.
+- On backfilling: its clear the source data represents a snapshot for a particular time window, that is important for replayability, because of our idempotent pipelines, we can consistently run the same input multiple times and generate the same output. 
+- This means if previous historical data comes in, say for the past week, it can be slotted into the input folders and run the entire pipeline to backfill quite simply. 
+- Reference: https://www.startdataengineering.com/post/design-patterns/#31-extraction-patterns
 
 
 **Architecture Diagram:**
@@ -159,6 +181,8 @@ Q&A and code review of data preparation and the app (30 mins)
   - Open source LLM models on hugging face like the Helsinki-NLP/opus-mt-en-fr were also laughable in some of the translations with quite small rate limiting 
   - Same issue as above, timed out after a few requests 
   - Locally hosted models could work but were too expensive and resource intensive to host, not to mention time consuming to wrangle with for deployment 
+  - Actually, if there was more time/resources, i would have wanted to dive into this method more, RAG with LLMs could potentially serve alot more use cases especially if more business dimension tables are added 
+  - Although i tested a few open source models, there are also models like BigTranslate who were derived from LLama specific to translation tasks (https://github.com/ZNLP/BigTranslate/tree/main) which i did not have time to test
 
 - Method 4: Manual Translation by copying into ChatGPT:
   - Once off manual effort to generate key value pairs
@@ -255,11 +279,51 @@ Used k-means clustering from scikit learn.
 
 ## Section 4 - Future Improvements
 
-**Cloud Deployment**
+**Productionizing Project**
+- Metrics (Both pipelines and OKR)
+  - Important to understand business OKRs and then decide on the north star metrics the dashboard should be tracking.
+  - Also important to collect some metrics on the pipeline health and performance, with an orchestrator like dagster, this visibility is already available 
+  - Traceability, and observability should take priority here 
+- Reliability, Scalability and Maintainability are foundations for productionizing pipelines, 
+  - Reference: Designing Data Intensive Applications
+- CI/CD practices
+  - Continous Integration:
+    - dbt build, dbt test are already integrated
+    - linter, formatter and pre commit hooks can be integrated to ensure coherent code quality 
+    - data diff -> show data deltas
+    - more comprehensive test suite
+  - Continous Deployment:
+    - consider using runners to enforce changes from one env to another
+    - rollbacks
+    - alerting
+    - IaC
+- Cloud deployments 
+  - Full native aws solution example:
+  - ![alt text](assets/architecture/aws_infra.svg)
+  - Can also consider Databricks enterprise data platform, Snowflake, dbt cloud data warehouse or AWS Redshift or GCP Bigquery
 
 **Data Security/Privacy**
+- Although given dataset does not contain Personal Identifiable Information (PII), consider integrating tools to check for PII in other sources
+- Practice good data privacy techniques like Redaction,Masking,Tokenization,Encryption,Hashing 
+- Important for Trust and Safety 
+- Also important from various data privacy compliance frameworks (GDPR,HIPAA,PDPA)
 
 **Data Governance**
+- Practice good data governance like role-based access control 
+- Audit logs for both reads and writes to datawarehouse 
+- Data lifecycle management -> Does source tables have to be deleted because of certain retention policies? 
+- Data Lineage and Data catalog 
+
+## Conclusion
+This takehome assessment was interesting, its quite rare that as a data engineer i am tasked to build a pipeline and a dashboard and also derive business insights. That said i am also used to being a DE (Do Everything) 
+
+Definitely learnt alot for sure, not just in terms of new technology (DuckDB, dbt, dagster) but also in terms of Chinese geographic/political knowledge! Definitely gonna put that into use my next trip to China! 
+
+On top of that, i got to put into practice alot of the concepts from books (Designing Data Intensive Applications) and blogs from experts (https://www.startdataengineering.com/).
+
+All in all, i had fun with the assessment trying out various methods and solutions, i think alot of the DE work is somewhat trial and error as well. Although i did wish i had more time to try out various alternatives (LLM-translations), i gave this assessment my best effort 
+
+throughout this one week and am glad i gave it my all :) 
 
 ## About Me
 Hi there! Thanks for reviewing my takehome assessment!
